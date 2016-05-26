@@ -3,12 +3,14 @@ layout: page
 title: Nicco Kunzmann
 ---
 
-{% for link in site.data.home_links %}
-  <a href="{{ link.url|e }}">
-    <div class="home_link">
-      <img class="image" src="images/home_links/{{ link.image|e }}" />
-      <div class="name">
-        {{ link.name|e }}
-      </div>
-    </div></a>
-{% endfor %}
+<div class="center">
+  {% for link in site.data.home_links %}
+    <a href="{{ link.url|e }}">
+      <div class="home_link">
+        <img class="image" src="images/home_links/{{ link.image|e }}" />
+        <div class="name">
+          {{ link.name|e }}
+        </div>
+      </div></a>
+  {% endfor %}
+</div>

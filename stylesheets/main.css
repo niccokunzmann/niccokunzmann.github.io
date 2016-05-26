@@ -2,3 +2,12 @@
 a {
   color: black;
 }
+
+.center {
+  max-width: 40em;
+  position: absolute;
+  left:50%;
+  transform:translateX(-50%);
+  -webkit-transform:translateX(-50%);
+  -ms-transform:translateX(-50%);
+}

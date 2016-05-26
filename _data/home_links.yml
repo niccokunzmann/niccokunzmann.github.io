@@ -9,3 +9,7 @@
 - name: Projekte
   image: hammer.svg
   url: projects
+
+- name: Jugend Programmiert
+  image: Laptop.svg
+  url: https://jugendprogrammiert.weebly.com

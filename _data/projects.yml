@@ -1,0 +1,61 @@
+# add your projects to the top
+
+- title: Sandkasten
+  description: Der Sandkasten zeigt Berge, Täler und Gewässer, mit Kinect und Projektor.
+  images: 
+  - sandbox/sandbox-1.jpg
+  - sandbox/sandbox-2.jpg
+  url: http://hpimakerklub.github.io/vrsandbox/
+
+- title: Hackshibition
+  description: Der MakerKlub, CoderDojo und die OpenTechSchool hatten einen Stand auf der Mozilla Hackshibition.
+  images: 
+  - hackshibition/stand.jpg
+  url: https://www.eventbrite.com/e/mozilla-berlin-hackshibition-tickets-24635122314
+
+- title: Sensebox
+  description: Die Sensebox ist eine Arduino-Wetterstation mit Webanbindung.
+  images: 
+  - sensebox/statistics.png
+  - sensebox/auf_dem_bett.jpg
+  - sensebox/mit_kasten.jpg
+  url: https://github.com/HPIMakerKlub/sensebox#sensebox
+
+- title: Stricken
+  description: Zwei KH-910 Strickmaschinen werden mit der AYAB-Software und Arduino angesteuert.
+  images: 
+  - knitting/kerze_1.jpg
+  - knitting/kerze_2.jpg
+  - knitting/kerze_3.jpg
+  - knitting/kerze_4.jpg
+  - knitting/kerze_5.jpg
+  url: http://fashiontec.wordpress.com/
+
+- title: Glockenspiele
+  description: Aus Kupferstäben gemachte Klingel und Glockenspiele.
+  images: 
+  - glockenspiel/glockenspiel1.jpg
+  url: "#"
+
+- title: LED-Table
+  description: Auf LED-Tischen kann man Spiele spielen, Bilder anzeigen und Programmieren lernen.
+  images: 
+  - ledtable/LEDTable1.jpg
+  - ledtable/LEDTable2.jpg
+  - ledtable/LEDTable3.jpg
+  - ledtable/LEDTable4.jpg
+  url: https://github.com/niccokunzmann/ledtable#ledtable
+
+- title: Bandraum-Klingel
+  description: Durch Lichtsignale erkennt man, wenn andere vor der Tür stehen.
+  images: 
+  - hpibandraumklingel/1.jpg
+  - hpibandraumklingel/2.jpg
+  - hpibandraumklingel/3.jpg
+  url: https://github.com/hpibandraum/ring
+  
+- title: Vogelhaus
+  description: Ein Vogelhaus mit Webseite, mit dem man Vögel aufnehmen kann.
+  images: 
+  - vogelhaus/picture.jpg
+  url: https://github.com/niccokunzmann/vogelhaus#vogelhaus

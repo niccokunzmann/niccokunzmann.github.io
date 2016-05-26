@@ -1,0 +1,38 @@
+.project {
+  width: 600px;
+  height: 480px;
+  vertical-align: middle;
+  box-shadow: 0px 0px 5px 0px rgba(50,50,50,1);
+  margin-left: 1em;
+  margin-bottom: 1em;
+  position: relative;
+  display: inline-block;
+}
+
+.project .background {
+  min-width: 600px;
+  min-height: 480px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.project .overlay {
+  width: 16em;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding: 1em;
+  margin-right: 2em;
+  border-radius: 1em;
+  margin-top: 3em;
+  top: 0em;
+  right: 0em;
+  position: absolute;
+}
+
+.project h1 {
+  text-align: center;
+  margin-bottom: 1em;
+  margin: 0em;
+}
