@@ -13,3 +13,7 @@
 - name: Jugend Programmiert
   image: Laptop.svg
   url: https://jugendprogrammiert.weebly.com
+
+- name: CoderDojo
+  image: CoderDojo.svg
+  url: https://CoderDojoPotsdam.github.io
