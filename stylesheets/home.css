@@ -1,0 +1,17 @@
+.home_link {
+  margin: 10px;
+  display: inline-block;
+  max-width: 10em;
+}
+
+.home_link .image {
+  height:10em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 0px rgba(50,50,50,1);
+  margin-bottom: 5px;
+}
+
+.home_link .name {
+  text-align: center;
+  text-decoration: none;
+}

@@ -1,0 +1,11 @@
+- name: Github
+  image: GitHub.svg
+  url: https://github.com/niccokunzmann
+
+- name: Blog
+  image: Pencil.svg
+  url: blog
+
+- name: Projekte
+  image: hammer.svg
+  url: projects
