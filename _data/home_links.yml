@@ -17,3 +17,7 @@
 - name: CoderDojo
   image: CoderDojo.svg
   url: https://CoderDojoPotsdam.github.io
+
+- name: Impressum
+  image: Impressum.svg
+  url: impressum
