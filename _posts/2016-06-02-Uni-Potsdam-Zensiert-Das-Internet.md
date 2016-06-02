@@ -3,7 +3,7 @@ layout: post
 title: Die Uni Potsdam Zensiert das Internet
 ---
 
-Ich suche nach Leuten, die auch Informationen sammeln und mitschreiben wollen.
+Ich suche nach Leuten, die auch Informationen sammeln und mitschreiben wollen. Besonders [Beschwerden](#Beschwerden), die in letzter Zeit, seit Mai ungefähr, mit dem Internet auftreten, sollten wir sammeln, da sie vielleicht etwas damit zu tun haben.
 
 ---------
 
@@ -204,6 +204,43 @@ Wie auf einer Mailingliste diskutiert wurde:
 
 Das könnte einer der Beweggründe für das Blocken sein. Z.B. ist die Webseite von der Domainvergabestelle [dot.tk](http://dor.tk) auch geblockt. Diese sollte nicht böswillig sein.
 
-Wenn man https benutzt, bekommt man diesen Fehler:
+## <a name="ssl"></a>SSL, HTTPS, sichere Verbindungen
 
-[![https://dot.tk Secure Connection Failed]({{ images }}/dot.tk.png)](https://dot.tk)
+Wenn man https benutzt, kann man z.B. [https://www.google.tk](https://www.google.tk) aufrufen. [http://google.tk](http://google.tk) ist aber geblockt.
+Das Abrufen des SSL-Zertifikates funktioniert auch in beiden Fällen:
+
+<script src="https://gist.github.com/niccokunzmann/db333891a4a764a27ef31cfc28896b59.js"></script>
+
+## <a name="Beschwerden"></a>Beschwerden
+
+- Bei mir treten ab und zu Verbindungsabbrüche bei https auf. 
+- Bei einem anderen kann erschwert eine VPN-Verbindung aufgebaut werden. (Flüpke)
+
+## Fragen, die sich auftun
+
+- Wer hat verfügt, Deep-Paket-Inspection einzubauen?
+- Wer betreut die Server?
+- Was wird alles geblockt?
+- Was kann alles geblockt werden?
+- Welche gemeinschaftlichen Folgen hat das? Kann sich da ein Soziloge für interessieren und melden?
+
+## Politisch Betrachtet
+
+Wir erleben einen politischen Rechtsruck überall in Europa und in Deutschland. Wenn wir erlauben, dass Forschungseinrichtungen diese Tiefenanalyse einsetzen, weichen wir das Postgeheimnis auf, liefern Leute ans Messer oder sorgen dafür, dass sie sich selbst zensieren. Solche Deep-Packet-Inspection wird auch von Russlands Regierung eingesetzt. Sie ist Wirksam, darin unerwünschtes Wissen online zu bekämpfen. Die Frage ist, ob wir solche Werkzeuge bei uns an der Uni dulden wollen. Sie sind
+
+- Mißbrauchbar
+- Gegen offenes Wissen
+- Nicht kontrolliert durch unabhängige Instanzen und Transparenz.
+- Eventuell nicht kontrollierbar, da von Externen eingerichtet/mit proprietärer Software
+  - Externe können die "Metadaten", also dein super-detailiertes Tagebuch einsehen
+  - Nicht nur deins, das aller Studenten
+  - Wann du Emails abrufst, wann du wach bist, wann du in der Uni bist, wo du wohnst (durch IP oder E-Mails zuortenbar).
+- Erlauben es, jeden, unverschlüsselten Verkehr mitzuscheiden, von allen Studenten der Uni Potsdam
+- Können Verschlüsselung unterdrücken und somit zu Zensierbarkeit zwingen.
+- Sind eine hackbare Superwaffe
+- Diese Zensur wird dich in allen eduroams begleiten.
+
+Positives:
+
+- Weniger Leute werden über .tk Domains angegriffen
+
