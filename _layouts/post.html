@@ -9,10 +9,11 @@
   <body>
     {% assign hirarchy_path = "blog" %} 
     {% assign hirarchy_name = "Blog" %} 
+    {% assign post_images = site.baseurl | append:"/images" | append:page.url %}
     {% include header.html %}
     <main class="post center">
     <h1>{{ page.title |e }}</h1>
-    {{ content }}
+    {{ page.content }}
     </main>
     {% include footer.html %}
   </body>

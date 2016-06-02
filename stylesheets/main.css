@@ -7,7 +7,11 @@ a {
   max-width: 40em;
   position: absolute;
   left:50%;
-  transform:translateX(-50%);
-  -webkit-transform:translateX(-50%);
-  -ms-transform:translateX(-50%);
+  transform:translateX(-20em);
+  -webkit-transform:translateX(-20em);
+  -ms-transform:translateX(-20em);
+}
+
+img {
+    max-width: 40em;
 }
