@@ -42,7 +42,7 @@ Gehen wir mal die Punkte durch:
 1. Google.de wird angefragt, gibt die Seite zurück, bei beiden.
 2. Der Host google.de wird an der IP von rotespotsdam.tk angefragt, in beiden Fällen ist die Anwort, dass mehrere Domänen diese IP verwenden können und google.de keine davon ist.
 3. rotespotsdam.tk wird angefragt - hier wird die Seite geblockt, wie es auch im Webbrowser der Fall ist.
-4. rotespotsdam.tk wird an der IP von google angefragt - wieder die selbe Blocknachricht.
+4. <a name="Punkt4"></a>rotespotsdam.tk wird an der IP von google angefragt - wieder die selbe Blocknachricht.
 
 Wir können davon ausgehen, dass das Blocken
 
@@ -136,10 +136,25 @@ Nach eine weile ging es dann wieder.
         Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
     Approximate round trip times in milli-seconds:
         Minimum = 10ms, Maximum = 235ms, Average = 122ms
-        
-## Deep Packet Inspection?
 
-Fragen:
+## <a name="These3"></a>These 3: Blockiert RotesPotsdam.tk die Uni-Adressbereiche?
+
+Die IP `91.203.147.147` ist aus der Ukraine[[ipvoid.com](http://www.ipvoid.com/scan/91.203.147.233/)].
+In der Ukraine laufen russische SORM-Boxen, die Deep-Packet-Inspection anwenden[[The Red Web](http://www.amazon.com/The-Red-Web-Dictators-Revolutionaries/dp/1610395735#reader_1610395735)].
+Da könnte ein Zusammenhang bestehen. 
+
+Schaune wir nach: Der Traceroute von Google.de:
+
+- [193.178.185.100](http://www.ipvoid.com/scan/193.178.185.100/) (DE) Germany
+- [209.85.249.182](http://www.ipvoid.com/scan/209.85.249.182/) (US) United States
+- [216.239.41.119](http://www.ipvoid.com/scan/216.239.41.119/) (US) United States
+- [216.58.213.3](http://www.ipvoid.com/scan/216.58.213.3/) (US) United States
+
+Die Route, die die Pakete nehmen geht von Deutschland direkt in die USA. 
+Es kann also ausgeschlossen werden, dass die Webseite rotespotsdam.tk allein auf Ukrainischer Seite für z.B. das deutsche Forschungsnetz gesperrt ist.
+Die Ukraine allein erklärt nicht [Punkt 4](#Punkt4).
+
+## Fragen:
 
 - Schnüffelt die Uni Potsdam tatsächlich in unserem Verkehr rum? 
 - Ist es die Uni oder der Anschluss der Uni?
