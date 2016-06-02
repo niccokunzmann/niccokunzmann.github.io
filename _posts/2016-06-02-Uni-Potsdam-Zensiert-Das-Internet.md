@@ -3,6 +3,10 @@ layout: post
 title: Die Uni Potsdam Zensiert das Internet
 ---
 
+Ich suche nach Leuten, die auch Informationen sammeln und mitschreiben wollen.
+
+---------
+
 {% assign images = site.baseurl | append:"/images" | append:page.url %}
 
 Dieses Bild bietet sich, wenn man die Webseite [http://rotespotsdam.tk](http://rotespotsdam.tk) im Netz der Uni Potsdam besucht.
@@ -190,3 +194,16 @@ Dieser Hop 4, [188.1.33.149](http://www.ipvoid.com/scan/188.1.33.149/), ist es, 
 `188.1.33.149` gehört zum Deutschen Forschungsnetz. Tatsächlich kann eine Blockade in jedem Hop dazwischen geschehen. Stellen wir uns vor, dass Hop 3, wahrscheinlich der Gateway der Uni Potsdam, den Traffic zu einer SORM-Box dupliziert, dann wird diese als Hop 4 gelten und von uns als Hop 4 empfunden werden. Das ist also Implementierungsdetail.
 
 [Ip-lookup.net](http://ip-lookup.net) hat eine große Auflistung von Informationen über die einzelnen IPs.
+
+## Gründe für das Blocken
+
+Wie auf einer Mailingliste diskutiert wurde:
+
+> Die Top-Level-Domain .tk ist international dafür bekannt, besonders gerne von Betrügern genutzt zu werden. Insbesondere im Bereich Phishing geht von der Endung eine besonders große Gefahr aus, da nach einer im Herbst 2012 freigegebenen Studie mehr als die Hälfte aller derartigen Angriffe von .tk-Domains aus durchgeführt werden.[11] Schon im Jahr 2008 hat der Sicherheitsspezialist McAfee die Adresse auf der Weltkarte der gefährlichsten Top-Level-Domains geführt, zusammen mit der von Hongkong: .hk.
+> [[Wikipedia, 02.06.2016](https://de.wikipedia.org/wiki/.tk#Betrugsversuche)]
+
+Das könnte einer der Beweggründe für das Blocken sein. Z.B. ist die Webseite von der Domainvergabestelle [dot.tk](http://dor.tk) auch geblockt. Diese sollte nicht böswillig sein.
+
+Wenn man https benutzt, bekommt man diesen Fehler:
+
+[![https://dot.tk Secure Connection Failed]({{ images }}/dot.tk.png)](https://dot.tk)

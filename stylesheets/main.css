@@ -5,13 +5,9 @@ a {
 
 .center {
   max-width: 40em;
-  position: absolute;
-  left:50%;
-  transform:translateX(-20em);
-  -webkit-transform:translateX(-20em);
-  -ms-transform:translateX(-20em);
+  margin: 0 auto;
 }
 
-img {
-    max-width: 40em;
+.center img {
+  max-width: 40em;
 }
