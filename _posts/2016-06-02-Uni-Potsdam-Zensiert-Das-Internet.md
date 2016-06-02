@@ -15,7 +15,7 @@ Mit "Netz der Uni Potsdam" meine ich
 - Uni VPN cisco
 - Studentendorf Stahnsdorfer Straße
 
-Wenn man [https](https://rotespotsdam.tk) benutzt, ich das Zertifikat verständlicher Weise ungültig aber wenn man es akzeptiert, kommt die selbe Seite.
+Wenn man [https](https://rotespotsdam.tk) benutzt, kommt ein [ungültiges Zertifikat]({{ images }}/chrome-inside.png).
 
 Was ist diese Seite? Eine Veranstaltungsseite für alternative, linke Veranstaltungen.
 
@@ -158,3 +158,31 @@ Die Ukraine allein erklärt nicht [Punkt 4](#Punkt4).
 
 - Schnüffelt die Uni Potsdam tatsächlich in unserem Verkehr rum? 
 - Ist es die Uni oder der Anschluss der Uni?
+
+## <a name="tcptraceroute"></a>tcptraceroute
+
+Traceroute haben wir schon gesehen und wissen, wo die Pakete langhüpfen. 
+Hier ein anderes Script, das http traceroute macht und schaut, ab wann keine HTTP-Antowort mehr kommt.
+
+<script src="https://gist.github.com/niccokunzmann/7045a65226cd3246f3cc95ebaa0d7fc3.js"></script>
+
+`output-from-outside.txt` zweigt die Ausgabe außerhalb der Uni Potsdam. Es kann festgestellt werden, dass in diesem Fall bei 11 Hops keine Antwort mehr vom Server kommt.
+
+`output-from-inside.txt` zeigt wieder die Ausgabe innerhalb der Uni Potsdam. Wir bekommen wieder den Block der Seite für rotespotsdam.tk und eine "keine Ahnung" Antwort für google.de. Das geht so weiter bis ttl 10. Dort bekommen wir wir eine Antwort for rotespotsdam.tk und ein Timeout for google:
+
+    Traceback (most recent call last):
+      File "C:\Users\cheche\Documents\programmiertes\GIST\httpttl\httpttl.py", line 23, in httpttl
+        print(s.recv(1024))
+    TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+Das heißt: Die Antworten mit der Blocknachricht werden vor dem Server an uns gesendet, kommen nicht von der IP-Adresse `91.203.147.147`.
+Das geht so weiter bis zu Hop 4. Bei Hop 4 kommt unsere Anfrage noch bei dem Server an, der uns über die Blockade informiert. Bei Hop 3 kommt unsere Anfrage nicht mehr an.
+
+Zitat von oben:
+
+     4  xr-pot1-te1-3.x-win.dfn.de (188.1.33.149)  4.333 ms  4.156 ms  4.204 ms
+
+Dieser Hop [188.1.33.149](http://www.ipvoid.com/scan/188.1.33.149/) ist es, der über eine Antwort entscheidet, ob geblockt wird oder nicht.
+Es gehört zum Deutschen Forschungsnetz. Tatsächlich kann aber eine Blockade in jedem Hop dazwischen geschehen. Stellen wir uns vor, dass Hop 3 den Traffic zu einer SORM-Box dupliziert, dann wird diese als Hop 4 gelten und von uns als Hop 4 empfunden werden. Das ist also Implementierungsdetail.
+
+[Ip-lookup.net](http://ip-lookup.net) hat eine große Auflistung von Informationen über die einzelnen IPs.
