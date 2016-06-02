@@ -171,9 +171,13 @@ Hier ein anderes Script, das http traceroute macht und schaut, ab wann keine HTT
 `output-from-inside.txt` zeigt wieder die Ausgabe innerhalb der Uni Potsdam. Wir bekommen wieder den Block der Seite für rotespotsdam.tk und eine "keine Ahnung" Antwort für google.de. Das geht so weiter bis ttl 10. Dort bekommen wir wir eine Antwort for rotespotsdam.tk und ein Timeout for google:
 
     Traceback (most recent call last):
-      File "C:\Users\cheche\Documents\programmiertes\GIST\httpttl\httpttl.py", line 23, in httpttl
+      File "httpttl.py", line 23, in httpttl
         print(s.recv(1024))
-    TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+    TimeoutError: [WinError 10060] A connection attempt failed 
+                  because the connected party did not properly 
+                  respond after a period of time, or established 
+                  connection failed because connected host has 
+                  failed to respond
 
 Das heißt: Die Antworten mit der Blocknachricht werden vor dem Server an uns gesendet, kommen nicht von der IP-Adresse `91.203.147.147`.
 Das geht so weiter bis zu Hop 4. Bei Hop 4 kommt unsere Anfrage noch bei dem Server an, der uns über die Blockade informiert. Bei Hop 3 kommt unsere Anfrage nicht mehr an.
@@ -182,7 +186,7 @@ Zitat von oben:
 
      4  xr-pot1-te1-3.x-win.dfn.de (188.1.33.149)  4.333 ms  4.156 ms  4.204 ms
 
-Dieser Hop [188.1.33.149](http://www.ipvoid.com/scan/188.1.33.149/) ist es, der über eine Antwort entscheidet, ob geblockt wird oder nicht.
-Es gehört zum Deutschen Forschungsnetz. Tatsächlich kann aber eine Blockade in jedem Hop dazwischen geschehen. Stellen wir uns vor, dass Hop 3 den Traffic zu einer SORM-Box dupliziert, dann wird diese als Hop 4 gelten und von uns als Hop 4 empfunden werden. Das ist also Implementierungsdetail.
+Dieser Hop 4, [188.1.33.149](http://www.ipvoid.com/scan/188.1.33.149/), ist es, der über eine Antwort entscheidet, ob geblockt wird oder nicht.
+`188.1.33.149` gehört zum Deutschen Forschungsnetz. Tatsächlich kann eine Blockade in jedem Hop dazwischen geschehen. Stellen wir uns vor, dass Hop 3, wahrscheinlich der Gateway der Uni Potsdam, den Traffic zu einer SORM-Box dupliziert, dann wird diese als Hop 4 gelten und von uns als Hop 4 empfunden werden. Das ist also Implementierungsdetail.
 
 [Ip-lookup.net](http://ip-lookup.net) hat eine große Auflistung von Informationen über die einzelnen IPs.
