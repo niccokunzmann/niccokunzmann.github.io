@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Die Uni Potsdam Zensiert das Internet
+language: de
 ---
 
 Ich suche nach Leuten, die auch Informationen sammeln und mitschreiben wollen. Besonders [Beschwerden](#Beschwerden), die in letzter Zeit, seit Mai ungefähr, mit dem Internet auftreten, sollten wir sammeln, da sie vielleicht etwas damit zu tun haben.
@@ -16,7 +17,7 @@ Dieses Bild bietet sich, wenn man die Webseite [http://rotespotsdam.tk](http://r
 Mit "Netz der Uni Potsdam" meine ich
 
 - eduroam
-- Uni VPN cisco
+- Uni VPN Cisco
 - Studentendorf Stahnsdorfer Straße
 
 Wenn man [https](https://rotespotsdam.tk) benutzt, kommt ein [ungültiges Zertifikat]({{ images }}/chrome-inside.png).
@@ -44,7 +45,7 @@ Das einzige, was mit da noch einfällt ist Deep-Packet-Inspection.
 Gehen wir mal die Punkte durch:
 
 1. Google.de wird angefragt, gibt die Seite zurück, bei beiden.
-2. Der Host google.de wird an der IP von rotespotsdam.tk angefragt, in beiden Fällen ist die Anwort, dass mehrere Domänen diese IP verwenden können und google.de keine davon ist.
+2. Der Host google.de wird an der IP von rotespotsdam.tk angefragt, in beiden Fällen ist die Antwort, dass mehrere Domänen diese IP verwenden können und google.de keine davon ist.
 3. rotespotsdam.tk wird angefragt - hier wird die Seite geblockt, wie es auch im Webbrowser der Fall ist.
 4. <a name="Punkt4"></a>rotespotsdam.tk wird an der IP von google angefragt - wieder die selbe Blocknachricht.
 
@@ -104,7 +105,7 @@ Wo wird dann geblockt? Selbst der Netzwerkzugriff per Ping und Traceroute sind f
 
 ## Und dann kein Ping mehr.
 
-Am 2.06.2016 um 10:50 bekam ich plötzlich keinen Zugriff per Ping mehr auf diese Seite und alle Versuche, die Seite zu laden, timeten aus. 
+Am 2.06.2016 um 10:50 bekam ich plötzlich keinen Zugriff per Ping mehr auf diese Seite und alle Versuche, die Seite zu laden, timten aus. 
 Nach eine weile ging es dann wieder.
 
 ### Ping an rotespotsdam.tk von außerhalb der Uni Potsdam (Android Hotspot)
@@ -147,7 +148,7 @@ Die IP `91.203.147.147` ist aus der Ukraine[[ipvoid.com](http://www.ipvoid.com/s
 In der Ukraine laufen russische SORM-Boxen, die Deep-Packet-Inspection anwenden[[The Red Web](http://www.amazon.com/The-Red-Web-Dictators-Revolutionaries/dp/1610395735#reader_1610395735)].
 Da könnte ein Zusammenhang bestehen. 
 
-Schaune wir nach: Der Traceroute von Google.de:
+Schaun wir nach: Der Traceroute von Google.de:
 
 - [193.178.185.100](http://www.ipvoid.com/scan/193.178.185.100/) (DE) Germany
 - [209.85.249.182](http://www.ipvoid.com/scan/209.85.249.182/) (US) United States
@@ -166,13 +167,13 @@ Die Ukraine allein erklärt nicht [Punkt 4](#Punkt4).
 ## <a name="tcptraceroute"></a>tcptraceroute
 
 Traceroute haben wir schon gesehen und wissen, wo die Pakete langhüpfen. 
-Hier ein anderes Script, das http traceroute macht und schaut, ab wann keine HTTP-Antowort mehr kommt.
+Hier ein anderes Script, das http-traceroute macht und schaut, ab wann keine HTTP-Antwort mehr kommt.
 
 <script src="https://gist.github.com/niccokunzmann/7045a65226cd3246f3cc95ebaa0d7fc3.js"></script>
 
 `output-from-outside.txt` zweigt die Ausgabe außerhalb der Uni Potsdam. Es kann festgestellt werden, dass in diesem Fall bei 11 Hops keine Antwort mehr vom Server kommt.
 
-`output-from-inside.txt` zeigt wieder die Ausgabe innerhalb der Uni Potsdam. Wir bekommen wieder den Block der Seite für rotespotsdam.tk und eine "keine Ahnung" Antwort für google.de. Das geht so weiter bis ttl 10. Dort bekommen wir wir eine Antwort for rotespotsdam.tk und ein Timeout for google:
+`output-from-inside.txt` zeigt wieder die Ausgabe innerhalb der Uni Potsdam. Wir bekommen wieder den Block der Seite für rotespotsdam.tk und eine "keine Ahnung" Antwort für google.de. Das geht so weiter bis ttl 10. Dort bekommen wir wir eine Antwort für rotespotsdam.tk und ein Timeout für google:
 
     Traceback (most recent call last):
       File "httpttl.py", line 23, in httpttl
@@ -191,7 +192,7 @@ Zitat von oben:
      4  xr-pot1-te1-3.x-win.dfn.de (188.1.33.149)  4.333 ms  4.156 ms  4.204 ms
 
 Dieser Hop 4, [188.1.33.149](http://www.ipvoid.com/scan/188.1.33.149/), ist es, der über eine Antwort entscheidet, ob geblockt wird oder nicht.
-`188.1.33.149` gehört zum Deutschen Forschungsnetz. Tatsächlich kann eine Blockade in jedem Hop dazwischen geschehen. Stellen wir uns vor, dass Hop 3, wahrscheinlich der Gateway der Uni Potsdam, den Traffic zu einer SORM-Box dupliziert, dann wird diese als Hop 4 gelten und von uns als Hop 4 empfunden werden. Das ist also Implementierungsdetail.
+`188.1.33.149` gehört zum Deutschen Forschungsnetz. Tatsächlich kann eine Blockade in jedem Hop dazwischen geschehen. Stellen wir uns vor, dass Hop 3, wahrscheinlich der Gateway der Uni Potsdam, den Verkehr zu einer SORM-Box dupliziert, dann wird diese als Hop 4 gelten und von uns als Hop 4 empfunden werden. Das ist also Implementierungsdetail.
 
 [Ip-lookup.net](http://ip-lookup.net) hat eine große Auflistung von Informationen über die einzelnen IPs.
 
@@ -202,11 +203,11 @@ Wie auf einer Mailingliste diskutiert wurde:
 > Die Top-Level-Domain .tk ist international dafür bekannt, besonders gerne von Betrügern genutzt zu werden. Insbesondere im Bereich Phishing geht von der Endung eine besonders große Gefahr aus, da nach einer im Herbst 2012 freigegebenen Studie mehr als die Hälfte aller derartigen Angriffe von .tk-Domains aus durchgeführt werden.[11] Schon im Jahr 2008 hat der Sicherheitsspezialist McAfee die Adresse auf der Weltkarte der gefährlichsten Top-Level-Domains geführt, zusammen mit der von Hongkong: .hk.
 > [[Wikipedia, 02.06.2016](https://de.wikipedia.org/wiki/.tk#Betrugsversuche)]
 
-Das könnte einer der Beweggründe für das Blocken sein. Z.B. ist die Webseite von der Domainvergabestelle [dot.tk](http://dor.tk) auch geblockt. Diese sollte nicht böswillig sein.
+Das könnte einer der Beweggründe für das Blocken sein. Z.B. ist die Webseite von der Domainvergabestelle [dot.tk](http://dot.tk) auch geblockt. Diese sollte nicht böswillig sein.
 
 ## <a name="ssl"></a>SSL, HTTPS, sichere Verbindungen
 
-Wenn man https benutzt, kann man z.B. [https://www.google.tk](https://www.google.tk) aufrufen. [http://google.tk](http://google.tk) ist aber geblockt.
+Wenn man HTTPS benutzt, kann man z.B. [https://www.google.tk](https://www.google.tk) aufrufen. [http://google.tk](http://google.tk) ist aber geblockt.
 Das Abrufen des SSL-Zertifikates funktioniert auch in beiden Fällen:
 
 <script src="https://gist.github.com/niccokunzmann/db333891a4a764a27ef31cfc28896b59.js"></script>
@@ -234,13 +235,12 @@ Wir erleben einen politischen Rechtsruck überall in Europa und in Deutschland. 
 - Eventuell nicht kontrollierbar, da von Externen eingerichtet/mit proprietärer Software
   - Externe können die "Metadaten", also dein super-detailiertes Tagebuch einsehen
   - Nicht nur deins, das aller Studenten
-  - Wann du Emails abrufst, wann du wach bist, wann du in der Uni bist, wo du wohnst (durch IP oder E-Mails zuortenbar).
-- Erlauben es, jeden, unverschlüsselten Verkehr mitzuscheiden, von allen Studenten der Uni Potsdam
+  - Wann du Emails abrufst, wann du wach bist, wann du in der Uni bist, wo du wohnst (durch IP oder E-Mails zuordenbar).
+- Erlauben es, jeden, unverschlüsselten Verkehr mitzuschneiden, von allen Studenten der Uni Potsdam
 - Können Verschlüsselung unterdrücken und somit zu Zensierbarkeit zwingen.
-- Sind eine hackbare Superwaffe
-- Diese Zensur wird dich in allen eduroams begleiten.
+- Sind eine crackbare Superwaffe
+- Diese Zensur wird dich in allen Eduroams begleiten.
 
 Positives:
 
 - Weniger Leute werden über .tk Domains angegriffen
-
