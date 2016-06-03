@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open Education
+language: en
 ---
 
 Now, I read a few blog posts that I would like to share:

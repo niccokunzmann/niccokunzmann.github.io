@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Digital Infiziert
+language: de
 ---
 {{ site.baseurl }}
 Zwei Vorträge waren sehr interessant, zu Open-Source Software (OSS):

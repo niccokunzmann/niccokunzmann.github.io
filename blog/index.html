@@ -8,7 +8,7 @@ sitemap:
 <ul class="center">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url |e }}">{{ post.title |e }}</a>
+      <a href="{{ post.url |e }}"  {% if post.language %}hreflang="{{ post.language }}"{% endif %}>{{ post.title |e }}</a>
     </li>
   {% endfor %}
 </ul>
