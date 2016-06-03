@@ -10,7 +10,7 @@ Ich suche nach Leuten, die auch Informationen sammeln und mitschreiben wollen. B
 
 {% assign images = site.baseurl | append:"/images" | append:page.url %}
 
-Dieses Bild bietet sich, wenn man die Webseite [http://rotespotsdam.tk](http://rotespotsdam.tk) im Netz der Uni Potsdam besucht.
+Dieses Bild bietet sich, wenn man die Webseite [http://rotespotsdam.tk](http://rotespotsdam.tk) im Netz der Uni Potsdam besucht. (Anmerkung fluepke: Stichproben zeigen, dass jegliche Anfragen an .tk Domain blockiert werden. Endet der HOST im Requestheader auf .tk (ganz egal, ob eine solche Seite existiert) wird die Anfrage blockiert.)
 
 ![zensur.png]({{ images }}/zensur.png)
 
@@ -31,7 +31,7 @@ Was ist diese Seite? Eine Veranstaltungsseite für alternative, linke Veranstalt
 **These 1 - Falsch** 
 Die Domain wird auf eine fremde IP aufgelöst.
 
-Wenn man sich die Inhalte abfragt, dann stellt isch heraus, dass `91.203.147.147` tatsächlich die IP vom roten Potsdam ist.
+Wenn man sich die Inhalte abfragt, dann stellt sich heraus, dass `91.203.147.147` tatsächlich die IP vom roten Potsdam ist.
 
 <script src="https://gist.github.com/niccokunzmann/c3fdde98b3bdca3e1fc7a23e81f5e2a5.js"></script>
 
@@ -221,6 +221,8 @@ Das Abrufen des SSL-Zertifikates funktioniert auch in beiden Fällen:
 
 - Wer hat verfügt, Deep-Paket-Inspection einzubauen?
 - Wer betreut die Server?
+- Wer entscheidet darüber, was blockiert wird? 
+- Was sind die Gründe für eine Blockierung?
 - Was wird alles geblockt?
 - Was kann alles geblockt werden?
 - Welche gemeinschaftlichen Folgen hat das? Kann sich da ein Soziloge für interessieren und melden?
