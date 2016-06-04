@@ -246,3 +246,10 @@ Wir erleben einen politischen Rechtsruck überall in Europa und in Deutschland. 
 Positives:
 
 - Weniger Leute werden über .tk Domains angegriffen
+
+## Eduroam
+
+Kurze Zusammenfassung basierend auf [Wikipedia](https://de.wikipedia.org/wiki/Eduroam#Technische_Umsetzung): Wenn man sich be Eduroam einloggt, macht man das mit `Nutzername@Universität` und dem Uni-Kennwort. 
+Es wird dann eine verschlüsselte Verbindung zur Universität aufgebaut und dort wird erst Nutzername und Passwort überprüft. 
+Dann ist man im Uni-Netz und kann das Internet erreichen. 
+Also egal, wo auf der Welt man sich als Uni-Potsdam-Student in das Eduroam einloggt, sieht man das Internet aus der Sicht der Uni Potsdam und Blockaderegeln bleiben bestehen.
