@@ -12,4 +12,4 @@ Now, I read a few blog posts that I would like to share:
 
 Thoughts about these that I would like to share:
 
-- I wonder what other posts they write - should be woth checking out.
+- I wonder what other posts they write - should be worth checking out.
