@@ -256,5 +256,5 @@ Also egal, wo auf der Welt man sich als Uni-Potsdam-Student in das Eduroam einlo
 
 ## Eingehende Analyse von Deep Packet Inspection
 
-Mit dem Thema Deep Packet inspection hat sich [Mark Bedner befasst](http://kobra.bibliothek.uni-kassel.de/bitstream/urn:nbn:de:hebis:34-2009113031192/5/BednerDeepPacketInspection.pdf).
+Mit dem Thema Deep Packet inspection hat sich [Mark Bedner befasst](http://kobra.bibliothek.uni-kassel.de/bitstream/urn:nbn:de:hebis:34-2009113031192/5/BednerDeepPacketInspection.pdf) ([Alternativlink](https://github.com/niccokunzmann/uploads/raw/master/blog/BednerDeepPacketInspection.pdf)).
 
