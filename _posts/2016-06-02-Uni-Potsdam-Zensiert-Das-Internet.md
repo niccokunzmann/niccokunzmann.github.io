@@ -253,3 +253,8 @@ Kurze Zusammenfassung basierend auf [Wikipedia](https://de.wikipedia.org/wiki/Ed
 Es wird dann eine verschlüsselte Verbindung zur Universität aufgebaut und dort wird erst Nutzername und Passwort überprüft. 
 Dann ist man im Uni-Netz und kann das Internet erreichen. 
 Also egal, wo auf der Welt man sich als Uni-Potsdam-Student in das Eduroam einloggt, sieht man das Internet aus der Sicht der Uni Potsdam und Blockaderegeln bleiben bestehen.
+
+## Eingehende Analyse von Deep Packet Inspection
+
+Mit dem Thema Deep Packet inspection hat sich [Mark Bedner befasst](http://kobra.bibliothek.uni-kassel.de/bitstream/urn:nbn:de:hebis:34-2009113031192/5/BednerDeepPacketInspection.pdf).
+
