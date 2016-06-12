@@ -64,10 +64,10 @@ that the bigger picture is hard to find.
 
 This is why I think that code, tests, documentation go hand in hand.
 
-Fastforward -> DDD applied
---------------------------
+Fastforward -> "Documentation First" applied
+--------------------------------------------
 
-I really like it. 
+I really like doing documentation first.
 
 First, I created this class:
 
