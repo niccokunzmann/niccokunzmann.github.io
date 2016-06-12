@@ -111,6 +111,11 @@ Talking with the documentation about the tests had the following  implications:
 - I focus on the mental model now, not on how to test the mental model
 - The tests are more complete as I do not forget edge cases.
 
+I come to think that documentation-first has the same implications on tests
+as test-first has on code.
+
+Here is the test structure which would normally be just a lot of functions:
+
     class TestHasSVGForInstruction(object):
         """This tests the `InstructionToSVG.has_instruction_to_svg` method."""
         # ...
@@ -159,7 +164,10 @@ An with the process
 I am sure 
 
 - not to forget anything or
-- that someone notices that this feature was forgotten but intended
+- that someone notices that a feature was forgotten but intended
+
+Now, I have a lot of undocumented tests lying around which feels as bad as
+having untested code.
 
 Roadmap
 -------
@@ -169,3 +177,23 @@ With its power I would like to add to each method
 
 - how it is tested and therewith,
 - how it can be used.
+
+Documentation Coverage / Specification Coverage
+-----------------------------------------------
+
+We have test-coverage but we do not have documentation coverage, or do we?
+There is old research about it:
+
+- [A SPECIFICATION-BASED COVERAGE METRIC TO EVALUATE TEST SETS
+  ](http://www.worldscientific.com/doi/abs/10.1142/S0218539301000530)
+
+Research behind a pay wall. Certainly not what the author intended.
+  
+And, there is a test tool:
+
+- [docstring-coverage](https://pypi.python.org/pypi/docstring-coverage/0.3.4)
+
+But there is no specification coverage tool like I wish to have it, it seems.
+[Testing Tools for Python
+](https://wiki.python.org/moin/PythonTestingToolsTaxonomy)
+
