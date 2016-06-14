@@ -193,7 +193,15 @@ And, there is a test tool:
 
 - [docstring-coverage](https://pypi.python.org/pypi/docstring-coverage/0.3.4)
 
-But there is no specification coverage tool like I wish to have it, it seems.
-[Testing Tools for Python
-](https://wiki.python.org/moin/PythonTestingToolsTaxonomy)
+But there is no specification coverage tool like I wish to have it, it seems
+[[Testing Tools for Python
+](https://wiki.python.org/moin/PythonTestingToolsTaxonomy)].
 
+What I would like to have is:
+
+- which function is tested by which test, see that in the documentation. 
+  - This could be like a test: the test function should be referenced in the doc string
+  - This may only need to apply for tests that call this function "directly", meaning out of their module
+- coverage of what needs to be documented
+- Each paragraph in a doc string usually describes a feature. Tests should be listed below that paragraph to look up how this feature is tested and used.
+- Sphnix makes it possible to show the source code and to link to the tests.
