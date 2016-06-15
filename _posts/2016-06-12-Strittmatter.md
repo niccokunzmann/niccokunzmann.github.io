@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aus Erwin Strittmatter: Selbstermunterungen
+title: "Aus Erwin Strittmatter: Selbstermunterungen"
 language: de
 ---
 
