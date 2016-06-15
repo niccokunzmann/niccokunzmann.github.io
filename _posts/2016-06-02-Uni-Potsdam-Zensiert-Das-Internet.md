@@ -246,6 +246,7 @@ Wir erleben einen politischen Rechtsruck überall in Europa und in Deutschland. 
 Positives:
 
 - Weniger Leute werden über .tk Domains angegriffen
+- [Ein lustiges Video](https://www.youtube.com/watch?v=WY6KkRsS26M)
 
 ## Eduroam
 
