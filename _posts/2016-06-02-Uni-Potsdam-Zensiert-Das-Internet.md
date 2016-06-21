@@ -259,3 +259,18 @@ Also egal, wo auf der Welt man sich als Uni-Potsdam-Student in das Eduroam einlo
 
 Mit dem Thema Deep Packet inspection hat sich [Mark Bedner befasst](http://kobra.bibliothek.uni-kassel.de/bitstream/urn:nbn:de:hebis:34-2009113031192/5/BednerDeepPacketInspection.pdf) ([Alternativlink](https://github.com/niccokunzmann/uploads/raw/master/blog/BednerDeepPacketInspection.pdf)).
 
+## Ergebnisse
+
+>    IO Prof. Lucke sagt es gab eine intensive Welle von Cyberattacken
+>        das Sperren ist eine pauschale Verteidigungsmaßnahme
+>
+>    neben .tk auch .pn Domians gesperrt
+>
+>    Vorübergehende Sperrung denkbar aber bisher nicht geplant
+>         Präsi ist auch sehr unzufrieden mit der Situation und wünscht sich "weniger einscheidene Maßnahmen von der ZEIK"
+>
+>    gibts das auch an anderen Hochschulen? globale Sperrung von Top-Level-Domains
+>        Auftrag an uns als Studierendenschaft - so können wir uns vielleicht vernünftige Strategien von anderen Uni abgucken
+
+2016/06/21 Es wurden mehrere Anfragen an die Techniker der Uni Potsdam gestellt.
+Diese werde noch beantwortet.
