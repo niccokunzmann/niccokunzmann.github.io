@@ -204,4 +204,4 @@ What I would like to have is:
   - This may only need to apply for tests that call this function "directly", meaning out of their module
 - coverage of what needs to be documented
 - Each paragraph in a doc string usually describes a feature. Tests should be listed below that paragraph to look up how this feature is tested and used.
-- Sphnix makes it possible to show the source code and to link to the tests.
+- Sphinx makes it possible to show the source code and to link to the tests.
