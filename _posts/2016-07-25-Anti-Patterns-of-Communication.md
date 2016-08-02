@@ -90,8 +90,8 @@ The other person tells you why they do it but does not change behavior.
 When your motivation is for the wellbeing of the other person, tell them that first and then what you think. They can understand your concerns.
 
 
-Jackal Pattern 4: Build up Your Negative Thoughts and Release Them in one Moment
---------------------------------------------------------------------------------
+Jackal Pattern 4: Swallow and Burst out
+---------------------------------------
 
 ### In a short sentence
 
