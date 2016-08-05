@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html {% if page.language %}lang="{{ page.language }}"{% endif %}>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title |e }}</title>
+    {% include style.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    {% assign category = page.path | split:"/" | first %}
+    <main class="page">
+      <ul class="center">
+        {% for post in site.posts %}
+          {% if category == post.categories.first %}
+            <li>
+              <a href="{{ post.url | escape }}"  {% if post.language %}hreflang="{{ post.language }}"{% endif %}>{{ post.title |e }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

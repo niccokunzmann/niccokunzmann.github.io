@@ -2,9 +2,13 @@
   image: GitHub.svg
   url: https://github.com/niccokunzmann
 
-- name: Blog
+- name: Essays
   image: Pencil.svg
-  url: blog
+  url: essays
+
+- name: Lieder & Gedichte
+  image: Lieder.svg
+  url: gedichte
 
 - name: Projekte
   image: Hammer.svg
