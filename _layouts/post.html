@@ -10,7 +10,7 @@
     {% assign hirarchy_path = page.categories.first %}
     {% for link in site.data.home_links %}
       {% if link.url == hirarchy_path %}
-        {% assign hirarchy_name = "Blog" %}
+        {% assign hirarchy_name = link.name %}
       {% endif %}
     {% endfor %}
     {% include header.html %}

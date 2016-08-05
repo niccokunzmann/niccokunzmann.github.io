@@ -3,8 +3,9 @@
   {% if page.title != "Nicco Kunzmann" %}
     <h1>→</h1>
     {% if hirarchy_name %}
-      <a href="{{ site.baseurl | escape }}/{{ hirarchy_path | escape }}"><h1>{{ hirarchy_name | escape }}</h1></a><h1>→</h1>
+      <a href="{{ site.baseurl | escape }}/{{ hirarchy_path | escape }}"><h1>{{ hirarchy_name | escape | split:" " | join:"&nbsp;" }}</h1></a>
+      <h1>→</h1>
     {% endif %}
-    <a href="{{ page.url }}#"><h1>{{ page.title | escape }}</h1></a>
+    <a href="{{ page.url }}#"><h1>{{ page.title | escape  | split:" " | join:"&nbsp;" }}</h1></a>
   {% endif %}
 </header>
