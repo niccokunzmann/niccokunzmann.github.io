@@ -17,14 +17,14 @@ sitemap:
         {% assign duration = duration | plus:6 %}
         {% capture values %}{{ values }}; -{{ forloop.index }}; -{{ forloop.index }}{% endcapture %}
         {% capture keyTimes %}{{ keyTimes }}; 0.{{ forloop.index0 | times:60 | plus:10 | divided_by:forloop.length | divided_by:6 | module:10 }}{{ forloop.index0 | times:600 | plus:100 | divided_by:forloop.length | divided_by:6 | modulo:10 }}; {{ forloop.index | divided_by:forloop.length }}.{{ forloop.index | times:10 | divided_by:forloop.length | modulo:10 }}{{ forloop.index | times:100 | divided_by:forloop.length | modulo:10 }}{% endcapture %}
-        <image xlink:href="../images/projects/{{ image|e }}"
+        <image xlink:href="../images/projects/{{ image | escape }}"
                x="{{ forloop.index }}"
                preserveAspectRatio="none"
                y="0"
                width="1"
                height="0.8" />
         {% if forloop.first %}
-        <image xlink:href="../images/projects/{{ image|e }}"
+        <image xlink:href="../images/projects/{{ image | escape }}"
                x="{{ forloop.length | plus:1 }}"
                preserveAspectRatio="none"
                y="0"
@@ -45,13 +45,13 @@ sitemap:
       {% endfor %}
       </g>
     </svg>
-    <a href="{{ project.url|e }}">
+    <a href="{{ project.url | escape }}">
       <div class="overlay">
         <h1 class="title">
-          {{ project.title|e }}
+          {{ project.title | escape }}
         </h1>
         <div class="description">
-          {{ project.description|e }}
+          {{ project.description | escape }}
         </div>
       </div>
     </a>

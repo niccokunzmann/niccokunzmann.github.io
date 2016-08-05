@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title |e }}</title>
+    <title>{{ page.title | escape }}</title>
     {% include style.html %}
   </head>
   <body>
-    {% assign hirarchy_path = "blog" %} 
-    {% assign hirarchy_name = "Blog" %}
+    {% assign hirarchy_path = page.categories.first %}
+    {% for link in site.data.home_links %}
+      {% if link.url == hirarchy_path %}
+        {% assign hirarchy_name = "Blog" %}
+      {% endif %}
+    {% endfor %}
     {% include header.html %}
     <main class="post center">
-    <h1>{{ page.title |e }}</h1>
+    <h1>{{ page.title | escape }}</h1>
     {{ page.content }}
     </main>
     {% include footer.html %}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title |e }}</title>
+    <title>{{ page.title | escape }}</title>
     {% include style.html %}
   </head>
   <body>
@@ -14,7 +14,7 @@
         {% for post in site.posts %}
           {% if category == post.categories.first %}
             <li>
-              <a href="{{ post.url | escape }}"  {% if post.language %}hreflang="{{ post.language }}"{% endif %}>{{ post.title |e }}</a>
+              <a href="{{ post.url | escape }}"  {% if post.language %}hreflang="{{ post.language | escape }}"{% endif %}>{{ post.title | escape }}</a>
             </li>
           {% endif %}
         {% endfor %}

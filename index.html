@@ -8,11 +8,11 @@ sitemap:
 
 <div class="center">
   {% for link in site.data.home_links %}
-    <a href="{{ link.url|e }}">
+    <a href="{{ link.url | escape }}">
       <div class="home_link">
-        <img class="image" src="images/home_links/{{ link.image|e }}" />
+        <img class="image" src="images/home_links/{{ link.image | escape }}" />
         <div class="name">
-          {{ link.name|e }}
+          {{ link.name | escape }}
         </div>
       </div></a>
   {% endfor %}
