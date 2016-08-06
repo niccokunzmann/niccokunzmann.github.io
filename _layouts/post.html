@@ -15,7 +15,7 @@
     {% endfor %}
     {% include header.html %}
     <main class="post center">
-    {% if page.tracks %}
+    {% if page.tracks and page.tracks.first != "none" ) %}
       <audio controls>
       {% for track in page.tracks %}
         <source src="{{ site.baseurl | escape }}/tracks/{{ track | escape }}" type="audio/{{ track | split: '.' | last }}" />
