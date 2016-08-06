@@ -18,9 +18,13 @@
     {% if page.tracks %}
       <audio controls>
       {% for track in page.tracks %}
-        <source src="{{ site.baseurl | escape }}/tracks/{{ track | escape }}" type="audio/{{ track | split: '.' | last }}">
+        <source src="{{ site.baseurl | escape }}/tracks/{{ track | escape }}" type="audio/{{ track | split: '.' | last }}" />
+        <a href="{{ site.baseurl | escape }}/tracks/{{ track | escape }}" class="track">▶ {{ track | escape }}</a>
       {% endfor %}
       </audio>
+      {% for track in page.tracks %}
+        
+      {% endfor %}
     {% endif %}
     <h1>{{ page.title | escape }}</h1>
     {{ page.content }}
