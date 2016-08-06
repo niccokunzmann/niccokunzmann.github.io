@@ -52,4 +52,4 @@ different and you are all the same!
 
 -----------------------------------------------------
 
-With this poem I hope you can see the other side.  
+With this poem, I hope you can see the other side.  
