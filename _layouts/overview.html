@@ -3,18 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | escape }}</title>
+    {% assign category = page.url | remove_first: "/" | split: "/" | first %}
+    {% assign title = category %}
+    {% for link in site.data.home_links %}
+      {% if link.url == category %}
+        {% assign title = link.name %}
+      {% endif %}
+    {% endfor %}
+    <title>{{ title | escape }}</title>
     {% include style.html %}
   </head>
   <body>
     {% include header.html %}
     {% assign category = page.path | split:"/" | first %}
-    <main class="page">
+    <main class="overview page">
       <ul class="center">
         {% for post in site.posts %}
           {% if category == post.categories.first %}
             <li>
-              <a href="{{ post.url | escape }}"  {% if post.language %}hreflang="{{ post.language | escape }}"{% endif %}>{{ post.title | escape }}</a>
+              <a href="{{ post.url | escape }}"  {% if post.language %}hreflang="{{ post.language | escape }}"{% endif %}>
+                {% if post.tracks %}
+                  <img class="song-icon" src="{{ site.baseurl | escape }}/images/home_links/Gitarre.svg"/>
+                {% endif %}
+                {{ post.title | escape }}
+              </a>
             </li>
           {% endif %}
         {% endfor %}

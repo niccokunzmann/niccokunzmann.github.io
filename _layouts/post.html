@@ -15,6 +15,13 @@
     {% endfor %}
     {% include header.html %}
     <main class="post center">
+    {% if page.tracks %}
+      <audio controls>
+      {% for track in page.tracks %}
+        <source src="{{ site.baseurl | escape }}/tracks/{{ track | escape }}" type="audio/{{ track | split: '.' | last }}">
+      {% endfor %}
+      </audio>
+    {% endif %}
     <h1>{{ page.title | escape }}</h1>
     {{ page.content }}
     </main>

@@ -6,6 +6,9 @@
       <a href="{{ site.baseurl | escape }}/{{ hirarchy_path | escape }}"><h1>{{ hirarchy_name | escape | split:" " | join:"&nbsp;" }}</h1></a>
       <h1>→</h1>
     {% endif %}
-    <a href="{{ page.url }}#"><h1>{{ page.title | escape  | split:" " | join:"&nbsp;" }}</h1></a>
+    {% if page.title %}
+      {% assign title = page.title%}
+    {% endif %}
+    <a href="{{ page.url }}#"><h1>{{ title | escape  | split:" " | join:"&nbsp;" }}</h1></a>
   {% endif %}
 </header>
