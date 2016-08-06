@@ -2,7 +2,6 @@
 layout: post
 title: Let me judge you through the flower of honesty
 language: en
-folder: gedichte
 ---
 
 Hey you there,  
