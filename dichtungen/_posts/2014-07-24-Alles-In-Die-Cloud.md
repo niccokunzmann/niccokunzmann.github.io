@@ -57,7 +57,7 @@ Die Datenlast ist schwer -
 Im Park ein Mord  
 Mein Telefon war dort  
 Sie Erpressen mich  
-Und ich weh'r mich nicht  
+Und ich wehr' mich nicht  
 Sie wissen einfach alles über mich  
 
 [Refrain]

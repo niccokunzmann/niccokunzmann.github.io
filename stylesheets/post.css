@@ -1,1 +1,18 @@
 
+.navigation .next-post {
+    float: right;
+}
+
+.track {
+    margin: 0 auto; 
+    display: inline;
+}
+
+.navigation .previous-post {
+    float: left;
+}
+
+.navigation {
+    height: 1em;
+    text-align: center;
+}

@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | escape }}</title>
     {% include style.html %}
+    {% include javascript.html %}
   </head>
   <body>
-    {% assign hirarchy_path = page.categories.first %}
+    {% assign category = page.categories.first %}
+    {% assign all_posts = site.categories[category] %}
+    <!-- compute hirarchy in header -->
+    {% assign hirarchy_path = category %}
     {% for link in site.data.home_links %}
       {% if link.url == hirarchy_path %}
         {% assign hirarchy_name = link.name %}
@@ -15,16 +19,53 @@
     {% endfor %}
     {% include header.html %}
     <main class="post center">
-    {% if page.tracks and page.tracks.first != "none" ) %}
-      <audio controls>
-      {% for track in page.tracks %}
-        <source src="{{ site.baseurl | escape }}/tracks/{{ track | escape }}" type="audio/{{ track | split: '.' | last }}" />
-        <a href="{{ site.baseurl | escape }}/tracks/{{ track | escape }}" class="track">▶ {{ track | escape }}</a>
-      {% endfor %}
-      </audio>
-    {% endif %}
-    <h1>{{ page.title | escape }}</h1>
-    {{ page.content }}
+      <div class="navigation">
+        <!-- compute next and previous posts -->
+        {% for a_post in all_posts %}
+          {% if a_post.id == page.id %}
+            {% if forloop.first %}
+            {% else %}
+              {% assign previous_post_index = forloop.index0 | minus: 1 %}
+              {% assign previous_post = all_posts[previous_post_index] %}
+            {% endif %}
+            {% if forloop.last %}
+            {% else %}
+              {% assign next_post_index = forloop.index0 | plus: 1 %}
+              {% assign next_post = all_posts[next_post_index] %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        <!-- show previous post -->
+        {% if previous_post %}
+          <a href="{{ previous_post.url | escape }}" class="previous-post">&lt;&lt;</a>
+        {% endif %}
+        <!-- show audio element if there is one -->
+        {% if page.tracks and page.tracks.first != "none" ) %}
+          <div class="track">
+            <audio controls id="track">
+              {% for track in page.tracks %}
+                <source src="{{ site.baseurl | escape }}/tracks/{{ track | escape }}" type="audio/{{ track | split: '.' | last }}" />
+                <a href="{{ site.baseurl | escape }}/tracks/{{ track | escape }}" class="track">▶ {{ track | escape }}</a>
+              {% endfor %}
+            </audio>
+            <input type="checkbox" name="autoplay" value="autoplay" id="autoplay"/>autoplay
+          </div>
+        {% endif %}
+        <!-- show next post -->
+        {% if next_post %}
+          <script>
+            var next_post_url = "{{ next_post.url | escape }}";
+          </script>
+          <a href="{{ next_post.url | escape }}" class="next-post">&gt;&gt;</a>
+        {% else %}
+          <script>
+            var next_post_url = null;
+          </script>
+        {% endif %}
+      </div>
+      <!-- show post -->
+      <h1>{{ page.title | escape }}</h1>
+      {{ page.content }}
     </main>
     {% include footer.html %}
   </body>
