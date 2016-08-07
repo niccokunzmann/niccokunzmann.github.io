@@ -7,7 +7,7 @@ window.onload = function() {
     var autoplay = getQueryParams().autoplay == "true";
     var volume_string = getQueryParams().volume;
     function next_autoplay_location() {
-        var volume = audio_track ? "&volume=" + audio_track.volume : ""
+        var volume = audio_track ? "&volume=" + audio_track.volume : ( volume_string ? "&volume=" + volume_string : "" );
         return next_post_url + "?autoplay=true" + volume;
     }
     if (audio_track) {
