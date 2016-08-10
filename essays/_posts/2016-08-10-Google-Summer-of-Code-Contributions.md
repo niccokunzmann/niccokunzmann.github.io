@@ -46,7 +46,7 @@ As part of the GSoC in FOSSASIA, I have additional [requirements](https://docs.g
 
 - [A list of blog posts I wrote](http://blog.fossasia.org/author/niccokunzmannayab/)
 - Blog posts Kirstin and I wrote together:
-  - http://blog.fossasia.org/184-2/
-  - http://blog.fossasia.org/introduction-of-the-2016-gsoc-projects-with-ayab/
+  - [A look into the knitting pattern format](http://blog.fossasia.org/184-2/)
+  - [Introduction of the 2016 GSoC projects with AYAB](http://blog.fossasia.org/introduction-of-the-2016-gsoc-projects-with-ayab/)
 - [Status updates](https://groups.google.com/forum/#!profile/knitapps/APn2wQepBIMxo7Q589feQ_pm10AnqwoSWpE7gNO00fDYU3zpXkDzURe4jFgrTyaRfYFqwVdCbCrR)
 
