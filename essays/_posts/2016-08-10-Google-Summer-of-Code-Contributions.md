@@ -39,7 +39,14 @@ All **work left to do** is part of the overview page
 [knitting.fossasia.org](https://knitting.fossasia.org),
 a landing page to start developing on FOSSASIA knitting projects.
 
-Blogposts I Wrote
------------------
+FOSSASIA Requirements
+---------------------
 
-I wrote blog posts as part of FOSSASIA
+As part of the GSoC in FOSSASIA, I have additional [requirements](https://docs.google.com/document/d/19OFkhhCqBS0rWKk04t9ZKiQOjhLY3t3sPIZUvF3lDyM/edit).
+
+- [A list of blog posts I wrote](http://blog.fossasia.org/author/niccokunzmannayab/)
+- Blog posts Kirstin and I wrote together:
+  - http://blog.fossasia.org/184-2/
+  - http://blog.fossasia.org/introduction-of-the-2016-gsoc-projects-with-ayab/
+- [Status updates](https://groups.google.com/forum/#!profile/knitapps/APn2wQepBIMxo7Q589feQ_pm10AnqwoSWpE7gNO00fDYU3zpXkDzURe4jFgrTyaRfYFqwVdCbCrR)
+
