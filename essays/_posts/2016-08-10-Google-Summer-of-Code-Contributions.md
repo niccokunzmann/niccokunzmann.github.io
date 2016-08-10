@@ -27,10 +27,10 @@ Here you can find the commits I made and opportunities (issues) for contribution
 - knitting.fossasia.org:
   - [commits](https://github.com/fossasia/knitting.fossasia.org/commits?author=niccokunzmann)
   - [work left to do](https://waffle.io/fossasia/knitting.fossasia.org)
-- crc8:
+- crc8 (used by AYABInterface):
   - [commits](https://github.com/niccokunzmann/crc8/commits?author=niccokunzmann)
   - [work left to do](https://waffle.io/niccokunzmann/crc8)
-- ObservableList:
+- ObservableList (used by knittingpattern):
   - [commits](https://github.com/niccokunzmann/ObservableList/commits?author=niccokunzmann)
   - [work left to do](https://waffle.io/niccokunzmann/ObservableList)
 - allyarnsarebeautiful.github.io:
