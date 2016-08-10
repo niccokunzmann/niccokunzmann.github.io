@@ -4,9 +4,6 @@ title: Google Summer of Code Contributions
 language: en
 ---
 
-Context
--------
-
 This year, I participated in the
 [Google Summer of Code "GSoC"](https://summerofcode.withgoogle.com/) with 
 [FOSSASIA](http://fossasia.org/) and [AYAB](http://ayab-knitting.com/).
