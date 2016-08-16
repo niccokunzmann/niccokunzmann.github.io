@@ -48,6 +48,7 @@ FOSSASIA Requirements
 As part of the GSoC in FOSSASIA, I did the following to fulfill the [requirements](https://docs.google.com/document/d/19OFkhhCqBS0rWKk04t9ZKiQOjhLY3t3sPIZUvF3lDyM/edit):
 
 - [A list of blog posts I wrote](http://blog.fossasia.org/author/niccokunzmannayab/)
+  - [a blog post about Documentation-Driven Develpment]({{ site.baseurl | escape }}blog/2016-06-10/Documentation-Driven-Development)
 - Blog posts Kirstin and I wrote together:
   - [A look into the knitting pattern format](http://blog.fossasia.org/184-2/)
   - [Introduction of the 2016 GSoC projects with AYAB](http://blog.fossasia.org/introduction-of-the-2016-gsoc-projects-with-ayab/)
