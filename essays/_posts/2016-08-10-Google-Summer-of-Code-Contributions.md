@@ -35,6 +35,8 @@ Here you can find the commits I made and opportunities (issues) for contribution
   - [work left to do](https://waffle.io/niccokunzmann/ObservableList)
 - allyarnsarebeautiful.github.io:
   - [commits](https://github.com/AllYarnsAreBeautiful/allyarnsarebeautiful.github.io/commits?author=niccokunzmann)
+- AppVeyor Website & Documentation
+  - [pull request to match documentation and behavior](https://github.com/appveyor/website/pull/148)
 
 All work left to do is part of the overview page
 [knitting.fossasia.org](https://knitting.fossasia.org),
