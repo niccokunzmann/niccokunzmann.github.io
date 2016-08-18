@@ -53,4 +53,7 @@ As part of the GSoC in FOSSASIA, I did the following to fulfill the [requirement
   - [A look into the knitting pattern format](http://blog.fossasia.org/184-2/)
   - [Introduction of the 2016 GSoC projects with AYAB](http://blog.fossasia.org/introduction-of-the-2016-gsoc-projects-with-ayab/)
 - [Status updates](https://groups.google.com/forum/#!profile/knitapps/APn2wQepBIMxo7Q589feQ_pm10AnqwoSWpE7gNO00fDYU3zpXkDzURe4jFgrTyaRfYFqwVdCbCrR)
+- Youtube Playlists:
+  - [Developer Tutorials](https://www.youtube.com/playlist?list=PL_bQhtrnWFA8skye4GpQ2Y8kEHxLwQKHY)
+  - [GSoC Collection](https://www.youtube.com/playlist?list=PL_bQhtrnWFA-x3hGay2mo7sSp7V5ii3su)
 
