@@ -34,7 +34,7 @@ E-Moll und D-Dur zu erlernen sind.
     Ihre Brüder und Geschwister in den Kämpfen zu zerstör'n.
     [Ihre bezieht sich auf Männer]
     Em
-    Ich bat sie, "Gib mir Waffen, die Gegener zu beerdigen."
+    Ich bat sie, "Gib mir Waffen, die Gegner zu beerdigen."
            D                             Em
     Durchflossen von Elan trieb mich der Hass auf Leben an.
     
