@@ -42,8 +42,8 @@ Let me say it through the flower!
 > 
 > - human from the outside
 > - zombie from the inside
-> - no feelings, no empathy, everything
-> - negative I do not want to be but certainly am.
+> - no feelings, no empathy, everything  
+>   negative I do not want to be but certainly am.
 
 And you label me as enemy?  
 How dare you do not see that I am  
