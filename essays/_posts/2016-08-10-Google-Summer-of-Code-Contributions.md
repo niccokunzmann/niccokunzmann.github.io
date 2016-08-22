@@ -38,9 +38,6 @@ Here you can find the commits I made and opportunities (issues) for contribution
 - AppVeyor Website & Documentation
   - [pull request to match documentation and behavior](https://github.com/appveyor/website/pull/148)
 
-All work left to do is part of the overview page
-[knitting.fossasia.org](https://knitting.fossasia.org),
-a landing page to start developing on FOSSASIA knitting projects.
 
 FOSSASIA Requirements
 ---------------------
