@@ -1,6 +1,7 @@
 
 a {
-  color: black;
+  color: #1a924d;
+  text-decoration: none; /* no underline */
 }
 
 .center {

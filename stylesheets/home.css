@@ -1,5 +1,5 @@
 .home_link {
-  margin: 10px;
+  margin: 1.5em;
   display: inline-block;
   max-width: 10em;
 }
@@ -12,6 +12,7 @@
 }
 
 .home_link .name {
+  margin-top: 0.5em;
   text-align: center;
   text-decoration: none;
 }
