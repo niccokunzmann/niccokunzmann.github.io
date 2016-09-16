@@ -1,8 +1,6 @@
-who is right?
-
 ---
 layout: post
-title: "How can we deal with this?" vs. "Who is right?"
+title: "How can we deal with this? vs. Who is right?"
 language: en
 ---
 

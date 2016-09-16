@@ -4,7 +4,7 @@ title: Wider der Gewohnheit der Götzen
 language: de
 ---
 
-Und er wachte auf in einer welt, wo die menschen etwas anderem huldigten.  
+Und er wachte auf in einer Welt, wo die menschen etwas anderem huldigten.  
 In dieser Welt war er nie zu vor.  
 Er sah, wie sie mit jedem, das sie taten auch etwas anderes verknüpften.  
 Sie konnten nicht lachen, ohne sich zu fragen, was die anderen dachten  

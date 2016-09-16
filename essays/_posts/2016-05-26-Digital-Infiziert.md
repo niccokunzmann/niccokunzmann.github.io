@@ -3,7 +3,7 @@ layout: post
 title: Digital Infiziert
 language: de
 ---
-{{ site.baseurl }}
+
 Zwei Vorträge waren sehr interessant, zu Open-Source Software (OSS):
 
 - [Open, closed, and demon haunted: An Internet of Things that act like inkjet printers](https://www.oreilly.com/ideas/open-closed-and-demon-haunted-an-internet-of-things-that-act-like-inkjet-printers)
