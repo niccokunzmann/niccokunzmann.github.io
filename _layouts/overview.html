@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html {% if page.language %}lang="{{ page.language }}"{% endif %}>
+<html {% if page.language %}lang="{{ page.language | escape }}"{% endif %}>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
