@@ -30,7 +30,7 @@ Stecker
 
 Namen sind so wichtig, wenn ich suche. Die Stecker heißen "F-Stecker".
 Beispiel auf Amazon [1][amazon-1] [2][amazon-2]. 
-Ich vermute, mit [dem Adapter][amazon-3] könnte ein Fensterkabel an den TP-Link angeschlossen werden.
+Ich vermute, mit [dem Adapter][amazon-3] könnte ein [Fensterkabel][ebay-1] an den TP-Link angeschlossen werden.
 Oder mit [dem][amazon-4].
 
 
@@ -39,7 +39,7 @@ Oder mit [dem][amazon-4].
 
 
 
-
+[ebay-1]: http://www.ebay.de/itm/2-x-Fensterdurchfuhrung-fur-SAT-Antennen-Flach-Kabel-Tur-Balkon-20cm-F-Stecker-/111568547485?hash=item19fa00ee9d:g:gUcAAOSw8gVX2X04
 [amazon-4]: https://www.amazon.de/Wentronic-Antennen-Adapterkabel-WLAN-Router-SMA-Stecker/dp/B003IWDEJ6/ref=sr_1_4?ie=UTF8&qid=1474754419&sr=8-4&keywords=antennenkabel+rp+sma+f+sma+f
 [amazon-3]: https://www.amazon.de/adaptare-61068-Adaptare-Antennenadapter-RP-SMA-Anschluss/dp/B00TB63ENE/ref=sr_1_23?ie=UTF8&qid=1474754196&sr=8-23&keywords=antennenkabel+rp+sma+weiblich+sma+weiblich
 [amazon-2]: http://www.ebay.de/itm/2-x-Fensterdurchfuhrung-fur-SAT-Antennen-Flach-Kabel-Tur-Balkon-20cm-F-Stecker-/111568547485?hash=item19fa00ee9d:g:gUcAAOSw8gVX2X04
