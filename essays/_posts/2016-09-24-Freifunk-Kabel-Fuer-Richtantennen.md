@@ -34,7 +34,13 @@ Ich vermute, mit [dem Adapter][amazon-3] könnte ein [Fensterkabel][ebay-1] an d
 Oder mit [dem][amazon-4].
 
 
+Kabel Angekommen
+----------------
 
+Man braucht sich die Kabel nicht an eine Packstation bestellen.
+Sie kommen in kleinen Briefen an.
+Ich habe jetzt ein solches Kabel erhalten und es passt an den Router.
+Ich gehe also davon aus, dass die Kabel aus der Liste alle an die TP-Link-Router passen.
 
 
 
