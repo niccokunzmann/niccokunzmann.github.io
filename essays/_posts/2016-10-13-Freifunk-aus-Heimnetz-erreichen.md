@@ -33,7 +33,7 @@ Dazu möchte ich
 
 1. [Den Speedport weiter mit der Web-Adresse speedport.ip erreichen können.](#internet-durch-freifunk-router-leiten)
 2. [Einstellen, dass ich vom LAN aus das Freifunk-Netz erreichen kann.](#heimnetz-zu-freifunk-durchlassen)
-3. Einen Server direkt im Freifunknetz und auch aus dem Internet erreichbar machen.
+3. [Einen Server direkt im Freifunknetz und auch aus dem Internet erreichbar machen.](#server-einbinden)
 
 ## Internet durch Freifunk-Router leiten
 
@@ -125,7 +125,10 @@ Speichern reicht manchmal. Neustarten ist auch gut.
 
 - Erreicht der Router das Internet?
   Dazu kann ich unter "Network" → "Diagnostics" einen Ping ausführen.
-- Kann ich den Router erreichen? Dazu kann ich ihn anpingen.
+- Kann ich den Router erreichen?
+  Dazu kann ich ihn anpingen.
+- Ist das Heimnetz nicht von Freifunk aus erreichbar?
+  Dazu kann ich mit mit Freifunk verbinden und versuchen, den Speedport anzupingen.
 
 #### Speedport einstellen
 
@@ -153,7 +156,37 @@ Unter "Network" → "Firewall" → "Custom Rules" habe ich diese Zeile eingefüg
 
 ![firewall.png]({{ images }}/firewall.png)
 
+## Server Einbinden
+
+Ich habe nun einen Heimrechner, der ein Server ist und sich im Heimnetz und im Freifunk-Netz befindet:
+
+![aufbau-server.svg]({{ images }}/aufbau-server.svg)
+
+### Ziele
+
+Ich möchte folgendes erreichen:
+
+1. [Der Server soll aus dem Internet erreichbar sein.](#port-forwarding)
+2. [Wenn ich zu Hause oder im Freifunk-Netz bin, will ich nicht den Umweg über das Internet gehen, um den Server zu erreichen.](#hostnamen-eintragen)
+
+### Hostnamen Eintragen
+
+Um den Server lokal erreichbar zu machen, könnenzusätzliche Hostnamen unter "Network" → "Hostnames" hinzugefügt werden.
+In meinem Falle handelt es sich um die Namen "quelltext.eu", "www.quelltext.eu", "gitlab.quelltext.eu" und "owncloud.quelltext.eu".
+Diese füge ich mit der Freifunk-IP hinzu, weil diese Namensauflösung für alle Interfaces gilt und ich den Server auch aus dem Freifunk-Netz erreichen möchte.
+
+![firewall.png]({{ images }}/firewall.png)
+
+### Port-Forwarding
+
+Um den Server aus dem Internet erreichbar zu machen, muss ich Ports freigeben.
+Außerdem kann ich mit noch kostenlos eine Domäne holen oder was bezahlen.
+Das geht alles im Speedport.
+Der Speedport kann das Freifunk-Netz nicht erreichen also muss dort alles mit der Heimnetz-Adresse gemacht werden.
 
 
+## Zusammenfassung
 
+In diesem Blogpost habe ich gezeigt, wie man Freifunk vom Heimnetz aus erreichbar macht und einen Server in beide Netze einbindet.
 
+## TODO: olsr services?
