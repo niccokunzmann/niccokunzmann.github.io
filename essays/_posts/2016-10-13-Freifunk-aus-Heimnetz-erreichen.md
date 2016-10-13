@@ -13,14 +13,14 @@ Im Folgenden erkläre ich die Einstellungen, die ich für mein Heimnetz und den 
 
 ## Context
 
-Zuhause habe ich einen Speedport und einen Freifunk-Router stehen.
+Zu Hause habe ich einen Speedport und einen Freifunk-Router stehen.
 Diese sind mit LAN verbunden.
 Das ist hier dargestellt:
 
 ![aufbau.svg]({{ images }}/aufbau.svg)
 
 Der Speedport ist mit dem Internet verbunden.
-Der Freifunkrouter ist mit dem WAN-Anschluss an einem LAN-Anschluss des Speedport angeschlossen.
+Der Freifunkrouter ist mit dem WAN-Anschluss an einem LAN-Anschluss des Speedports angeschlossen.
 
 
 ## Problem
@@ -37,9 +37,9 @@ Dazu möchte ich
 
 ## Internet durch Freifunk-Router leiten
 
-### Context
+### Kontext
 
-Momentan, wenn ich das angeschlossen habe, fließt der Internetverkehr so:
+Momentan, wenn ich meinen Laptop angeschlossen habe, fließt der Internetverkehr so:
 
     Laptop ----> Speedport ----> Internet
 
@@ -84,22 +84,23 @@ Durch diese Reihenfolge erhalte ich immer eine valide IP und Internet, auch wenn
 
 Hier ist meine Konfiguration des WAN-Interfaces im TP-Link:
 
-![wan-1.png]({{ images }}/wan-1.png)
+![wan-2.png]({{ images }}/wan-2.png)  
 Alle IP-Adressen im Heimnetz fangen bei mir mit "192.168.2" an.
 Das hängt von den Einstellungen im Speedport ab.
-![wan-2.png]({{ images }}/wan-2.png)
-![wan-3.png]({{ images }}/wan-3.png)
-![wan-4.png]({{ images }}/wan-4.png)
-![wan-5.png]({{ images }}/wan-5.png)
-![wan-6.png]({{ images }}/wan-6.png)
-![wan-7.png]({{ images }}/wan-7.png)
+
+![wan-3.png]({{ images }}/wan-3.png)  
+![wan-4.png]({{ images }}/wan-4.png)  
+![wan-5.png]({{ images }}/wan-5.png)  
+![wan-6.png]({{ images }}/wan-6.png)  
+![wan-7.png]({{ images }}/wan-7.png)  
 ![wan-8.png]({{ images }}/wan-8.png)
 
 ##### LAN-Ports Einstellen
 
 Unter "Network" → "Interfaces" haben wir gefunden ([siehe oben](#tp-link-einstellungen)),
 in welchem "LAN-Netz" sich der WAN-Anschluss befindet.
-Man kann ja auch einstellen, dass bei einem LAN-Port das Heimnetz ist und auf anderen Freifunk oder das Meshnetz liegt.
+(Es gibt mehrere Letze, die am LAN anliegen können.
+ Andere Leute stellen vielleicht ein, dass bei einem LAN-Port das Heimnetz ist und auf anderen Freifunk oder das Meshnetz liegt.)
 Jetzt ist die Frage: welches V-LAN benutzt der WAN-Anschluss:
 
 ![wan-eth.png]({{ images }}/wan-eth.png)
@@ -112,7 +113,7 @@ Dazu gehe ich zu "Network" → "Switch".
 
 ![switch.png]({{ images }}/switch.png)
 
-Ich habe bei mit VLAN 6 eingestellt, weil ich das oben herausgefunden habe.
+Ich habe VLAN 6 eingestellt, weil ich oben herausgefunden habe, dass WAN das VLAN 6 benutzt.
 Wichtig ist, CPU tagged und Port 1 untagged.
 Die anderen sind die verbleibenden LAN-Anschlüsse, mit denen man auch anderes machen kann.
 Wenn sie wie hier auf untagged gestellt werden, gelten sie als Heimnetz.
@@ -136,6 +137,11 @@ Jetzt können wir die DHCP-Funktion des Speedport deaktivieren.
 
 ![speedport.png]({{ images }}/speedport.png)
 
+##### Motivation
+
+Wenn wir DHCP beim Speedport weiter aktiv lassen, rivalisieren der TP-Link und der Speedport bei der IP-Adressvergabe.
+Der Speedport ist vielleicht schneller und dann kommen wir nicht ins Freifunknetz.
+
 ### Neue Hostnamen
 
 Wenn man den Speedport unter seiner Adresse `speedport.ip` erreichen möchte,
@@ -155,6 +161,8 @@ füge ich eine Firewall-Regel hinzu:
 Unter "Network" → "Firewall" → "Custom Rules" habe ich diese Zeile eingefügt:
 
 ![firewall.png]({{ images }}/firewall.png)
+
+([Quelle](https://www.howtoforge.com/nat_iptables))
 
 ## Server Einbinden
 
@@ -177,6 +185,16 @@ Diese füge ich mit der Freifunk-IP hinzu, weil diese Namensauflösung für alle
 
 ![firewall.png]({{ images }}/firewall.png)
 
+#### Testen
+
+Nach dem Speichern und Neustarten, kann ich folgende Tests durchführen:
+
+- Ist das Heimnetz nicht von Freifunk aus erreichbar?
+  Dazu kann ich mit Freifunk verbinden und versuchen, den Speedport anzupingen.
+- Ist das Freifunknetz vom Heimnetz aus erreichbar?
+  Dazu kann ich mit dem Heimnetz verbinden und versuchen, etwas anderes als den TP-Link aus dem Freifunknetz anzupingen.
+
+
 ### Port-Forwarding
 
 Um den Server aus dem Internet erreichbar zu machen, muss ich Ports freigeben.
@@ -190,3 +208,5 @@ Der Speedport kann das Freifunk-Netz nicht erreichen also muss dort alles mit de
 In diesem Blogpost habe ich gezeigt, wie man Freifunk vom Heimnetz aus erreichbar macht und einen Server in beide Netze einbindet.
 
 ## TODO: olsr services?
+
+Wie kann ich erreichen, dass bei einem Mesh mit mehreren Routern mein quelltext.eu immernoch über das Freifunknetz aufgelöst wird?
