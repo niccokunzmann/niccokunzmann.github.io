@@ -209,4 +209,4 @@ In diesem Blogpost habe ich gezeigt, wie man Freifunk vom Heimnetz aus erreichba
 
 ## TODO: olsr services?
 
-Wie kann ich erreichen, dass bei einem Mesh mit mehreren Routern mein quelltext.eu immernoch über das Freifunknetz aufgelöst wird?
+Wie kann ich erreichen, dass bei einem Mesh mit mehreren Gateways mein quelltext.eu immernoch über das Freifunknetz aufgelöst wird?
