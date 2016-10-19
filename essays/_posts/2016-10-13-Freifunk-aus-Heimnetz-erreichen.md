@@ -207,6 +207,19 @@ Der Speedport kann das Freifunk-Netz nicht erreichen also muss dort alles mit de
 
 In diesem Blogpost habe ich gezeigt, wie man Freifunk vom Heimnetz aus erreichbar macht und einen Server in beide Netze einbindet.
 
-## TODO: olsr services?
+## Diskussion
 
-Wie kann ich erreichen, dass bei einem Mesh mit mehreren Gateways mein quelltext.eu immernoch über das Freifunknetz aufgelöst wird?
+**Wie kann ich erreichen, dass bei einem Mesh mit mehreren Gateways mein quelltext.eu immernoch über das Freifunknetz aufgelöst wird?**
+[Antwort von Carsten][ffp-carsten-1]:
+> Es gibt noch ein olsr-DNS mit dem wir uns aber noch nicht auskennen. Hier wäre auf jeden Fall der Ansatz.
+
+**Kann ich immer den Server über die Domain lokal auflösen?**
+[Antwort von Carsten][ffp-carsten-1]:
+> Zu der Erreichbarkeit... Ist nicht ganz so einfach. Wenn das Endgerät die öffentliche IP bereits gecachet hat wird es nicht versuchen über das FF-Netz eine Verbindung hinzubekommen. Sven hatte da mal eine harte Lösung für das Setup auf dem Winzerberg gefunden gehabt, welche er in den iptables eingerichtet hatte.
+
+
+
+
+
+
+[ffp-carsten-1]: https://lists.freifunk-potsdam.de/pipermail/users/2016-October/003477.html
