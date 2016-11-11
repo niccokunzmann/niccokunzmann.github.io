@@ -5,7 +5,7 @@ language: de
 ---
 {% assign images = site.baseurl | append:"/images" | append:page.url %}
 
-Öfters höre ich, wie z.B. [hier (min 22:35) das Wort "Chancengleichheit".
+Öfters höre ich, wie z.B. [in "Erbenrepublik Deutschland" - Rainer Voss und Wolfgang Grupp bei Hart aber fair || 09.05.2016 (min 22:35)](https://www.youtube.com/watch?v=X7aMrz9w7E8) das Wort "Chancengleichheit".
 Was ist das und wie wird es verwendet.
 
 Zur Verwendung: Ich sehe es in Talkshows, wo einzelne Personen in die Oberschicht gelangt sind und ich verstehe, wenn sie dieses Wort verwenden, dass das alles schaffen können, wenn es Chancengleichheit gibt.
@@ -13,7 +13,7 @@ Zur Verwendung: Ich sehe es in Talkshows, wo einzelne Personen in die Oberschich
 Was ist Chancengleichheit?
 --------------------------
 
-Chancengleichheit sagt, das eine Menge von Menschen die in Menge und Güte die selben Chancen erhalten.
+Chancengleichheit sagt, das eine Menge von Menschen die in Menge und Güte selben Chancen erhalten.
 Menge möge messbar sein, Güte ist subjektiv.
 Angenommen es gäbe Chancen geicher Güte:
 Ich stelle mir vor, 100 Personen haben nun die selbe Chance auf einen einzigen Arbeitsplatz.
@@ -39,7 +39,7 @@ Familie, Umgebung, Wohnung, Erfahrung, Character und viele andere Worte kann ich
 Diese sind mehr oder minder messbar.
 
 Note: *Für systematische Chancengleichheit, vermute ich, muss eine Messbarkeit da sein.
-Soziales ist schlecht messbar und soll dann dort iengegriffen werden und der Mensch entantwortet werden?*
+Soziales ist schlecht messbar - soll dann dort eingegriffen werden und der Mensch entantwortet werden?*
 
 Neoliberal sehen Menschen gleich aus, wenn sie das selbe leisten können.
 
@@ -57,8 +57,8 @@ Die Diskussion führen andere ausführlicher. #KritikDerLohnarbeit
 Was möchte ich statt Chancengleicheit hören?
 --------------------------------------------
 
-Meine Vermuting:  
+Meine Vermutung:  
 Chancengleichheit und Chancengerechtigkeit sind zwei Worte, für die über Annahmen (2) und (3) deutbar neoliberalem Einfluss unterliegen.
 Ziel ist es, dass die Menschen ihre Bedürfnisse erfüllen können.
 Chancengleichheit und Chancengerechtigkeit werden durch (2) und (3) diesem Ziel nicht gerecht.
-Sie sind von dem Wort sozial durch den Kontext (2) und (3) unabhängig gemacht worden.
+Sie können von dem Wort "sozial" durch den Kontext (2) und (3) unabhängig gemacht werden.
