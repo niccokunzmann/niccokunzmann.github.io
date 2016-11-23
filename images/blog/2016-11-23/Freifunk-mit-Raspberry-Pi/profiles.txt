@@ -1,0 +1,316 @@
+Current Target: "ar71xx (Generic)"
+Default Packages: base-files libc libgcc busybox dropbear mtd uci opkg netifd kmod-leds-gpio kmod-gpio-button-hotplug swconfig kmod-ledtrig-default-on kmod-ledtrig-timer kmod-ledtrig-netdev kmod-ath9k wpad-mini uboot-envtools dnsmasq iptables ip6tables ppp ppp-mod-pppoe kmod-ipt-nathelper firewall 6relayd odhcp6c
+Available Profiles:
+
+Default:
+	Default Profile (all drivers)
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev
+Minimal:
+	Minimal Profile (no drivers)
+	Packages: -kmod-ath9k -wpad-mini
+ath5k:
+	Atheros 802.11abg WiFi (ath5k)
+	Packages: kmod-ath5k -kmod-ath9k
+CARAMBOLA2:
+	Carambola2 board from 8Devices
+	Packages: kmod-usb-core kmod-usb2
+ALFAAP96:
+	ALFA Network AP96 board
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-rtc-pcf2123
+HORNETUB:
+	ALFA Network Hornet-UB board (8MB flash, 32MB ram)
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+HORNETUBx2:
+	ALFA Network Hornet-UB-x2 board (16MB flash, 64MB ram)
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+ALFANX:
+	ALFA Network N2/N5 board
+	Packages: 
+ALL0305:
+	Allnet ALL0305
+	Packages: fconfig kmod-ath5k -kmod-ath9k
+ALL0258N:
+	Allnet ALL0258N
+	Packages: uboot-envtools rssileds
+ALL0315N:
+	Allnet ALL0315N
+	Packages: uboot-envtools rssileds
+AP113:
+	Atheros AP113 reference board
+	Packages: kmod-usb-core kmod-usb2
+AP121:
+	Atheros AP121 reference board
+	Packages: kmod-usb-core kmod-usb2
+AP121MINI:
+	Atheros AP121-MINI reference board
+	Packages: 
+AP132:
+	Atheros AP132 reference board
+	Packages: kmod-usb-core kmod-usb2 kmod-usb-storage
+AP135:
+	Atheros AP135 reference board
+	Packages: kmod-usb-core kmod-usb2 kmod-usb-storage
+AP136:
+	Atheros AP136 reference board
+	Packages: kmod-usb-core kmod-usb2 kmod-usb-storage
+AP81:
+	Atheros AP81 reference board
+	Packages: kmod-usb-core kmod-usb2
+AP83:
+	Atheros AP83 reference board
+	Packages: kmod-usb-core kmod-usb2 vsc7385-ucode-ap83 vsc7395-ucode-ap83
+AP96:
+	Atheros AP96 reference board
+	Packages: kmod-usb-core kmod-usb2
+DB120:
+	Atheros DB120 reference board
+	Packages: kmod-usb-core kmod-usb2 kmod-usb-storage
+PB42:
+	Atheros PB42 reference board
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2
+PB44:
+	Atheros PB44 reference board
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 vsc7385-ucode-pb44 vsc7395-ucode-pb44
+PB92:
+	Atheros PB92 reference board
+	Packages: kmod-usb-core kmod-usb2
+A02RBW300N:
+	Atlantis-Land A02-RB-W300N
+	Packages: 
+WZRHPG300NH:
+	Buffalo WZR-HP-G300NH
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+WZRHPG300NH2:
+	Buffalo WZR-HP-G300NH2
+	Packages: kmod-ath9k wpad-mini kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+WZRHPAG300H:
+	Buffalo WZR-HP-AG300H
+	Packages: kmod-usb-ohci kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+WZRHPG450H:
+	Buffalo WZR-HP-G450H
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+WZR600DHP:
+	Buffalo WZR-600DHP
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+WHRG301N:
+	Buffalo WHR-G301N
+	Packages: 
+WHRHPG300N:
+	Buffalo WHR-HP-G300N
+	Packages: 
+WHRHPGN:
+	Buffalo WHR-HP-GN
+	Packages: 
+WLAEAG300N:
+	Buffalo WLAE-AG300N
+	Packages: kmod-ledtrig-netdev
+WP543:
+	Compex WP543/WPJ543
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2
+WPE72:
+	Compex WPE72/WPE72NX
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2
+DIR505A1:
+	D-Link DIR-505 rev. A1
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+DIR600A1:
+	D-Link DIR-600 rev. A1
+	Packages: 
+DIR601A1:
+	D-Link DIR-601 rev. A1
+	Packages: 
+DIR601B1:
+	D-Link DIR-601 rev. B1
+	Packages: 
+DIR615C1:
+	D-Link DIR-615 rev. C1
+	Packages: 
+DIR615E4:
+	D-Link DIR-615 rev. E4
+	Packages: 
+DIR825B1:
+	D-Link DIR-825 rev. B1
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev
+DIR825C1:
+	D-Link DIR-825 rev. C1
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+DIR835A1:
+	D-Link DIR-835 rev. A1
+	Packages: kmod-usb-core kmod-usb2
+EWDORIN:
+	Embedded Wireless Dorin Platform
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev kmod-usb-storage kmod-fs-vfat kmod-fs-msdos kmod-fs-ntfs kmod-fs-ext4 kmod-nls-cp437 kmod-nls-cp850 kmod-nls-cp852 kmod-nls-iso8859-1 kmod-nls-utf8
+JA76PF:
+	jjPlus JA76PF
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-hwmon-core kmod-i2c-core kmod-hwmon-lm75
+JA76PF2:
+	jjPlus JA76PF2
+	Packages: 
+JWAP003:
+	jjPlus JWAP0003
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2
+WRT160NL:
+	Linksys WRT160NL
+	Packages: kmod-usb-core kmod-usb2
+WRT400N:
+	Linksys WRT400N
+	Packages: 
+WNDAP360:
+	NETGEAR WNDAP360
+	Packages: 
+WNDR3700:
+	NETGEAR WNDR3700/WNDR3800/WNDRMAC
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev kmod-leds-wndr3700-usb
+WNDR4300:
+	NETGEAR WNDR4300
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev
+WNR2000V3:
+	NETGEAR WNR2000V3
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev
+WNR612V2:
+	NETGEAR WNR612V2
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev
+OM2P:
+	OpenMesh OM2P/OM2P-HS/OM2P-LC
+	Packages: kmod-ath9k om-watchdog
+MR600:
+	OpenMesh MR600
+	Packages: kmod-ath9k om-watchdog
+OPENMESH:
+	OpenMesh products
+	Packages: kmod-ath9k om-watchdog
+UBDEV01:
+	PowerCloud Systems ubdev01 model
+	Packages: 
+DLRTDEV01:
+	PowerCloud Systems dlrtdev01 model
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev
+MZKW04NU:
+	Planex MZK-W04NU
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+MZKW300NH:
+	Planex MZK-W300NH
+	Packages: 
+RW2458N:
+	Redwave RW2458N
+	Packages: kmod-usb-core kmod-usb-ohci kmod-ath9k wpad-mini
+RNXN360RT:
+	Rosewill RNX-N360RT
+	Packages: 
+CAP4200AG:
+	Senao CAP4200AG
+	Packages: kmod-ath9k
+ARCHERC7:
+	TP-LINK Archer C7
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+TLMR10U:
+	TP-LINK TL-MR10U
+	Packages: kmod-usb-core kmod-usb2
+TLMR11U:
+	TP-LINK TL-MR11U
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+TLMR3020:
+	TP-LINK TL-MR3020
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+TLMR3040:
+	TP-LINK TL-MR3040
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+TLMR3220:
+	TP-LINK TL-MR3220
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+TLMR3420:
+	TP-LINK TL-MR3420
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+TLWR703:
+	TP-LINK TL-WR703N
+	Packages: kmod-usb-core kmod-usb2
+TLWR710:
+	TP-LINK TL-WR710N
+	Packages: kmod-usb-core kmod-usb2
+TLWR720:
+	TP-LINK TL-WR720N
+	Packages: kmod-usb-core kmod-usb2
+TLWA701:
+	TP-LINK TL-WA701N/ND
+	Packages: 
+TLWA7510:
+	TP-LINK TL-WA7510N
+	Packages: 
+TLWA801:
+	TP-LINK TL-WA801N/ND
+	Packages: 
+TLWA830:
+	TP-LINK TL-WA830RE
+	Packages: 
+TLWA901:
+	TP-LINK TL-WA901N/ND
+	Packages: 
+TLWDR4300:
+	TP-LINK TL-WDR3500/3600/4300/4310/MW4350R
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+TLWR740:
+	TP-LINK TL-WR740N/ND
+	Packages: 
+TLWR741:
+	TP-LINK TL-WR741N/ND
+	Packages: 
+TLWR743:
+	TP-LINK TL-WR743N/ND
+	Packages: 
+TLWR841:
+	TP-LINK TL-WR841N/ND
+	Packages: 
+TLWR842:
+	TP-LINK TL-WR842N/ND
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+TLWR941:
+	TP-LINK TL-WR941N/ND
+	Packages: 
+TLWR1041:
+	TP-LINK TL-WR1041N
+	Packages: 
+TLWR1043:
+	TP-LINK TL-WR1043N/ND
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+TLWR2543:
+	TP-LINK TL-WR2543N/ND
+	Packages: kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+TEW632BRP:
+	TRENDNet TEW-632BRP
+	Packages: 
+TEW652BRP:
+	TRENDNet TEW-652BRP
+	Packages: 
+TEW673GRU:
+	TRENDNet TEW-673GRU
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2
+TEW712BR:
+	TRENDNet TEW-712BR
+	Packages: 
+UBNTRS:
+	Ubiquiti RouterStation
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2
+UBNTRSPRO:
+	Ubiquiti RouterStation Pro
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2
+UBNTUNIFI:
+	Ubiquiti UniFi AP
+	Packages: 
+UBNTUNIFIOUTDOOR:
+	Ubiquiti UniFiAP Outdoor
+	Packages: 
+UAPPRO:
+	Ubiquiti UniFi AP Pro
+	Packages: 
+UBNT:
+	Ubiquiti Products
+	Packages: kmod-usb-core kmod-usb-ohci kmod-usb2
+ZCN1523H28:
+	Zcomax ZCN-1523H-2-8
+	Packages: 
+ZCN1523H516:
+	Zcomax ZCN-1523H-5-16
+	Packages: 
+NBG_460N_550N_550NH:
+	Zyxel NBG 460N/550N/550NH
+	Packages: kmod-rtc-pcf8563
