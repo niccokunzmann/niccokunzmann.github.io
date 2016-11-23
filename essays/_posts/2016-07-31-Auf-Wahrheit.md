@@ -4,7 +4,7 @@ title: Auf Wahrheit
 language: de
 ---
 
-Weg vom Einodnen der Welt und Teilen durch Nomen gedacht, liegt der Wahrheit der Prozess des Wahrens inne. [Hier merke ich, wie sehr ich in Nomen rede.]  
+Weg vom Einordnen der Welt und Teilen durch Nomen gedacht, liegt der Wahrheit der Prozess des Wahrens inne. [Hier merke ich, wie sehr ich in Nomen rede.]  
 Da "Wahrheit" als ein Prozess das Wahrens gedacht werden kann, fragt ich mich: Wer wahrt?  
 Wahrheit geschieht, wenn Personen wahren.  
 Möchte ich (mir irrelevant) beantworten - wozu wahren? - dann wahrt eine Person einen Gedanken, ein Gefühl, aber auch Gegenstände und Personen. 
