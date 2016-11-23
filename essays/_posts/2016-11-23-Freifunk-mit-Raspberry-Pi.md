@@ -6,7 +6,7 @@ language: de
 
 {% assign images = site.baseurl | append:"/images" | append:page.url %}
 
-[Gebautes Kathleen-Image für Freifunk runteraden.][image]
+[Gebautes Kathleen-Image für Freifunk runterladen.][image]
 
 Warum mache ich Freifunk mit dem Raspberry Pi?
 
@@ -108,8 +108,6 @@ Dieses ist dann im Ordner `firmware/firmwares/brcm2708/default/` erhältlich.
 
 Zum Kompilieren habe ich folgendes gelernt:
 
-
-
 - Es gibt noch andere Packages für WIFI-Sticks: [1][stick2], [2][stick3]
   
 
@@ -136,7 +134,7 @@ Zum Kompilieren habe ich folgendes gelernt:
 Image auf SD-Karte tun
 ----------------------
 
-[Gebautes Kathleen-Image für Freifunk runteraden.][image]
+[Gebautes Kathleen-Image für Freifunk runterladen.][image]
 
 Make machte ich in einer Linux-VM, Bespielen auf **Windows**:
 
@@ -216,7 +214,7 @@ Weiteres
 Danach habe ich den Freifunk-Wizard benutzt und ein `WAN`-Netzwerk einrichtet,
 das über `eth0` als DHCP-Client nach einer IP-Adresse fragt.
     
-- [Gebautes Kathleen-Image für Freifunk runteraden.][image]
+- [Gebautes Kathleen-Image für Freifunk runterladen.][image]
 - [Diskussion][diskussion]
 
 
