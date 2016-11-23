@@ -14,7 +14,7 @@ Warum mache ich Freifunk mit dem Raspberry Pi?
 - Im Haus haben alle Wohnungen einen USB-Anschluss.
 - Der Raspberry Pi verbraucht mit USB-Adapter ca. 1A bei 5V, macht so 8-16€ im Jahr Stromkosten.
 - Ich kompiliere OpenWRT mal selbst.
-- Ich möchte den Raspi vielleicht bei anderen aufstellen und ihnen Freifunk bebringnen.
+- Ich möchte den Raspi vielleicht bei anderen aufstellen und ihnen Freifunk bebringen.
 
 
 Warum der Blogpost:
@@ -32,7 +32,7 @@ einen [Blogpost von 2013][openwrt-raspi-blog]
 gefunden.
 Dieser beschreibt, wie man ein fertiges OpenWRT-Image auf den Raspberry Pi spielt.
 Das hat funktioniert und sagt mir, dass der Raspberry Pi unterstützt wird.
-Allerdings war er veraltet.
+Allerdings ist das Image veraltet.
 
 [Hier][raspi-build]
 habe ich einen offiziellen OpenWRT-Build für den Raspberry Pi gefunden.
@@ -42,10 +42,7 @@ Dann habe ich den Wizard, die Anleitungen und kann es auch anderen schmackhafter
 Das Image selber bauen
 ----------------------
 
-Ich habe ein Image also ein Image selbst gebaut.
-
-Image Erstellen
----------------
+Ich habe also ein Image selbst gebaut.
 
 Über das [Buildbot-Repository](https://github.com/freifunk-berlin/buildbot)
 bin ich zum [Firmware-Repository](https://github.com/freifunk-berlin/firmware)
@@ -60,9 +57,7 @@ Ich habe folgende Änderungen vorgenommen:
 
         CONFIG_TARGET_brcm2708=y
         CONFIG_TARGET_brcm2708_bcm2708=y
-        CONFIG_TARGET_brcm2708_bcm2709=y
         CONFIG_TARGET_brcm2708_bcm2708_Default=y
-        CONFIG_TARGET_brcm2709_bcm2708_Default=y
         CONFIG_KERNEL_RELAY=y
         CONFIG_PACKAGE_MAC80211_DEBUGFS=y
         CONFIG_PACKAGE_MAC80211_MESH=y
@@ -79,6 +74,8 @@ Ich habe folgende Änderungen vorgenommen:
         CONFIG_PACKAGE_kmod-rt5370-lib=m
         CONFIG_PACKAGE_kmod-rt5370-usb=m
 
+    Im der [Diskussion][diskussion] finden sich weitere Hinweise.
+        
 -  Eine Datei `firmware/profiles/brcm2708.profiles` erstellt:
 
         RaspberryPi
