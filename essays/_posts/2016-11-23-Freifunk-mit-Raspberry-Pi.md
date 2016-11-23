@@ -216,7 +216,8 @@ Weiteres
 Danach habe ich den Freifunk-Wizard benutzt und ein `WAN`-Netzwerk einrichtet,
 das über `eth0` als DHCP-Client nach einer IP-Adresse fragt.
     
-[Gebautes Kathleen-Image für Freifunk runteraden.][image]
+- [Gebautes Kathleen-Image für Freifunk runteraden.][image]
+- [Diskussion][diskussion]
 
 
 
@@ -234,3 +235,4 @@ das über `eth0` als DHCP-Client nach einer IP-Adresse fragt.
 [profiles]: http://pastebin.com/WbudpBDJ
 [profiles-kopie]: {{ images }}/profiles.txt
 [stick3]: http://www.linux-hardware-guide.de/2013-09-15-logilink-wl0084b-wlan-nano-adapter-150mbps-usb-2-0
+[diskussion]: https://lists.freifunk-potsdam.de/pipermail/users/2016-November/007037.html
