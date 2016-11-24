@@ -61,26 +61,47 @@ Ich habe folgende Änderungen vorgenommen:
         CONFIG_KERNEL_RELAY=y
         CONFIG_PACKAGE_MAC80211_DEBUGFS=y
         CONFIG_PACKAGE_MAC80211_MESH=y
-        CONFIG_PACKAGE_kmod-ath=m
-        CONFIG_PACKAGE_kmod-ath10k=m
-        CONFIG_PACKAGE_kmod-ath5k=m
-        CONFIG_PACKAGE_kmod-ath9k=m
-        CONFIG_PACKAGE_kmod-ath9k-common=m
-        CONFIG_PACKAGE_kmod-ath9k-htc=m
-        CONFIG_PACKAGE_kmod-rt2800-lib=m
-        CONFIG_PACKAGE_kmod-rt2800-usb=m
-        CONFIG_PACKAGE_kmod-rt2x00-lib=m
-        CONFIG_PACKAGE_kmod-rt2x00-usb=m
-        CONFIG_PACKAGE_kmod-rt5370-lib=m
-        CONFIG_PACKAGE_kmod-rt5370-usb=m
+        CONFIG_PACKAGE_kmod-ath=y
+        CONFIG_PACKAGE_kmod-ath10k=y
+        CONFIG_PACKAGE_kmod-ath5k=y
+        CONFIG_PACKAGE_kmod-ath9k=y
+        CONFIG_PACKAGE_kmod-ath9k-common=y
+        CONFIG_PACKAGE_kmod-ath9k-htc=y
+        CONFIG_PACKAGE_kmod-rt2800-lib=y
+        CONFIG_PACKAGE_kmod-rt2800-usb=y
+        CONFIG_PACKAGE_kmod-rt2x00-lib=y
+        CONFIG_PACKAGE_kmod-rt2x00-usb=y
+
+        CONFIG_DEFAULT_kmod-rt2800-lib=y
+        CONFIG_DEFAULT_kmod-rt2800-usb=y
+        CONFIG_DEFAULT_kmod-rt2x00-lib=y
+        CONFIG_DEFAULT_kmod-rt2x00-usb=y
+
+
 
     Im der [Diskussion][diskussion] finden sich weitere Hinweise.
         
--  Eine Datei `firmware/profiles/brcm2708.profiles` erstellt:
+- Eine Datei `firmware/profiles/brcm2708.profiles` erstellt:
 
         RaspberryPi
 
-- Dei Datei `firmware/config.mk` darauf geändert:
+- Eine Datei `firmware/packages/default_pi.txt` erstellt.
+  Diese ist eine Kopie der Datei `firmware/packages/default.txt`.
+  Darin stehen die Packages und Treiber, die verwendet werden sollen.
+  Dadurch kann man dafür sorgen, dass der Teiber für den WIFI-Stick schon
+  in OpenWRT vorhanden ist.
+  Folgendes habe ich an den Inhalt der `default.txt` angehängt:
+
+        # usb WIFI Sticks
+        kmod-usb-core
+        kmod-usb2-kmod-rt2800-lib
+        kmod-rt2800-usb
+        kmod-rt2x00-lib
+        kmod-rt2x00-usb
+  
+  Den gesamten Inhalt der Datei kann man [hier][default_pi] sehen.
+        
+- Die Datei `firmware/config.mk` in der Zeile mit `TARGET=` geändert:
 
         # default parameters for Makefile
         SHELL:=$(shell which bash)
@@ -93,13 +114,15 @@ Ich habe folgende Änderungen vorgenommen:
     Das muss man nicht machen und kann auch die Parameter verwenden, die in der
     Development-Dokumentation stehen:
     
-        make TARGET=brcm2708 PACKAGES_LIST_DEFAULT=default
+        make TARGET=brcm2708 PACKAGES_LIST_DEFAULT=default_pi
 
-Dann konnte ich mit 4 genutzen Kernen und Debug-Output das Image bauen:
+Dann konnte ich das Image bauen, mit 4 genutzen Kernen (`-j4`),
+Debug-Output (`V=s`)
+und den zusätzlichen Treibern (`PACKAGES_LIST_DEFAULT=default_pi`):
 
-    make -j4 V=s
+    make -j4 V=s PACKAGES_LIST_DEFAULT=default_pi
     
-Dieses ist dann im Ordner `firmware/firmwares/brcm2708/default/` erhältlich.
+Dieses ist dann im Ordner `firmware/firmwares/brcm2708/default_pi/` erhältlich.
 
 ### Gelerntes
 
@@ -231,3 +254,4 @@ das über `eth0` als DHCP-Client nach einer IP-Adresse fragt.
 [profiles-kopie]: {{ images }}/profiles.txt
 [stick3]: http://www.linux-hardware-guide.de/2013-09-15-logilink-wl0084b-wlan-nano-adapter-150mbps-usb-2-0
 [diskussion]: https://lists.freifunk-potsdam.de/pipermail/users/2016-November/007037.html
+[default_pi]: {{ images }}/default_pi.txt
