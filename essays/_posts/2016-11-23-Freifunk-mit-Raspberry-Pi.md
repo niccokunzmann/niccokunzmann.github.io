@@ -48,7 +48,7 @@ Ich habe also ein Image selbst gebaut.
 bin ich zum [Firmware-Repository](https://github.com/freifunk-berlin/firmware)
 gekommen.
 
-Dieses hat eine [Development-Section][fff-dev]
+Dieses hat eine [Development-Section][fff-dev],
 in der alles steht, wie man die Firmware baut.
 
 Ich habe folgende Änderungen vorgenommen:
@@ -150,6 +150,8 @@ Zum Kompilieren habe ich folgendes gelernt:
          
     bringen nichts. Das sind nur Variablen.
 
+- In der default_pi.txt kann ich zusätzliche treiber installieren, sodass ich
+  diese nicht extra installieren brauche.
 
 Image auf SD-Karte tun
 ----------------------
@@ -179,8 +181,35 @@ Die IP-Adresse, die nach dem Boot am Ethernet-Port anliegt, ist
 Dorthin konnte ich mich verbinden, nachdem ich mir die IP `192.168.42.2`
 gegeben hatte.
 
+OpenVPN automatisch starten
+---------------------------
+
+Ich habe festgestellt, dass OpenVPN nach dem Neustart immer aus war.
+Man kann einstellen, dass es automatisch gestartet wird.
+
+Das macht folgender Befehl ([Quelle][openvpn]):
+
+    /etc/init.d/openvpn enable
+
+Weiteres
+--------
+
+Danach habe ich den Freifunk-Wizard benutzt und ein `WAN`-Netzwerk einrichtet,
+das über `eth0` als DHCP-Client nach einer IP-Adresse fragt.
+    
+- [Gebautes Kathleen-Image für Freifunk runterladen.][image]
+- [Diskussion][diskussion]
+
+Purgatory
+=========
+
+Zu schade zum Löschen aber auch nicht nützlich:
+
 WLAN-Stick installieren
 -----------------------
+
+**Erledigt: Kann man das Package auch schon gleich mitinstallieren, wenn man
+das Image baut?** - Ja, das geschieht oben schon deswegen brauchen wir diese Section nicht mehr.
 
 Um den Logilink-Wifi Stick mit Namen WL0084B für OpenWRT zu installieren,
 habe ich die [packages][packages] entpackt mit einem HTTP-Server geserved:
@@ -215,27 +244,8 @@ Jetzt konnte ich die Packages vom [Tutorial][adapter] installieren:
 Die packages `kmod-rt2800-lib`, `kmod-rt2800-usb`, `kmod-rt2x00-lib` und 
 `kmod-rt2x00-usb` kann man sicher auch über die Weboberfläche installieren.
 
-**TODO**: Kann man das Package auch schon gleich mitinstallieren, wenn man
-das Image baut?
 
-OpenVPN automatisch starten
----------------------------
 
-Ich habe festgestellt, dass OpenVPN nach dem Neustart immer aus war.
-Man kann einstellen, dass es automatisch gestartet wird.
-
-Das macht folgender Befehl ([Quelle][openvpn]):
-
-    /etc/init.d/openvpn enable
-
-Weiteres
---------
-
-Danach habe ich den Freifunk-Wizard benutzt und ein `WAN`-Netzwerk einrichtet,
-das über `eth0` als DHCP-Client nach einer IP-Adresse fragt.
-    
-- [Gebautes Kathleen-Image für Freifunk runterladen.][image]
-- [Diskussion][diskussion]
 
 
 
