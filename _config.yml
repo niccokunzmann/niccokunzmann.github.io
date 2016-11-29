@@ -2,4 +2,4 @@ url: https://niccokunzmann.github.io
 permalink: /blog/:year-:month-:day/:title
 sourcecode:
   repository: "https://github.com/niccokunzmann/niccokunzmann.github.io"
-  root: "https://github.com/niccokunzmann/niccokunzmann.github.io/tree/master"
+  root: "https://github.com/niccokunzmann/niccokunzmann.github.io/edit/master"
