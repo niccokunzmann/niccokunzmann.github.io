@@ -42,7 +42,7 @@ Im letzten Post habe ich das FF-OpenWRT für den Raspberry Pi gebaut.
 Deswegen ging das Bauen für den Zsun-Stick recht schnell.
 ([Einen Commit zu cherry-picken][commit] hat mich Stunden gekostet, weil ich einen Patch mergen musste.)
 
-Das gebaute kann man hier finden:
+Das Gebaute kann man hier finden:
 
 - Zum ersten Flashen die
   - [SD100-update.tar.gz][first-flash] - mit dieser Datei flasht man das
@@ -53,7 +53,7 @@ Das gebaute kann man hier finden:
 - Wenn man also schon OpenWRT auf dem Stick hat, kann man damit zu Freifunk
   upgraden:
   - [kathleen-0.2.0-beta+9227220-zsun-sdreader-sysupgrade.bin][sysupgrade]
-- Die Dateien gitb es auch noch, mit [zsun-fw-tools][formater] kann man daraus
+- Die Dateien gibt es auch noch, mit [zsun-fw-tools][formater] kann man daraus
   die [SD100-update.tar.gz][first-flash] machen:
   - [kathleen-0.2.0-beta+9227220-zsun-sdreader-kernel.bin][kernel]
   - [kathleen-0.2.0-beta+9227220-zsun-sdreader-rootfs-squashfs.bin][rootfs]
@@ -64,6 +64,28 @@ Bewertung
 Der Zsun-Stick hab 18db Funkleisung, andere Router haben Antennen und 21db.
 Der Stick ist also schwächer.
 
+Selber bauen
+------------
+
+Wenn man das Zsun-Image selbst bauen möchte, kann man folgendes tun:
+
+    git clone https://github.com/niccokunzmann/firmware.git
+    cd firmware
+    git checkout zsun
+    make
+    ./create-zsun-factory-update.sh
+
+- Nach `make` gibt es den Ordner `firmware/firmwares/ar71xx/default`
+  mit diesen Dateien:
+
+  - [kathleen-0.2.0-beta+9227220-zsun-sdreader-kernel.bin][kernel],
+  - [kathleen-0.2.0-beta+9227220-zsun-sdreader-rootfs-squashfs.bin][rootfs]
+  - [kathleen-0.2.0-beta+9227220-zsun-sdreader-sysupgrade.bin][sysupgrade]
+
+- Durch `./create-zsun-factory-update.sh` entsteht die Datei für das 
+  [Tutorial des Freifunk Dresden][ffdresden]:
+  
+  - [SD100-update.tar.gz][first-flash]
 
 [image-splash]: {{ images }}/zsun-splash.jpg
 [ffdresden]: http://wiki.freifunk-dresden.de/index.php/Zsun_Wifi-Kartenleser
