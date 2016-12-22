@@ -32,7 +32,7 @@ Please choose the version of your liking.
   He is some kind of god
 ( He is (kind of) a god )
   and he should be dismissed,
-  'case there shall be only one god around!
+  'cause there shall be only one god around!
   
   If he knows when you are sleeping
   And he knows when you're awake
