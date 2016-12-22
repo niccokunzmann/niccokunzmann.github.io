@@ -43,6 +43,6 @@ Please choose the version of your liking.
   Be telling a lie
   Garble your heart and
   Make your feelings die
-  'cause Santa Claus will reward it, no doubt!
+  'cause Santa Claus rewards it, no doubt!
 
 ```

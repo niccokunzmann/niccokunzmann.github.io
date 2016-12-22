@@ -49,7 +49,7 @@ die sich an anderen rächen.
 Em C G D
 
     Em            C
-Für Frieden und dir Menschlichkeit
+Für Frieden und die Menschlichkeit
 G           D
 überall und alle Zeit!
 
