@@ -41,7 +41,7 @@ Please choose the version of your liking.
   
   You better straight out
   Be telling a lie
-  Garble your heart and
+  Garble your heart,
   Make your feelings die
   'cause Santa Claus rewards it, no doubt!
 
