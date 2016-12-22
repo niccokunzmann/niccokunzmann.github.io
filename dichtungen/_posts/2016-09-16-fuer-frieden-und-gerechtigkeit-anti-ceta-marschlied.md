@@ -16,7 +16,7 @@ Wir laufen für den Frieden
 im Norden und Süden
 
 Em              C
-Wir sind für Gerechtigkeit
+Wir sind für die Menschlichkeit
      G
 denn sind wir's nicht,
      D
@@ -31,7 +31,7 @@ Wenn ich éinen Baum neu pflanze
          G            D
 und zehn and're niederholze,
      Em           C
-dann ist diese Bilianz -
+dann ist diese Bilianz (nun)
 G              D
 wirklich keine stolze.
 
@@ -49,7 +49,7 @@ die sich an anderen rächen.
 Em C G D
 
     Em            C
-Für Frieden und Gerechtigkeit
+Für Frieden und dir Menschlichkeit
 G           D
 überall und alle Zeit!
 
@@ -85,7 +85,7 @@ die gern Milliarden hätten.
     Em                C
 Für mich ist hier nur ein's wichtig
 G               D
-und zwar die Gerechtigkeit.
+und zwar die Menschlichkeit.
 Em                   C
 Sind wir nicht immer vorsichtig,
 G                  D
@@ -96,7 +96,7 @@ dann nimmt man sie uns schon bald.
 Em C G D
 
     Em            C
-Für Frieden und Gerechtigkeit
+Für Frieden und die Menschlichkeit
 G           D
 überall und alle Zeit!
 
@@ -122,7 +122,7 @@ Es gibt diese Tretmühlen und wir können sie anhalten!
 Em C G D
 
     Em            C
-Für Frieden und Gerechtigkeit
+Für Frieden und die Menschlichkeit
 G           D
 überall und alle Zeit!
 
@@ -167,10 +167,15 @@ Wir laufen für den Frieden
    G          D
 im Norden und Süden
 
+    Em          C
+Im Osten und im Westen
+G               D
+geben wir's zum Besten:
+
 Em              C
-Wir sind für Gerechtigkeit
+Wir sind für die Menschlichkeit
      G
-denn sind wir's nicht,
+und sind wir's nicht,
      D
 dann rächt sich's bald.
 
