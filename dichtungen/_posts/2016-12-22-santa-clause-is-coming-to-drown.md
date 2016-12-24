@@ -22,7 +22,7 @@ Please choose the version of your liking.
   you better just hide
 ( -   "    - ignore )
   what is inside
-  'cause Sante Claus will punish it out!
+  'cause Santa Claus will punish it out!
 (                                no doubt! )
 (                                around! )
 
@@ -31,8 +31,8 @@ Please choose the version of your liking.
 ( That he's making a list )
   He is some kind of god
 ( He is (kind of) a god )
-  and he should be dismissed,
-  'cause there shall be only one god around!
+  and he should be dismissed:
+  there shall be only one god around!
   
   If he knows when you are sleeping
   And he knows when you're awake
