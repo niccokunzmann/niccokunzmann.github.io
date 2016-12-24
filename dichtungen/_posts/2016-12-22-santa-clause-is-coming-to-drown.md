@@ -29,9 +29,9 @@ Please choose the version of your liking.
   If you believe in this -
   That he makes a list,
 ( That he's making a list )
-  He is some kind of god.
-( He is (kind of) a god )
-  Then he should be dismissed:
+  He's some kind of god.
+( He's (kind of) a god. )
+  Then, he should be dismissed:
   There shall be only one god around!
   
   If he knows when you are sleeping,
