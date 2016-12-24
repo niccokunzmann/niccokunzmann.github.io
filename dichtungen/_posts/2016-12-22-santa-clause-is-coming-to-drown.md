@@ -19,9 +19,9 @@ Please choose the version of your liking.
 
   You better watch out
   You better not cry
-  you better just hide
+  You better just hide
 ( -   "    - ignore )
-  what is inside
+  What is inside
   'cause Santa Claus will punish it out!
 (                                no doubt! )
 (                                around! )
