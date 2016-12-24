@@ -27,12 +27,12 @@ Please choose the version of your liking.
 (                                around! )
 
   If you believe in this -
-  That he makes a list
+  That he makes a list,
 ( That he's making a list )
-  He is some kind of god
+  He is some kind of god.
 ( He is (kind of) a god )
-  and he should be dismissed:
-  there shall be only one god around!
+  Then he should be dismissed:
+  There shall be only one god around!
   
   If he knows when you are sleeping,
   And he knows when you're awake,
