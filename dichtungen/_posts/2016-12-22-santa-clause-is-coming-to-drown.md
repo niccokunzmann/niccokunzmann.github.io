@@ -34,9 +34,9 @@ Please choose the version of your liking.
   and he should be dismissed:
   there shall be only one god around!
   
-  If he knows when you are sleeping
-  And he knows when you're awake
-  He is working for the NSA
+  If he knows when you are sleeping,
+  And he knows when you're awake,
+  He's working for the NSA
   And much more is at stake.
   
   You better straight out
