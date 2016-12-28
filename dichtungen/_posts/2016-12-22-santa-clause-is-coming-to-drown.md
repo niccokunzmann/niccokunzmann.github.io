@@ -22,10 +22,10 @@ Please choose the version of your liking.
        C
   You better not cry
        G
-  you better just hide
+  You better just hide
 ( -   "    - ignore )
     C
-  what is inside
+  What is inside
           G      Em        Am    D7 G
   'cause Santa Claus will punish it out!
 (                                no doubt! )
@@ -36,10 +36,10 @@ Please choose the version of your liking.
   That he makes a list
 ( That he's making a list )
               G
-  He is some kind of god
-( He is (kind of) a god )
+  He's some kind of god
+( He's (kind of) a god )
           C
-  and he should be dismissed:
+  Then, he should be dismissed:
           G       Em   Am      D7 G
   There shall be only one god around!
   
@@ -48,7 +48,7 @@ Please choose the version of your liking.
          Dm         G      C
   And he knows when you're awake
         Em      A       D
-  He is working for the NSA
+  He's working for the NSA
       Em        A     D
   And much more is at stake.
   
