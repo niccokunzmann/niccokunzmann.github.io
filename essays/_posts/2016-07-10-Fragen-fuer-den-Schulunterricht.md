@@ -9,3 +9,4 @@ Diese Fragen lassen sich mit Schulwissen lösen. Allerdings sind sie nicht so ge
 - Wie weit kann man von einer Schaukel abspringen. (Mathe/Physik)
 - Wie hoch kann man mit einer Schaukel Schaukeln? - ganz andere Frage
 - Du kaufst 100 Orangen bei deiner zweitliebsten Kaufhalle. Du isst jeden Tag eine. Am ersten Tag werden fünf schlecht, am zweiten drei und am dritten vier. Wie lange kannst du erwarten, Orangen zu essen?
+- Drei Leute wollen ein viereckiges Bett drehen. Wo müssen sie anfassen, damit alle das selbe Gewicht tragen?
