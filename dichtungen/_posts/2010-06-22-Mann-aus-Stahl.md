@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mann aus Stahl
-language: en
+language: de
 tracks:
 - "Mann aus Stahl.ogg"
 - "Mann aus Stahl.mp3"
