@@ -4,7 +4,7 @@ title: Upthinking
 language: en
 ---
 
-You may know the melody from the song ["Uprising" by Muse]().
+You may know the melody from the song ["Uprising" by Muse](https://www.youtube.com/watch?v=w8KQmps-Sog).
 The question is: What is left after the uprising?
 A division of the people?
 Unity instead of division. But where to begin?
