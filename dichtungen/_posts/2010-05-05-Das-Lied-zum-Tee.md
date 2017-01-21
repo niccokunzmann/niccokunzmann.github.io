@@ -49,11 +49,8 @@ und ganz von alleine von da auch nicht weg geht.
 Ein kalter Tee, mein Wegbegleiter
 
 Und so weiter.
-
-
 ```
 
----
 
 
 
