@@ -2,6 +2,9 @@
 layout: post
 title: Für Frieden und Gerechtigkeit
 language: de
+tracks:
+- ceta-demo-lied.ogg
+- ceta-demo-lied.mp3
 ---
 
 Dieses Lied entstand für die Anti-CETA-Demo am 17. September in Berlin,
