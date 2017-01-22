@@ -2,6 +2,9 @@
 layout: post
 title: Santa Clause is coming to drown - between the lines
 language: en
+tracks:
+- "Santa Claus is coming to drown.ogg"
+- "Santa Claus is coming to drown.mp3"
 ---
 
 Many popular songs are shaped through the language of punishment, reward,
