@@ -13,6 +13,8 @@ A division of the people?
 Unity instead of division. But where to begin?
 Right here, right now, in your head.
 
+---
+
 ```
 [1]
 Dm

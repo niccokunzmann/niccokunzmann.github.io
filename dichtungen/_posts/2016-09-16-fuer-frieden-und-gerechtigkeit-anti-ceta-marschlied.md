@@ -10,6 +10,8 @@ tracks:
 Dieses Lied entstand für die Anti-CETA-Demo am 17. September in Berlin,
 die in vielen deutschen Städten gleichzeitig stattfand.
 
+---
+
 ```
 
 [INTRO]

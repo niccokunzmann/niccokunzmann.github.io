@@ -18,6 +18,8 @@ This is a remake of the song ["Santa Claus is coming to town"](http://www.metrol
 As this is a draft, you will find lines which are half.
 Please choose the version of your liking.
 
+---
+
 ```
 
        G
