@@ -2,6 +2,9 @@
 layout: post
 title: Upthinking
 language: en
+tracks:
+- Upthinking.ogg
+- Upthinking.mp3
 ---
 
 You may know the melody from the song ["Uprising" by Muse](https://www.youtube.com/watch?v=w8KQmps-Sog).
