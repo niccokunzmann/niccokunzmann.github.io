@@ -20,7 +20,7 @@ Right here, right now, in your head.
 Dm
 Your biggest enemy is not outside
 Gm                            F
-- It's what the Nazis thaught with delight.
+- It's what the Nazis taught with delight.
 A
 Your greatest enemy your biggest threat
    Gm                   F
