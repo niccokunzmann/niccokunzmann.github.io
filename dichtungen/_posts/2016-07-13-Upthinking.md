@@ -16,67 +16,68 @@ Right here, right now, in your head.
 ---
 
 ```
-[1]
-Dm
-Your biggest enemy is not outside
-Gm                            F
-- It's what the Nazis taught with delight.
-A
-Your greatest enemy your biggest threat
-   Gm                   F
-Is your own thought within your head.
-
-Dm
-It's your opponent you did not choose,
-Gm                     F
-It is the language you learned to use,
-A
-It is the power of your own mind
-     Gm                     F
-That keeps you down and the truth confined.
-
-Dm
-Come on!
-
-
-[REFRAIN]
-Dm
-Our language enslaves us
-
-Our laws divide us
-
-Let fall the prison and your chain.
-
-Rise in love like the new day.
-
-Come on!
-
-
-[2]
-The words you choose choose the side for you.
-
-The other human is like you:
-
-Feels the anger that you toss,
-
-Feels all the love that comes across.
-
-
-Come on!
-
-
-The other person is with you
-
-And it matters what you do
-
-Let the love light shine through you!
-
-Let your heart speak as you once knew!
-
-
-Come on!
-
-[REFRAIN]
+ [1]
+ Dm
+ Your biggest enemy is not outside
+ Gm                            F
+ - It's what the Nazis  taught with delight.
+(                Matrix                     )
+ A
+ Your greatest enemy your biggest threat
+    Gm                   F
+ Is your own thought within your head.
+ 
+ Dm
+ It's your opponent you did not choose,
+ Gm                     F
+ It is the language you learned to use,
+ A
+ It is the power of your own mind
+      Gm                     F
+ That keeps you down and the truth confined.
+ 
+ Dm
+ Come on!
+ 
+ 
+ [REFRAIN]
+ Dm
+ Our language enslaves us
+ 
+ Our laws divide us
+ 
+ Let fall the prison and your chain.
+ 
+ Rise in love like the new day.
+ 
+ Come on!
+ 
+ 
+ [2]
+ The words you choose choose the side for you.
+ 
+ The other human is like you:
+ 
+ Feels the anger that you toss,
+ 
+ Feels all the love that comes across.
+ 
+ 
+ Come on!
+ 
+ 
+ The other person is with you
+ 
+ And it matters what you do
+ 
+ Let the love light shine through you!
+ 
+ Let your heart speak as you once knew!
+ 
+ 
+ Come on!
+ 
+ [REFRAIN]
 
 ```
 
