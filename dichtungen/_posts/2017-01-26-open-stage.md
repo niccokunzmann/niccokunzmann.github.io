@@ -61,7 +61,7 @@ Dort habe ich gesungen und gesprochen.
 > sogenannte Freihandelsabkommen.
 > In fünf deutschen Städten gingen Menschen an einem Tag auf die Straße.
 > 
-> Es hat viele Namen. Ich nenne es mal "Anti-Ceta-Marsch-Song".
+> Das Lied hat viele Namen. Ich nenne es mal "Anti-Ceta-Marsch-Song".
 >
 > [Für Frieden und Gerechtigkeit]({{ site.baseurl}}/blog/2016-09-16/fuer-frieden-und-gerechtigkeit-anti-ceta-marschlied)
 >
