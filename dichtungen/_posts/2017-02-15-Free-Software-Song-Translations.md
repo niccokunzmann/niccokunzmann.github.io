@@ -52,6 +52,7 @@ Deutsch
 
 English
 -------
+[english]: #english
 
 So you know what is the translation of what, here is the version from
 [Wikipedia](https://en.wikipedia.org/wiki/Free_Software_Song):
@@ -122,5 +123,23 @@ E|-------|-------|-------|-------|-------|-------|
 Lizenz
 ------
 
-Je nach Jurisdiktion ist das Gemeinfrei oder [CC0](https://creativecommons.org/choose/zero/).
+The following license applies to the content of this site except the [English original][english].
+Die folgende Lizenz für Gemeinfreiheit bezieht sich auf den Inhalt der Seite bis auf das [englische Original][english].
 
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="http://niccokunzmann.github.io/blog/2017-02-15/Free-Software-Song-Translations">
+    <span property="dct:title">Nicco Kunzmann</span></a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">Free Software Song Translations</span>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="DE" about="http://niccokunzmann.github.io/blog/2017-02-15/Free-Software-Song-Translations">
+  Germany</span>.
+</p>
