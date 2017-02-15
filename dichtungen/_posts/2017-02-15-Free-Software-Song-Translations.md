@@ -134,7 +134,7 @@ Die folgende Lizenz für Gemeinfreiheit bezieht sich auf den Inhalt der Seite bi
   <br />
   To the extent possible under law,
   <a rel="dct:publisher"
-     href="http://niccokunzmann.github.io/blog/2017-02-15/Free-Software-Song-Translations">
+     href="http://niccokunzmann.github.io/">
     <span property="dct:title">Nicco Kunzmann</span></a>
   has waived all copyright and related or neighboring rights to
   <span property="dct:title">Free Software Song Translations</span>.
