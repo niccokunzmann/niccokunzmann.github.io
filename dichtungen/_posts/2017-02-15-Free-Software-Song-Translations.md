@@ -34,17 +34,17 @@ Deutsch
  Tausch nicht Freihet für Bequemlichkeit.
  Werd nicht versklavt, Hacker, werd nicht versklavt.
  Brich die Fesseln der Systeme,
- Mach uns frei, hacker, mach uns frei.
+ Mach uns frei, Hacker, mach uns frei.
  
  Verbreitet mit uns freie Software,
  Teilen ist gut, Hacker, teilen ist gut.
  Nehmt euch Zeit und helft einander,
- Kommt zusamm', Hacker, kommt zusammen'.
+ Kommt zusamm', Hacker, kommt zusammen.
  
  Alle, die für freies Wissen sind,
  Erhebt euch, Hacker, erhebt euch.
  Jetzt ist [die] Zeit fürs Miteinander.
- Steht vereint, hacker, steht vereint.
+ Steht vereint, Hacker, steht vereint.
  
  [REFARIN]
 
@@ -100,7 +100,7 @@ Guitar Gitarre
 --------------
 
 ```
-  Join   share   you     free    you     free
+  Join    share   you     free    you     free
 E|-------|-------|-------|-------|-------|-------|
 H|3-10---|0-10---|------0|1--003-|-------|3-10---|
 G|-----2-|----20-|0--2---|-------|2--2---|-------|
@@ -109,7 +109,7 @@ A|-------|-------|-------|-------|-------|-------|
 E|-------|-------|-------|-------|-------|-------|
   D-CB-A- B-CBAG- G--A--B C--B-BD A--A--- D-CB---
 
-  Join   share   you     free    you     free
+  Join    share   you     free    you     free
 E|-------|-------|-------|-------|-------|-------|
 H|3-10---|0-10---|------0|1--0-03|-------|-------|
 G|-----2-|----20-|0--2---|-------|2--2---|2------|
