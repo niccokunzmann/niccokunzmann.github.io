@@ -51,6 +51,30 @@ gekommen.
 Dieses hat eine [Development-Section][fff-dev],
 in der alles steht, wie man die Firmware baut.
 
+Meine Änderungen
+----------------
+
+Die Ändernugen, die ich gemacht habe, sind verfügbar auf
+[niccokunzmann/firmware auf dem RaspberryPi branch][pi_branch].
+Man kommt so ran:
+
+    git clone https://github.com/niccokunzmann/firmware.git -b RaspberryPi
+
+Es gibt nur [einen Commit][pi_commit], den ich gemacht habe.
+Dadurch sind die Änderungen im nächsten Abschnitt alle zu einem Commit
+zusammengefasst, den man sich für neue Kathleen-Versionen holen kann.
+So könnte es aussehen (ungesteted, bitte Feedback):
+
+    git clone https://github.com/freifunk-berlin/firmware.git
+    cd firmware
+    git fetch https://github.com/niccokunzmann/firmware.git 
+    git cherry-pick 6be684ff9460cb8370d6e87d5d0b5f0d1d984a56
+
+Danach kann man den üblichen [Build-Prozess][build_process] anstoßen.
+
+Änderungen Selber machen
+------------------------
+
 Ich habe folgende Änderungen vorgenommen:
 
 - Eine Datei `firmware/configs/brcm2708.config` erstellt:
@@ -265,3 +289,6 @@ Die packages `kmod-rt2800-lib`, `kmod-rt2800-usb`, `kmod-rt2x00-lib` und
 [stick3]: http://www.linux-hardware-guide.de/2013-09-15-logilink-wl0084b-wlan-nano-adapter-150mbps-usb-2-0
 [diskussion]: https://lists.freifunk-potsdam.de/pipermail/users/2016-November/007037.html
 [default_pi]: {{ images }}/default_pi.txt
+[pi_branch]: https://github.com/niccokunzmann/firmware/tree/RaspberryPi
+[pi_commit]: https://github.com/niccokunzmann/firmware/commit/6be684ff9460cb8370d6e87d5d0b5f0d1d984a56
+[build_process]: https://github.com/niccokunzmann/firmware/tree/RaspberryPi#development
