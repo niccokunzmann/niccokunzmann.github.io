@@ -2,6 +2,8 @@
 layout: post
 title: Open Stage @ HPI
 language: de
+tracks:
+- "Nicco Kunzmann Open Stage 2017.mp3"
 ---
 
 Am 26.Januar 2017 war die Open Stage am HPI.
