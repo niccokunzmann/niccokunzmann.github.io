@@ -6,6 +6,20 @@ language: de
 
 Am 26.Januar 2017 war die Open Stage am HPI.
 Dort habe ich gesungen und gesprochen.
+Hier ist das Video mit Untertiteln:
+
+<center>
+  <!-- https://github.com/pculture/unisubs/wiki/Embed-Code-Usage-Guide -->
+  <script type="text/javascript" src='https://amara.org/embedder-iframe'>
+  </script>
+  <div class="amara-embed" data-height="370px" data-width="620px"
+       data-url="http://www.youtube.com/watch?v=RerT6iCosSk"
+       data-initial-language="de" data-show-subtitles-default="true">
+  </div>
+</center>
+
+
+Hier ist das Script:
 
 ---
 

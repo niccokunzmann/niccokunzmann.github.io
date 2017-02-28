@@ -18,7 +18,7 @@ die in vielen deutschen Städten gleichzeitig stattfand.
 Em                 C
 Wir laufen für den Frieden
    G          D
-im Norden und Süden
+Im Norden und Süden
 
 Em              C
 Wir sind für die Menschlichkeit
@@ -63,7 +63,7 @@ Em C G D
 
 [STROPHE 2]
     Em                C
-Wem nützt denn dieses Ceta?
+Wem nützt denn dieses CETA?
     G                D
 Das sind ja wohl die Reichen,
          Em          C         G          D
