@@ -7,8 +7,9 @@ footer {
   background-color: black;
   color: white;
   overflow: hidden;
-  padding: 1em;
+  padding-top: 1em;
   margin-top: 1em;
+  padding-bottom: 1em;
 }
 
 footer img {
@@ -18,4 +19,29 @@ footer img {
 
 footer a {
   color: white;
+}
+
+footer .right {
+  text-align: right;
+  margin-top: 0.5em;
+  width: 32%;
+  display: inline-block;
+}
+
+footer .middle {
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+}
+
+footer .left {
+  text-align: left;
+  width: 32%;
+  display: inline-block;
+}
+
+footer .space {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
 }
