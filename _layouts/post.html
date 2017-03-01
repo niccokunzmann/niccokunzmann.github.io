@@ -66,15 +66,15 @@
       <!-- show post -->
       <h1>{{ page.title | escape }}</h1>
       {{ page.content }}
-	  {% if page.comic %}
-		  {% assign images = site.baseurl | append:"/images" | append:page.url %}
-		  {% for i in (1..page.comic.pages) %}
-			{% assign image = images | append: "/" | append: i | append: ".jpg" %}
-			<hr/>
-			<a href="{{ image | escape }}"><img src="{{ image | escape }}" alt="{{ i }}"></a>
-		  {% endfor %}
-		  <hr/>
-	  {% endif %}
+      {% if page.comic %}
+          {% assign images = site.baseurl | append:"/images" | append:page.url %}
+          {% for i in (1..page.comic.pages) %}
+            {% assign image = images | append: "/" | append: i | append: ".jpg" %}
+            <hr/>
+            <a href="{{ image | escape }}"><img src="{{ image | escape }}" alt="{{ i }}"></a>
+          {% endfor %}
+          <hr/>
+      {% endif %}
     </main>
     {% include footer.html %}
   </body>
