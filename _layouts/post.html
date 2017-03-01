@@ -40,7 +40,7 @@
           <a href="{{ previous_post.url | escape }}" class="previous-post">&lt;&lt;</a>
         {% endif %}
         <!-- show audio element if there is one -->
-        {% if page.tracks and page.tracks.first != "none" ) %}
+        {% if page.tracks and page.tracks.first != "none" %}
           <div class="track">
             <audio controls id="track">
               {% for track in page.tracks %}
