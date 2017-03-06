@@ -50,9 +50,11 @@ Dazu gibt es den [Blogpost von OpenWrt][blog].
 Folgende Kombinationen ergeben sich:
 
 1. Das [Freifunk-Factoryimage][factory] kann verwendet werden.
+   IP: `192.168.42.1`
 2. Sollte es nicht angenommen werden, was bei mir der Fall war, kann zuerst das
    [OpenWrt-Image][openwrt-image] verwendet werden und dann das
    [Freifunk-Sysupgrade-Image][sysupgrade].
+   IP: `192.168.1.1` danach `192.168.42.1`.
 
 Probleme
 --------
@@ -65,8 +67,9 @@ Probleme
   Flashspeicher zur Verfügung stehen. [OpenVPN reduzieren][ovpn]?
 - [Privater Access Point wird verlangt][pap]:  
   Der Einrichtungsassistent braucht verlangt die Eingabe eines privaten
-  Access-Points. Vielleicht kann man den Assistenten nicht bis zum Ende
-  benutzen.
+  Access-Points.
+  Vielleicht kann man den Assistenten nicht bis zum Ende benutzen und muss
+  [auf Werkseinstellungen zurücksetzen][reset].
 
 [blog]: https://wiki.openwrt.org/toh/unbranded/a5-v11
 [blog-problems]: https://wiki.openwrt.org/toh/unbranded/a5-v11#known_device-specific_problems
@@ -78,3 +81,4 @@ Probleme
 [ovpn]: https://github.com/freifunk-berlin/firmware/issues/428
 [pap]: https://github.com/freifunk-berlin/firmware/issues/427
 [ali]: https://www.aliexpress.com/w/wholesale-3G%252F4G-Router.html?initiative_id=SB_20161128132303&site=glo&groupsort=1&SortType=price_asc&g=y&SearchText=3G%2F4G+Router
+[reset]: https://wiki.openwrt.org/doc/howto/generic.failsafe#wiping_jffs2_file_system_factory_reset_to_default_config
