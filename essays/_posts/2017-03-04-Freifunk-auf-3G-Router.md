@@ -13,6 +13,12 @@ Der Router ist [billig][ali], 8USD.
 wie man OpenWrt auf den A5-V11 3G/4G Router flasht.
 Das heißt: Freifunk mit dem Router ist möglich.
 
+Status
+------
+
+Das Image funktioniert für die Besucher des Freifunks.
+Admins sehen keinen OLSR-Status.
+
 Implementierung
 ---------------
 
