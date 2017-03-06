@@ -8,6 +8,7 @@ language: de
 
 ![]({{ images }}/router.jpg)
 
+Der Router ist [billig][ali], 8USD.
 [Dieser Blogpost von OpenWrt][blog] beschreibt,
 wie man OpenWrt auf den A5-V11 3G/4G Router flasht.
 Das heißt: Freifunk mit dem Router ist möglich.
@@ -76,3 +77,4 @@ Probleme
 [pull-request]: https://github.com/freifunk-berlin/firmware/pull/430
 [ovpn]: https://github.com/freifunk-berlin/firmware/issues/428
 [pap]: https://github.com/freifunk-berlin/firmware/issues/427
+[ali]: https://www.aliexpress.com/w/wholesale-3G%252F4G-Router.html?initiative_id=SB_20161128132303&site=glo&groupsort=1&SortType=price_asc&g=y&SearchText=3G%2F4G+Router
