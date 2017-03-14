@@ -17,7 +17,16 @@ Status
 ------
 
 Das Image funktioniert für die Besucher des Freifunks.
-Admins sehen keinen OLSR-Status.
+
+### Neuer Branch
+
+Auf dem Branch [new-3g-router][new-branch] befindet sich ein neues Image.
+Der restliche Blogpost kann mit "new-3g-router" statt "3g-router" durchgeführt werden.
+Hier sind die Resultate:
+- [Factory Image][new-factory]
+- [Upgrade Image][new-upgrade]
+
+
 
 Implementierung
 ---------------
@@ -65,18 +74,25 @@ Folgende Kombinationen ergeben sich:
 Probleme
 --------
 
-- Siehe [known, device-specific problems][blog-problems]:  
-  Es können weitere LEDs angeschaltet werden und Energie gespart werden.
-- [OLSRd lädt gerade keine Plugins][pull-request]:  
-  OLSR funktioniert aber in der Weboberfläche wird nichts angezeigt.
-- Es gibt eine LAN-Anschluss aber OpenVPN ist nicht dabei, weil nur 4MB
-  Flashspeicher zur Verfügung stehen. [OpenVPN reduzieren][ovpn]?
-- [Privater Access Point wird verlangt][pap]:  
-  Der Einrichtungsassistent braucht verlangt die Eingabe eines privaten
-  Access-Points.
-  Vielleicht kann man den Assistenten nicht bis zum Ende benutzen und muss
-  [auf Werkseinstellungen zurücksetzen][reset].
+- Branch `3g-router`
+  - Siehe [known, device-specific problems][blog-problems]:  
+    Es können weitere LEDs angeschaltet werden und Energie gespart werden.
+  - [OLSRd lädt gerade keine Plugins][pull-request]:  
+    OLSR funktioniert aber in der Weboberfläche wird nichts angezeigt.
+  - Es gibt eine LAN-Anschluss aber OpenVPN ist nicht dabei, weil nur 4MB
+    Flashspeicher zur Verfügung stehen. [OpenVPN reduzieren][ovpn]?
+  - [Privater Access Point wird verlangt][pap]:  
+    Der Einrichtungsassistent braucht verlangt die Eingabe eines privaten
+    Access-Points.
+    Vielleicht kann man den Assistenten nicht bis zum Ende benutzen und muss
+    [auf Werkseinstellungen zurücksetzen][reset].
 
+- Branch `new-3g-router`
+  - ![]({{ images }}/plugins.png)
+    Ich musste nochmal nachsehen, dass alle Plugins geladen werden.
+    Menu → Services → OLSR IPv4 → Menupunkt "Plugins"
+  - Es gibt keinen Freifunkassistenten. [Issue][issue-ff-assist]
+    
 [blog]: https://wiki.openwrt.org/toh/unbranded/a5-v11
 [blog-problems]: https://wiki.openwrt.org/toh/unbranded/a5-v11#known_device-specific_problems
 [openwrt-image]: http://downloads.openwrt.org/chaos_calmer/15.05/ramips/rt305x/openwrt-15.05-ramips-rt305x-a5-v11-squashfs-sysupgrade.bin
@@ -88,3 +104,8 @@ Probleme
 [pap]: https://github.com/freifunk-berlin/firmware/issues/427
 [ali]: https://www.aliexpress.com/w/wholesale-3G%252F4G-Router.html?initiative_id=SB_20161128132303&site=glo&groupsort=1&SortType=price_asc&g=y&SearchText=3G%2F4G+Router
 [reset]: https://wiki.openwrt.org/doc/howto/generic.failsafe#wiping_jffs2_file_system_factory_reset_to_default_config
+
+[new-branch]: https://github.com/niccokunzmann/firmware/commits/new-3g-router
+[new-factory]: {{ images }}/freifunk-berlin-1.0.0-routing-master-alpha-78992fe-a5-v11-factory.bin
+[new-upgrade]: {{ images }}/freifunk-berlin-1.0.0-routing-master-alpha-78992fe-a5-v11-sysupgrade.bin
+[issue-ff-assist]: https://github.com/freifunk-berlin/firmware/pull/430
