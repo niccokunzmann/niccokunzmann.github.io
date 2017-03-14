@@ -108,6 +108,10 @@ Die Signal-Noise-Ratio ist sehr schlecht.
 Vermutung: Es ist im [Blogpost][blog] zu lesen, dass die Antenne manchmal
 enttäuscht aber repariert werden kann.
 
+Die Geschwindigkeit über den Mesh habe ich gemessen und keine nennenswerten
+Verluste bemerkt.
+Sie blieb gleich mit den Gateway.
+![]({{ images }}/speed.png)
     
 [blog]: https://wiki.openwrt.org/toh/unbranded/a5-v11
 [blog-problems]: https://wiki.openwrt.org/toh/unbranded/a5-v11#known_device-specific_problems
