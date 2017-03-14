@@ -91,7 +91,8 @@ Probleme
   - ![]({{ images }}/plugins.png)
     Ich musste nochmal nachsehen, dass alle Plugins geladen werden.
     Menu → Services → OLSR IPv4 → Menupunkt "Plugins"
-  - Es gibt keinen Freifunkassistenten. [Issue][issue-ff-assist]
+  - Es gibt keinen Freifunkassistenten,
+    [da dieser OpenVPN braucht und das Image zu groß wird][pull-ff-assist].
     
 [blog]: https://wiki.openwrt.org/toh/unbranded/a5-v11
 [blog-problems]: https://wiki.openwrt.org/toh/unbranded/a5-v11#known_device-specific_problems
@@ -108,4 +109,4 @@ Probleme
 [new-branch]: https://github.com/niccokunzmann/firmware/commits/new-3g-router
 [new-factory]: {{ images }}/freifunk-berlin-1.0.0-routing-master-alpha-78992fe-a5-v11-factory.bin
 [new-upgrade]: {{ images }}/freifunk-berlin-1.0.0-routing-master-alpha-78992fe-a5-v11-sysupgrade.bin
-[issue-ff-assist]: https://github.com/freifunk-berlin/firmware/pull/430
+[pull-ff-assist]: https://github.com/freifunk-berlin/firmware/pull/430
