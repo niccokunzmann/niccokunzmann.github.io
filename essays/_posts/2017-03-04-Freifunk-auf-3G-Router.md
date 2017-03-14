@@ -26,8 +26,6 @@ Hier sind die Resultate:
 - [Factory Image][new-factory]
 - [Upgrade Image][new-upgrade]
 
-
-
 Implementierung
 ---------------
 
@@ -93,6 +91,23 @@ Probleme
     Menu → Services → OLSR IPv4 → Menupunkt "Plugins"
   - Es gibt keinen Freifunkassistenten,
     [da dieser OpenVPN braucht und das Image zu groß wird][pull-ff-assist].
+  - Ich kann den Status nicht einsehen, wenn ich nicht eingeloggt bin.
+    Ich muss den Pfad `/cgi-bin/luci/admin/status/olsr/neighbors` an die IP
+    anhängen, um an das Anmeldeformular zu kommen.
+    Andere Freifunkteilnehmer sehen unter frei.funk keine Webseite, nur einen
+    internen Serverfehler mit leerer Seite.
+  - Manchmal bricht das WLAN weg.
+
+Bewertung
+---------
+
+Das Ding ist klein und billig.
+Hier sieht man, wie gut der Router mit einem anderen gleich im Nebenraum mesht:
+{{ images }}/mesh.png
+Die Signal-Noise-Ratio ist sehr schlecht.
+Vermutung: Es ist im [Blogpost][blog] zu lesen, dass die Antenne manchmal
+enttäuscht aber repariert werden kann.
+
     
 [blog]: https://wiki.openwrt.org/toh/unbranded/a5-v11
 [blog-problems]: https://wiki.openwrt.org/toh/unbranded/a5-v11#known_device-specific_problems
