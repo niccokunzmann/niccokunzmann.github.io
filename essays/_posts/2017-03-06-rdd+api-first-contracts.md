@@ -12,7 +12,7 @@ Everyone uses the travis build badges to show their build status.
 ![][travis-badge]  
 But I did not find one for docker automated builds.
 So, I created one.  
-[![][docker-badge]][docker-badge]
+[![https://dockerbuildbadges.quelltext.eu/status.svg?organization=niccokunzmann&repository=dockerhub-build-status-image](https://dockerbuildbadges.quelltext.eu/status.svg?organization=niccokunzmann&repository=dockerhub-build-status-image)](https://github.com/niccokunzmann/dockerhub-build-status-image/)
 
 For me it solves the need to know if my builds run.
 Not always do I test them with travis before.
@@ -71,7 +71,6 @@ This results in more flexibility and a more specific tailored solution to
 use-cases.
 
 [travis-badge]: https://travis-ci.org/fossasia/kniteditor.svg
-[docker-badgs]: https://dockerbuildbadges.quelltext.eu/status.svg?organization=niccokunzmann&repository=dockerhub-build-status-image
 [rdd]: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 [contracts]: http://hintjens.com/blog:93
 [commit]: https://github.com/loklak/loklak_server/pull/1050/commits/507d4f7309617d0bea7e4128f9c320b7ba436c97#diff-354f30a63fb0907d4ad57269548329e3
