@@ -73,6 +73,6 @@ use-cases.
 [travis-badge]: https://travis-ci.org/fossasia/kniteditor.svg
 [docker-badgs]: https://dockerbuildbadges.quelltext.eu/status.svg?organization=niccokunzmann&repository=dockerhub-build-status-image
 [rdd]: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
-[contracts]: 
+[contracts]: http://hintjens.com/blog:93
 [commit]: https://github.com/loklak/loklak_server/pull/1050/commits/507d4f7309617d0bea7e4128f9c320b7ba436c97#diff-354f30a63fb0907d4ad57269548329e3
 [api]: https://github.com/niccokunzmann/dockerhub-build-status-image/blob/master/README.md#api
