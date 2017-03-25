@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Война Против Мысли
-language: de
+language: en
 ---
 
 {% assign images = site.baseurl | append:"/images" | append:page.url %}
