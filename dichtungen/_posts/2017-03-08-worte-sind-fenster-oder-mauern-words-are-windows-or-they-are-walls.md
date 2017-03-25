@@ -9,6 +9,7 @@ von Ruth Bebermeyer ins Deutsche.
 
 ```
  Bin ich verurteilt durch dein Wort?
+[Werd']
 [Verurteils du mich durch dein Wort? ]
  Fühl' mich bewertet und voll Schmerz,
                        [ verletzt ]
