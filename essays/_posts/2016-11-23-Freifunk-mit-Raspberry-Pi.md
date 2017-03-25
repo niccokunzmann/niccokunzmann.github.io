@@ -39,6 +39,10 @@ habe ich einen offiziellen OpenWRT-Build für den Raspberry Pi gefunden.
 Jetzt ist nur noch die Frage, wie kann ich das mit der Freifunk-Firmware verwenden?
 Dann habe ich den Wizard, die Anleitungen und kann es auch anderen schmackhafter machen.
 
+[Steffen Volkmann][volkmann1] setzte sich auf Basis dieses Blogposts mit der
+Firmware weiter auseinander.
+Es steht ein [Freifunk-Raspi in der Isoldenstraße in Werder][volkmann2].
+
 Das Image selber bauen
 ----------------------
 
@@ -292,3 +296,5 @@ Die packages `kmod-rt2800-lib`, `kmod-rt2800-usb`, `kmod-rt2x00-lib` und
 [pi_branch]: https://github.com/niccokunzmann/firmware/tree/RaspberryPi
 [pi_commit]: https://github.com/niccokunzmann/firmware/commit/6be684ff9460cb8370d6e87d5d0b5f0d1d984a56
 [build_process]: https://github.com/niccokunzmann/firmware/tree/RaspberryPi#development
+[volkmann1]: http://www.volkmann.com/cms/index.php/howto/raspberry-pi/29-freifunkrouter
+[volkmann2]: https://monitor.freifunk-potsdam.de/ff/apinfo/16-12-isoldenstrasse
