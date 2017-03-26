@@ -39,6 +39,8 @@ How to resolve this
 If this did not work, chances are, somehing went wrong.
 In this case, you can look at [OLSR debuggen][olsr].
 
+You may also want to change the file `/etc/config/olsrd.conf`.
+
 
 [olsr]: ../../2017-03-06/olsr
 
