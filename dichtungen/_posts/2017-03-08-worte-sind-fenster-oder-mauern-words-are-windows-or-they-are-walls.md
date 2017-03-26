@@ -42,7 +42,8 @@ von Ruth Bebermeyer ins Deutsche.
 [ Hilfst du mich trotzdem befrei'n?]
 [Wirst ]
  Scheint es, dass ich dich nicht schätze,
- Denkst du, dass du mir egal bist,
+ Als würdest du mir unwichtig sein.
+[ Denkst du, dass du mir egal bist, ]
            [ du bist mir egal ]
  Hilf meine Worte zu durchsehen
  Zu den Gefühlen, die uns einen.
