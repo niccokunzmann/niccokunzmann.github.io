@@ -11,7 +11,9 @@ von Ruth Bebermeyer ins Deutsche.
  Bin ich verurteilt durch dein Wort?
 [Werd']
 [Verurteils du mich durch dein Wort? ]
- Fühl' mich bewertet und voll Schmerz,
+ Fühl mich bewertet und versetzt,
+[ Fühl' mich entwertet dass es schmerzt, ]
+[ Fühl' mich bewertet und voll Schmerz, ]
                        [ verletzt ]
                        [ verstoßen ]
                          
