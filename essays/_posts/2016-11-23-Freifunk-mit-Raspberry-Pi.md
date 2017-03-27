@@ -42,6 +42,23 @@ Dann habe ich den Wizard, die Anleitungen und kann es auch anderen schmackhafter
 [Steffen Volkmann][volkmann1] setzte sich auf Basis dieses Blogposts mit der
 Firmware weiter auseinander.
 Es steht ein [Freifunk-Raspi in der Isoldenstraße in Werder][volkmann2].
+Folgendes Feedback gab er:
+
+> Das Image habe ich jetzt wie folgt gebaut:
+> ```
+> git clone https://github.com/niccokunzmann/firmware.git -b RaspberryPi
+> cd firmware
+> make TARGET=brcm2708 PACKAGES_LIST_DEFAULT=default_pi
+> ```
+> 
+> Das funktioniert allerdings erst einigen Anpassungen:
+> 1. in der `firmware/packages/default_pi.txt` habe ich die Zeile `kmod-usb2-kmod-rt2800-lib` auskommentieren.
+> 2. Die Packete `linux-3.18.44.tar.xz` und `ethtool-3.18.tar.xz` konnten nicht geladen werden. Beide habe ich manuell geladen und im `./firmware/openwrt/dl` folder abgelegt:
+>   - wget [https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.18.44.tar.xz](https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.18.44.tar.xz)
+>   - wget [https://sources.lede-project.org/ethtool-3.18.tar.xz](https://sources.lede-project.org/ethtool-3.18.tar.xz) --no-check-certificate
+> 
+> Auf Basis dieses Images kann ich meine Experimente Fortsetzen.
+
 
 Das Image selber bauen
 ----------------------
