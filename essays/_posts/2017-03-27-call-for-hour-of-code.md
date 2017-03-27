@@ -7,7 +7,7 @@ language: en
 Dear Progamming language communities,
 
 Programming is becomming main stream for about four years, now.
-It is taught to children in a playful way, starting with the [Hour of Code][code.org].
+It is taught to children in a playful way, starting with the [Hour of Code][hoc].
 At least in Germany, England and the USA, Hour of Code is strong.
 Worldwide programming initiatives like [CoderDojo][zen] use Hour of Code.
 
@@ -32,5 +32,5 @@ The train is arriving. Hop on, do not miss it.
 
 [Contact](http://niccokunzmann.github.io/impressum/)
 
-[code.org]: http://code.org
+[hoc]: https://code.org/learn
 [zen]: http://zen.coderdojo.com/
