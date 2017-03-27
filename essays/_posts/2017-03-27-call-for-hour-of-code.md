@@ -26,7 +26,7 @@ Here is my call:
 
 **Please create an hour of code in your language for the sake of humanity's diversity of thinking in programming languages.**
 
-The train is arriving. Hop on, do not miss it.
+Filled with children, the train is arriving. Hop on, do not miss it.
 
 ---
 
