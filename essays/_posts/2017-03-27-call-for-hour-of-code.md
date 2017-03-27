@@ -6,7 +6,7 @@ language: en
 
 Dear Progamming language communities,
 
-Programming is becomming main stream for about four years, now.
+Programming has been becomming main stream for about four years, now.
 It is taught to children in a playful way, starting with the [Hour of Code][hoc].
 At least in Germany, England and the USA, Hour of Code is strong.
 Worldwide programming initiatives like [CoderDojo][zen] use Hour of Code.
