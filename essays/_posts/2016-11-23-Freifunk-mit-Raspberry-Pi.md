@@ -59,6 +59,8 @@ Folgendes Feedback gab er:
 > 
 > Auf Basis dieses Images kann ich meine Experimente Fortsetzen.
 
+- [Raspberry Pi Performance-Vergleich für VPN][performance]
+- [Weiteres von Steffen Volkmann][volkmann-further]
 
 Das Image selber bauen
 ----------------------
@@ -315,3 +317,5 @@ Die packages `kmod-rt2800-lib`, `kmod-rt2800-usb`, `kmod-rt2x00-lib` und
 [build_process]: https://github.com/niccokunzmann/firmware/tree/RaspberryPi#development
 [volkmann1]: http://www.volkmann.com/cms/index.php/howto/raspberry-pi/29-freifunkrouter
 [volkmann2]: https://monitor.freifunk-potsdam.de/ff/apinfo/16-12-isoldenstrasse
+[performance]: http://www.volkmann.com/cms/index.php/howto/raspberry-pi/33-openwrt-hardware-vergleich
+[volkmann-further]: http://www.volkmann.com/cms/index.php/howto/raspberry-pi
