@@ -47,7 +47,8 @@ von Ruth Bebermeyer ins Deutsche.
  Als würdest du mir unwichtig sein.
 [ Denkst du, dass du mir egal bist, ]
            [ du bist mir egal ]
- Hilf meine Worte zu durchsehen
+ Hilf meine Worte zu durchschauen
+                   [ durchsehen  ]
  Zu den Gefühlen, die uns einen.
                     [ in uns bestehen ]
 ```
