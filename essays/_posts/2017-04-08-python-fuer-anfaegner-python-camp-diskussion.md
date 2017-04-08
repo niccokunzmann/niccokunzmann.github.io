@@ -89,7 +89,7 @@ Fragen:
                    * >>> print? - zeigt Hilfe
        * Welche Organisationen
            * Python barCamp
-           * Python User Group "<Ort>" Py Cologne
+           * Python User Group "Ort" Py Cologne
            * Meetup <http://meetup.com/>
            * opentechschool.org
            * Krefeld: 
