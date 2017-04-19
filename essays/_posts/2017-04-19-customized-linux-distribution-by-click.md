@@ -38,10 +38,10 @@ Walkthrough
 
 ### (1) Customization
 
-The user ges to the github pages served website.
+The user goes to the github pages served website.
 A specification is created.
 This spec can be downloaded, loaded, sent to the proxy.
-A proxy is chosen by the websaite based on availability.
+A proxy is chosen by the website based on availability.
 
 ### (2) Build Server is Chosen
 
@@ -56,7 +56,7 @@ The proxy chooses a build sever to send the spec to.
 A way to recognize whether a build was successful/which state it has, ... is
 communicated back to the website.
 
-### (3)
+### (3) Image Build
 
 The repository is built by the build service.
 The correspnding image and output is pushed to a release somewhere.
@@ -78,10 +78,24 @@ The APIs are defined and discussed first:
 - The development speed is constant
 - We document and talk wich is a basis for collaboration
 
+Possible Customizations
+-----------------------
 
-
-
-
+- **Hotel**  
+  See [meilix][meilix]
+- **Events**  
+  - connect to wifi
+  - turn notifications off
+  - browser start page is event
+  - presentation tools like libre office are istalled
+  - owncloud/nextcloud to share files and slides, authenticated
+    - onedrive, dropbox?
+  - same user/password
+- **Programming clubs?**  
+  - environments and languages
+  - see [CoderDojoOs](coderdojoos)
+- **Home & Office**  
+  not sure if this is important as there is so much
 
 Related Work
 ------------
@@ -103,3 +117,5 @@ continuous integration servers such as [Travis][travis].
 [travis]: http://travis-ci.org
 [live-addon-maker-paper]: https://github.com/CodersOS/live-addon-maker-paper/#readme
 [create]: https://codersos.github.io/create/
+[meilix]: http://meilix.fossasia.org/
+[coderdojoos]: https://github.com/CoderDojoPotsdam/CoderDojoOS/
