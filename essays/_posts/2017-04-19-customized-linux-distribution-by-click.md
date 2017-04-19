@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bringing Linux 
+title: Bringing Linux Customization to the End User
 language: en
 ---
 
