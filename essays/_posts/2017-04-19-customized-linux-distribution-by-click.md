@@ -87,7 +87,7 @@ Possible Customizations
   - connect to wifi
   - turn notifications off
   - browser start page is event
-  - presentation tools like libre office are istalled
+  - presentation tools like libre office are installed
   - owncloud/nextcloud to share files and slides, authenticated
     - onedrive, dropbox?
   - same user/password
