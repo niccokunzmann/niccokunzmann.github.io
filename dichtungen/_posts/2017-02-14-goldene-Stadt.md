@@ -21,7 +21,7 @@ der auf einen Blick so unvergesslich scheint
 
 Im Himmel über der Stadt
 Da leuchtet ein Stern
-Er ist nur dir, oh Engel mein
+Er ist für dich, oh Engel mein
 Er wird dir immer sein
 
 Wer liebt der wird geliebt
@@ -32,6 +32,6 @@ den Weg zur goldnen Stadt
 Dort triffst du den Löwen mit der Mähne
 und den blauen Bullen mit schmachtendem Blick
 Mit ihnen ist der goldne Himmelsadler,
-der auf eine Blick schon unvergesslich scheint.
+der auf einen Blick schon unvergesslich scheint.
 
 ```
