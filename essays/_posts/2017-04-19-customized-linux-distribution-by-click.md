@@ -104,7 +104,7 @@ Tools like [customizer][customizer] exist as a GUI and can be automated using
 continuous integration servers such as [Travis][travis].
 [The pager about the live-addon-maker][live-addon-maker-paper] provides further research.
 
-
+**[View the discussion][discussion]**
 
 
 
@@ -119,3 +119,4 @@ continuous integration servers such as [Travis][travis].
 [create]: https://codersos.github.io/create/
 [meilix]: http://meilix.fossasia.org/
 [coderdojoos]: https://github.com/CoderDojoPotsdam/CoderDojoOS/
+[discussion]: https://github.com/fossasia/meilix/issues/47
