@@ -17,6 +17,11 @@ Manchmal ist es sozusagen kein Release wie bei [GL-AR150][AR150-download].
 Dafür gibt es dann wie bei [GL-MT300A][MT300A-download] einen aktuellen Build,
 z.B. auf dem "master"-Branch.
 
+Update 06. August 2017
+----------------------
+
+Es funktioniert einwandfrei auf den Routern.
+
 [AR300M-home]: https://www.gl-inet.com/ar300m/
 [MT300A-home]: https://www.gl-inet.com/mt300a/
 [AR150-home]: https://www.gl-inet.com/ar150/
