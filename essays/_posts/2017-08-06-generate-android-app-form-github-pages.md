@@ -43,6 +43,14 @@ Further Reading:
 
 - [App Links][applinks]
 
+Example
+-------
+
+An example would be: I am a user on a GitHub Pages Blog.
+I click on a link named "Open offline in App".
+Then I go to a page like "pagesoffline.quelltext.eu/visit? repository=github.com/niccokunzmann/niccokunzmann.github.io&page= /blog/2017-08-06/generate-android-app-form-github-pages"
+The app updates and build the blog, I can see it offline.
+
 Appeal
 ------
    
