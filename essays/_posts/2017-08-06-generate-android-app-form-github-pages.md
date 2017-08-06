@@ -39,6 +39,10 @@ There are two ways to do that:
    These steps may be combined to one step where a webpage can be opened by
    an app or by the website.
 
+Further Reading:
+
+- [App Links][applinks]
+
 Appeal
 ------
    
@@ -49,3 +53,4 @@ I would like to use it for tutorials such as the [regex-tutorial](https://coderd
 
 [myk]: https://mykmelez.github.io/offline-web-apps-on-github-pages/#my-octocat
 [flappy]: http://fossasia.github.io/flappy-svg/
+[applinks]: https://developer.android.com/training/app-links/index.html
