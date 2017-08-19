@@ -6,3 +6,5 @@ comic:
   pages: 30
 ---
 
+English: Winfried and the spiffing rattly
+
