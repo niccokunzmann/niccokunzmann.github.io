@@ -235,7 +235,7 @@ TODO:
 DONE
 - Gelesen:
   - [SSID stärke gibt ausschlag](https://documentation.meraki.com/MR/WiFi_Basics_and_Best_Practices/Seamless_Roaming_with_MR_Access_Points)
-
+- [Diskussion auf wireless LAN Berlin](https://lists.berlin.freifunk.net/pipermail/berlin/2017-March/035415.html)
   
 
 ```
