@@ -22,7 +22,7 @@ Unten kann ich durch Klick auf `+ Hinzufügen` ein neues Fenster öffnen.
 Dort gebe ich folgendes ein:
 
 - Name: `Network Manager Applet` - hier kann man sich was ausdenken, sodass man sich erinnert.
-- Beschreibung: `` hier kann man etwas beschrieben, was dann mehr Text zum Erinnern ist.
+- Beschreibung: `Startet das WLAN-Symbol in der Taskleiste` hier kann man etwas beschrieben, was dann mehr Text zum Erinnern ist.
 - Befehl: `qvm-run sys-net nm-applet`
 
 Nun auf `↩ OK` klicken und bei jedem Start wird WLAN-Applet in die Leiste eingefügt.
