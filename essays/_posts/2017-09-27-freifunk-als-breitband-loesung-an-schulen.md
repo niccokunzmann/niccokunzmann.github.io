@@ -4,7 +4,7 @@ title: Freifunk-Technologie zur Breitbandversorgung von Schulen und Tagungszentr
 language: de
 ---
 
-
+![]({% include images %}/aufbau.png)
 
 
 
