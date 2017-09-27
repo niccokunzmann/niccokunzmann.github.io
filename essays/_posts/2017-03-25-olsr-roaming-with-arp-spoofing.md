@@ -4,9 +4,7 @@ title: OLSR Roaming mit ARP Spoofing
 language: de
 ---
 
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
-
-![]({{images}}/Outline.svg)
+![]({%include images%}/Outline.svg)
 
 Die Zeichnung zeigt, was ich mir vorgestellt habe.
 Wie kann man das umsetzen?
@@ -71,7 +69,7 @@ arping -A -U -s 10.22.73.129 -I br-dhcp 0.0.0.0 &
 [Quelle](http://serverfault.com/a/175806)
 
 Das ist meine Client-Konfiguration von einem anderen Freifunk-Router:   
-![]({{ images }}/client-roaming.png)
+![]({% include images %}/client-roaming.png)
 
 
 **Es funktioniert:**
@@ -86,10 +84,10 @@ Ein ähnliches Script kann für alle Knoten laufen, die irgendwie als Freifunk R
 Datenbasis:
 
 > Alle `/32` Adressen -> dann kann jeder Knoten, der roaming mag, sich so announcen.
-> ![]({{ images }}/hna.png) (sinnloser Traffic)
+> ![]({% include images %}/hna.png) (sinnloser Traffic)
 
 Alle HNA ist eine effizientere Quelle, da nur von dort die Clients Anfragen können:
-![]({{ images }}/hna-announcements.png)
+![]({% include images %}/hna-announcements.png)
 
 So stelle ich fest, dass sich ein Client verbunden hat:
 ```
@@ -210,7 +208,7 @@ Reading:
     [Kommentar zeigt, wie man es setzt](https://dev.openwrt.org/ticket/6435#comment:19)
 - [DHCP Option 249](https://msdn.microsoft.com/en-us/library/cc227282.aspx) Microsoft Classless Static Route  
 
-![]({{ images }}/dhcp_options.png)
+![]({% include images %}/dhcp_options.png)
 
 ```
 121,10.22.0.1/32,0.0.0.0

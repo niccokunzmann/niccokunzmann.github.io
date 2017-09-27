@@ -4,9 +4,7 @@ title: Freifunk auf dem A5-V11 3G/4G Router
 language: de
 ---
 
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
-
-![]({{ images }}/router.jpg)
+![]({% include images %}/router.jpg)
 
 Der Router ist [billig][ali], 8USD.
 [Dieser Blogpost von OpenWrt][blog] beschreibt,
@@ -86,7 +84,7 @@ Probleme
     [auf Werkseinstellungen zurücksetzen][reset].
 
 - Branch `new-3g-router`
-  - ![]({{ images }}/plugins.png)
+  - ![]({% include images %}/plugins.png)
     Ich musste nochmal nachsehen, dass alle Plugins geladen werden.
     Menu → Services → OLSR IPv4 → Menupunkt "Plugins"
   - Es gibt keinen Freifunkassistenten,
@@ -103,7 +101,7 @@ Bewertung
 
 Das Ding ist klein und billig.
 Hier sieht man, wie gut der Router mit einem anderen gleich im Nebenraum mesht:
-{{ images }}/mesh.png
+{% include images %}/mesh.png
 Die Signal-Noise-Ratio ist sehr schlecht.
 Vermutung: Es ist im [Blogpost][blog] zu lesen, dass die Antenne manchmal
 enttäuscht aber repariert werden kann.
@@ -111,14 +109,14 @@ enttäuscht aber repariert werden kann.
 Die Geschwindigkeit über den Mesh habe ich gemessen und keine nennenswerten
 Verluste bemerkt.
 Sie blieb gleich mit den Gateway.
-![]({{ images }}/speed.png)
+![]({% include images %}/speed.png)
     
 [blog]: https://wiki.openwrt.org/toh/unbranded/a5-v11
 [blog-problems]: https://wiki.openwrt.org/toh/unbranded/a5-v11#known_device-specific_problems
 [openwrt-image]: http://downloads.openwrt.org/chaos_calmer/15.05/ramips/rt305x/openwrt-15.05-ramips-rt305x-a5-v11-squashfs-sysupgrade.bin
 [commit]: https://github.com/niccokunzmann/firmware/commit/9372d44302fc793566ec9614a74950132ab9453f
-[factory]: {{ images }}/freifunk-berlin-0.3.0-alpha-75933e3-a5-v11-factory.bin
-[sysupgrade]: {{ images }}/freifunk-berlin-0.3.0-alpha-75933e3-a5-v11-sysupgrade.bin
+[factory]: {% include images %}/freifunk-berlin-0.3.0-alpha-75933e3-a5-v11-factory.bin
+[sysupgrade]: {% include images %}/freifunk-berlin-0.3.0-alpha-75933e3-a5-v11-sysupgrade.bin
 [pull-request]: https://github.com/freifunk-berlin/firmware/pull/430
 [ovpn]: https://github.com/freifunk-berlin/firmware/issues/428
 [pap]: https://github.com/freifunk-berlin/firmware/issues/427
@@ -126,6 +124,6 @@ Sie blieb gleich mit den Gateway.
 [reset]: https://wiki.openwrt.org/doc/howto/generic.failsafe#wiping_jffs2_file_system_factory_reset_to_default_config
 
 [new-branch]: https://github.com/niccokunzmann/firmware/commits/new-3g-router
-[new-factory]: {{ images }}/freifunk-berlin-1.0.0-routing-master-alpha-78992fe-a5-v11-factory.bin
-[new-upgrade]: {{ images }}/freifunk-berlin-1.0.0-routing-master-alpha-78992fe-a5-v11-sysupgrade.bin
+[new-factory]: {% include images %}/freifunk-berlin-1.0.0-routing-master-alpha-78992fe-a5-v11-factory.bin
+[new-upgrade]: {% include images %}/freifunk-berlin-1.0.0-routing-master-alpha-78992fe-a5-v11-sysupgrade.bin
 [pull-ff-assist]: https://github.com/freifunk-berlin/firmware/pull/430

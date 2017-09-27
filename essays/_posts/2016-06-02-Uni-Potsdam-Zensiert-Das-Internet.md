@@ -8,11 +8,9 @@ Ich suche nach Leuten, die auch Informationen sammeln und mitschreiben wollen. B
 
 ---------
 
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
-
 Dieses Bild bietet sich, wenn man die Webseite [http://rotespotsdam.tk](http://rotespotsdam.tk) im Netz der Uni Potsdam besucht. (Anmerkung fluepke: Stichproben zeigen, dass jegliche Anfragen an .tk Domain blockiert werden. Endet der HOST im Requestheader auf .tk (ganz egal, ob eine solche Seite existiert) wird die Anfrage blockiert.)
 
-![zensur.png]({{ images }}/zensur.png)
+![zensur.png]({% include images %}/zensur.png)
 
 Mit "Netz der Uni Potsdam" meine ich
 
@@ -20,11 +18,11 @@ Mit "Netz der Uni Potsdam" meine ich
 - Uni VPN Cisco
 - Studentendorf Stahnsdorfer Straße
 
-Wenn man [https](https://rotespotsdam.tk) benutzt, kommt ein [ungültiges Zertifikat]({{ images }}/chrome-inside.png).
+Wenn man [https](https://rotespotsdam.tk) benutzt, kommt ein [ungültiges Zertifikat]({% include images %}/chrome-inside.png).
 
 Was ist diese Seite? Eine Veranstaltungsseite für alternative, linke Veranstaltungen.
 
-[![rotespotsdam.tk-unzensiert.png]({{ images }}/rotespotsdam.tk-unzensiert.png)](https://rotespotsdam.tk)
+[![rotespotsdam.tk-unzensiert.png]({% include images %}/rotespotsdam.tk-unzensiert.png)](https://rotespotsdam.tk)
 
 ## HTTP-Requests
 

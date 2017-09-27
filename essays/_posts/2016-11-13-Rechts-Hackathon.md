@@ -3,7 +3,6 @@ layout: post
 title: Demokratische Gesetzgebung
 language: de
 ---
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
 
 Eine motivative These:
 
@@ -88,7 +87,7 @@ Dieses verwendet die Versionskontrollsoftware "git".
 Auf [Github](https://github.com/bundestag/gesetze) werden die Gesetzestexte verwaltet.
 Eine [Änderung](https://github.com/bundestag/gesetze/commit/01dfc35b7ec16cec048d2626dc5e2194a485f40f) sieht z.B. so aus:
 
-[![{{ images }}/bundesgit-diff.png]({{ images }}/bundesgit-diff.png)](https://github.com/bundestag/gesetze/commit/01dfc35b7ec16cec048d2626dc5e2194a485f40f)
+[![{% include images %}/bundesgit-diff.png]({% include images %}/bundesgit-diff.png)](https://github.com/bundestag/gesetze/commit/01dfc35b7ec16cec048d2626dc5e2194a485f40f)
 
 Ausblick
 --------

@@ -67,7 +67,7 @@
       <h1>{{ page.title | escape }}</h1>
       {{ page.content }}
       {% if page.comic %}
-          {% assign images = site.baseurl | append:"/images" | append:page.url %}
+          {% capture images %}{% include images %}{% endcapture %} 
           {% for i in (1..page.comic.pages) %}
             {% assign image = images | append: "/" | append: i | append: ".jpg" %}
             <hr/>

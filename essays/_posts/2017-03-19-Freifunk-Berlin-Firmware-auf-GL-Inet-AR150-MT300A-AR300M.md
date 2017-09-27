@@ -4,8 +4,6 @@ title: Freifunk auf den GL-Inet Routern
 language: de
 ---
 
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
-
 Ich möchte Freifunnk auf folgende Routern ausprobieren:
 - [GL-AR300M][AR300M-home], [Firmware Download][AR300M-download]
 - [GL-MT300A][MT300A-home], [Firmware Download][MT300A-download]

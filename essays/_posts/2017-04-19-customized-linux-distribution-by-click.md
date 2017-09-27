@@ -4,8 +4,6 @@ title: Bringing Linux Customization to the End User
 language: en
 ---
 
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
-
 Various flavors of linux exist.
 Ubuntu has a lot of derivates for different use cases:
 education, office, low-memory, ... .
@@ -31,7 +29,7 @@ The architecture consists of several components:
 - The repository with the linux build
 - The meta packages to keep older builds updated
 
-[![Picture of the Architecture]({{ images }}/architecture.jpg)]({{ images }}/architecture.jpg)
+[![Picture of the Architecture]({% include images %}/architecture.jpg)]({% include images %}/architecture.jpg)
 
 Walkthrough
 -----------

@@ -4,8 +4,6 @@ title: Война Против Мысли
 language: en
 ---
 
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
-
 There is a war on thoughts going on. Here is what I mean with war:
 [![][def-war]][def-war-source]
 
@@ -46,10 +44,10 @@ Two articles on an open culture being ripped apart:
 
 [guidelines-en]: https://support.google.com/youtube/answer/6162278?hl=en
 [guidelines-de]: https://support.google.com/youtube/answer/6162278?hl=de
-[guidelines-en-copy]: {{ images }}/Advertiser-friendly content guidelines - YouTube Help.htm
-[guidelines-de-copy]: {{ images }}/Richtlinien fuer werbefreundliche Inhalte - YouTube-Hilfe.htm
+[guidelines-en-copy]: {% include images %}/Advertiser-friendly content guidelines - YouTube Help.htm
+[guidelines-de-copy]: {% include images %}/Richtlinien fuer werbefreundliche Inhalte - YouTube-Hilfe.htm
 [schrang1]: http://www.macht-steuert-wissen.de/2117/informationskrieg-gegen-unsere-tv-produktionsfirma-video/
-[def-war]: {{ images }}/definition-of-war-webster.png
+[def-war]: {% include images %}/definition-of-war-webster.png
 [def-war-source]: https://www.merriam-webster.com/dictionary/war
 [hintjens1]: https://github.com/hintjens/cultureandempire/blob/8606f7de5b56494ca9a79e0c6a72dd308a6ab592/ch00.txt#L22
 [red-web]: https://www.amazon.com/Red-Web-Struggle-Dictators-Revolutionaries/dp/1610395735/182-6432990-3661321?ie=UTF8&*Version*=1&*entries*=0#reader_1610395735

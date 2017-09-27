@@ -4,8 +4,6 @@ title: Freifunk mit ZSUN WIFI SDCard Reader
 language: de
 ---
 
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
-
 ![][image-splash]
 
 Freifunk Selbst Flashen
@@ -87,7 +85,7 @@ Wenn man das Zsun-Image selbst bauen möchte, kann man folgendes tun:
   
   - [SD100-update.tar.gz][first-flash]
 
-[image-splash]: {{ images }}/zsun-splash.jpg
+[image-splash]: {% include images %}/zsun-splash.jpg
 [ffdresden]: http://wiki.freifunk-dresden.de/index.php/Zsun_Wifi-Kartenleser
 [amazon]: https://www.amazon.de/drahtloser-Datenaustausch-Datentr%C3%A4ger-wireless-Kartenleser/dp/B01LY8SPML/ref=sr_1_3?ie=UTF8&qid=1479804243&sr=8-3&keywords=Zsun+Wifi-Kartenleser
 [formater]: https://code.hackerspace.pl/informatic/zsun-fw-tools
@@ -96,7 +94,7 @@ Wenn man das Zsun-Image selbst bauen möchte, kann man folgendes tun:
 [wiki]: https://wiki.hackerspace.pl/projects:zsun-wifi-card-reader
 [commit]: https://github.com/niccokunzmann/openwrt-zsun/commit/f5284f9f9ad80e50ec37c31915ee69c5a1f7fac6
 
-[kernel]: {{ images }}/kathleen-0.2.0-beta+9227220-zsun-sdreader-kernel.bin
-[rootfs]: {{ images }}/kathleen-0.2.0-beta+9227220-zsun-sdreader-rootfs-squashfs.bin
-[sysupgrade]: {{ images }}/kathleen-0.2.0-beta+9227220-zsun-sdreader-sysupgrade.bin
-[first-flash]: {{ images }}/SD100-update.tar.gz
+[kernel]: {% include images %}/kathleen-0.2.0-beta+9227220-zsun-sdreader-kernel.bin
+[rootfs]: {% include images %}/kathleen-0.2.0-beta+9227220-zsun-sdreader-rootfs-squashfs.bin
+[sysupgrade]: {% include images %}/kathleen-0.2.0-beta+9227220-zsun-sdreader-sysupgrade.bin
+[first-flash]: {% include images %}/SD100-update.tar.gz

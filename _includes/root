@@ -1,0 +1,16 @@
+{%- assign smaller_url = page.url | remove: "/" -%}
+{%- assign smaller_url_size = smaller_url | size -%}
+{%- assign url_size = page.url | size -%}
+{%- assign number_of_slashes = url_size | minus: smaller_url_size -%}
+{%- if page.url | first == "/" -%}
+  {%- assign number_of_slashes = number_of_slashes | minus: 1 -%}
+{%- endif -%}
+{%- for i in (1..number_of_slashes) -%}
+  {%- if forloop.last -%}
+    ..
+  {%- else -%}
+    ../
+  {%- endif -%}
+{%- else -%}
+  .
+{%- endfor -%}

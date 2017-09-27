@@ -3,7 +3,6 @@ layout: post
 title: Das Freifunknetz aus dem Heimnetz erreichbar machen
 language: de
 ---
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
 
 Eigendlich habe ich diesen Blogpost nur [wegen dieser einen Zeile](#heimnetz-zu-freifunk-durchlassen) geschrieben:
 
@@ -17,7 +16,7 @@ Zu Hause habe ich einen Speedport und einen Freifunk-Router stehen.
 Diese sind mit LAN verbunden.
 Das ist hier dargestellt:
 
-![aufbau.svg]({{ images }}/aufbau.svg)
+![aufbau.svg]({% include images %}/aufbau.svg)
 
 Der Speedport ist mit dem Internet verbunden.
 Der Freifunkrouter ist mit dem WAN-Anschluss an einem LAN-Anschluss des Speedports angeschlossen.
@@ -60,11 +59,11 @@ Nun kann aber der Speedport nicht Bescheid sagen, dass ich den TP-Link auch benu
 
 Unter "Heimnetzwerk" → "Heimnetzwerk (LAN)" → "DHCP" erwarte ich Einstellungen, die ich nciht finde:
 
-![speedport-dhcp.png]({{ images }}/speedport-dhcp.png)
+![speedport-dhcp.png]({% include images %}/speedport-dhcp.png)
 
 Unter "Heimnetzwerk" → "Heimnetzwerk (LAN)" → "Name und Adresse des Routers" finde ich die IP-Adresse des Speedport-Routers:
 
-![speedport-ip.png]({{ images }}/speedport-ip.png)
+![speedport-ip.png]({% include images %}/speedport-ip.png)
 
 Diese ist bei mit `192.168.2.1`.
 Die IP-Adresse brauchen wir im folgenden.
@@ -80,20 +79,20 @@ Durch diese Reihenfolge erhalte ich immer eine valide IP und Internet, auch wenn
 
 Über "Network" → "Interfaces" erreiche ich die Einstellungen des WAN-Interfaces auf dem TP-Link:
 
-![wan.png]({{ images }}/wan.png)
+![wan.png]({% include images %}/wan.png)
 
 Hier ist meine Konfiguration des WAN-Interfaces im TP-Link:
 
-![wan-2.png]({{ images }}/wan-2.png)  
+![wan-2.png]({% include images %}/wan-2.png)  
 Alle IP-Adressen im Heimnetz fangen bei mir mit "192.168.2" an.
 Das hängt von den Einstellungen im Speedport ab.
 
-![wan-3.png]({{ images }}/wan-3.png)  
-![wan-4.png]({{ images }}/wan-4.png)  
-![wan-5.png]({{ images }}/wan-5.png)  
-![wan-6.png]({{ images }}/wan-6.png)  
-![wan-7.png]({{ images }}/wan-7.png)  
-![wan-8.png]({{ images }}/wan-8.png)
+![wan-3.png]({% include images %}/wan-3.png)  
+![wan-4.png]({% include images %}/wan-4.png)  
+![wan-5.png]({% include images %}/wan-5.png)  
+![wan-6.png]({% include images %}/wan-6.png)  
+![wan-7.png]({% include images %}/wan-7.png)  
+![wan-8.png]({% include images %}/wan-8.png)
 
 ##### LAN-Ports Einstellen
 
@@ -103,7 +102,7 @@ in welchem "LAN-Netz" sich der WAN-Anschluss befindet.
  Andere Leute stellen vielleicht ein, dass bei einem LAN-Port das Heimnetz ist und auf anderen Freifunk oder das Meshnetz liegt.)
 Jetzt ist die Frage: welches V-LAN benutzt der WAN-Anschluss:
 
-![wan-eth.png]({{ images }}/wan-eth.png)
+![wan-eth.png]({% include images %}/wan-eth.png)
 
 bei mir benutzt der WAN-Anschluss den Virtuellen Anschluss `eth0.6`, also das V-LAN Nummer 6.
 (eth0 heißt Ethernet-Gerät 0, man zählt von 0)
@@ -111,7 +110,7 @@ bei mir benutzt der WAN-Anschluss den Virtuellen Anschluss `eth0.6`, also das V-
 Jetzt stelle ich noch ein, dass der WAN-Anschluss und die anderen LAN-Anschlüsse alle das Heimnetz verbreiten.
 Dazu gehe ich zu "Network" → "Switch".
 
-![switch.png]({{ images }}/switch.png)
+![switch.png]({% include images %}/switch.png)
 
 Ich habe VLAN 6 eingestellt, weil ich oben herausgefunden habe, dass WAN das VLAN 6 benutzt.
 Wichtig ist, CPU tagged und Port 1 untagged.
@@ -135,7 +134,7 @@ Speichern reicht manchmal. Neustarten ist auch gut.
 
 Jetzt können wir die DHCP-Funktion des Speedport deaktivieren.
 
-![speedport.png]({{ images }}/speedport.png)
+![speedport.png]({% include images %}/speedport.png)
 
 ##### Motivation
 
@@ -149,7 +148,7 @@ muss der Freifunk-Router diese kennen.
 
 Dazu kann ich unter "Network" → "Hostnames" die Hostnamen hinzufügen, unter Angabe der IP-Adresse.
 
-![domains.png]({{ images }}/domains.png)
+![domains.png]({% include images %}/domains.png)
 
 ## Heimnetz zu Freifunk Durchlassen
 
@@ -160,7 +159,7 @@ füge ich eine Firewall-Regel hinzu:
 
 Unter "Network" → "Firewall" → "Custom Rules" habe ich diese Zeile eingefügt:
 
-![firewall.png]({{ images }}/firewall.png)
+![firewall.png]({% include images %}/firewall.png)
 
 ([Quelle](https://www.howtoforge.com/nat_iptables))
 
@@ -168,7 +167,7 @@ Unter "Network" → "Firewall" → "Custom Rules" habe ich diese Zeile eingefüg
 
 Ich habe nun einen Heimrechner, der ein Server ist und sich im Heimnetz und im Freifunk-Netz befindet:
 
-![aufbau-server.svg]({{ images }}/aufbau-server.svg)
+![aufbau-server.svg]({% include images %}/aufbau-server.svg)
 
 ### Ziele
 
@@ -183,7 +182,7 @@ Um den Server lokal erreichbar zu machen, könnenzusätzliche Hostnamen unter "N
 In meinem Falle handelt es sich um die Namen "quelltext.eu", "www.quelltext.eu", "gitlab.quelltext.eu" und "owncloud.quelltext.eu".
 Diese füge ich mit der Freifunk-IP hinzu, weil diese Namensauflösung für alle Interfaces gilt und ich den Server auch aus dem Freifunk-Netz erreichen möchte.
 
-![firewall.png]({{ images }}/firewall.png)
+![firewall.png]({% include images %}/firewall.png)
 
 #### Testen
 

@@ -3,7 +3,6 @@ layout: post
 title: Kritik der Chanchengleicheit
 language: de
 ---
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
 
 Öfters höre ich, wie z.B. [in "Erbenrepublik Deutschland" - Rainer Voss und Wolfgang Grupp bei Hart aber fair || 09.05.2016 (min 22:35)](https://www.youtube.com/watch?v=X7aMrz9w7E8) das Wort "Chancengleichheit".
 Was ist das und wie wird es verwendet.

@@ -4,8 +4,6 @@ title: Freifunk mit Raspberry Pi
 language: de
 ---
 
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
-
 [Gebautes Kathleen-Image für Freifunk runterladen.][image]
 
 Warum mache ich Freifunk mit dem Raspberry Pi?
@@ -22,7 +20,7 @@ Warum der Blogpost:
 - Es ist jetzt Tag 3 und ich habe es geschafft.
   Ich hoffe, andere finden das und es dauert nicht so lang.
 
-![{{ images }}/raspi.jpg]({{ images }}/raspi.jpg)
+![{% include images %}/raspi.jpg]({% include images %}/raspi.jpg)
 
 Verwandte Bemühen
 -----------------
@@ -299,19 +297,19 @@ Die packages `kmod-rt2800-lib`, `kmod-rt2800-usb`, `kmod-rt2x00-lib` und
 [openwrt-raspi-blog]: https://computers.tutsplus.com/articles/installing-openwrt-on-a-raspberry-pi-as-a-new-home-firewall--mac-55984
 [raspi-build]: http://downloads.openwrt.org/chaos_calmer/15.05.1/brcm2708/bcm2709/
 [fff-dev]: https://github.com/freifunk-berlin/firmware#development
-[image]: {{ images }}/kathleen-0.2.0-beta+9227220-brcm2708-bcm2708-sdcard-vfat-ext4.zip
+[image]: {% include images %}/kathleen-0.2.0-beta+9227220-brcm2708-bcm2708-sdcard-vfat-ext4.zip
 [Win32DiskImager]: https://netix.dl.sourceforge.net/project/win32diskimager/Archive/Win32DiskImager-0.9.5-install.exe
 [SDFormatter]: https://www.raspberrypi.org/learning/software-guide/quickstart/
-[packages]: {{ images }}/packages.zip
+[packages]: {% include images %}/packages.zip
 [kathleen]: https://wiki.freifunk-potsdam.de/Kathleen
 [adapter]: https://www.andrewklau.com/openwrt-and-a-4-usb-wifi-adapter/
 [openvpn]: https://wiki.openwrt.org/inbox/vpn.howto
 [stick2]: https://computers.tutsplus.com/articles/installing-openwrt-on-a-raspberry-pi-as-a-new-home-firewall--mac-55984
 [profiles]: http://pastebin.com/WbudpBDJ
-[profiles-kopie]: {{ images }}/profiles.txt
+[profiles-kopie]: {% include images %}/profiles.txt
 [stick3]: http://www.linux-hardware-guide.de/2013-09-15-logilink-wl0084b-wlan-nano-adapter-150mbps-usb-2-0
 [diskussion]: https://lists.freifunk-potsdam.de/pipermail/users/2016-November/007037.html
-[default_pi]: {{ images }}/default_pi.txt
+[default_pi]: {% include images %}/default_pi.txt
 [pi_branch]: https://github.com/niccokunzmann/firmware/tree/RaspberryPi
 [pi_commit]: https://github.com/niccokunzmann/firmware/commit/6be684ff9460cb8370d6e87d5d0b5f0d1d984a56
 [build_process]: https://github.com/niccokunzmann/firmware/tree/RaspberryPi#development

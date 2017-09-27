@@ -4,15 +4,12 @@ title: "Freifunk: Kabel für Richtantennen"
 language: de
 ---
 
-{% assign images = site.baseurl | append:"/images" | append:page.url %}
-
-
 Um die [TP-Link-Router][hardware] mit
 Richtfunkantennen auszustatten, möchte ich Verlangerungskabel haben.
 Diese brauchen aber einen bestimmten Anschluss:
 
-![Anschluss.jpg]({{ images }}/Anschluss.jpg)
-![Router.jpg]({{ images }}/Router.jpg)
+![Anschluss.jpg]({% include images %}/Anschluss.jpg)
+![Router.jpg]({% include images %}/Router.jpg)
 
 Dazu bin ich bei Ali-Express kurze Kabel durchgegangen und habe eine
 [Liste von möglichen Kabeln][liste] erstellt.
