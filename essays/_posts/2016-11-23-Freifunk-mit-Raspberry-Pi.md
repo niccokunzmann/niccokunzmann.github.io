@@ -12,7 +12,7 @@ Warum mache ich Freifunk mit dem Raspberry Pi?
 - Im Haus haben alle Wohnungen einen USB-Anschluss.
 - Der Raspberry Pi verbraucht mit USB-Adapter ca. 1A bei 5V, macht so 8-16€ im Jahr Stromkosten.
 - Ich kompiliere OpenWRT mal selbst.
-- Ich möchte den Raspi vielleicht bei anderen aufstellen und ihnen Freifunk bebringen.
+- Ich möchte den Raspi vielleicht bei anderen aufstellen und ihnen Freifunk beibringen.
 
 
 Warum der Blogpost:
