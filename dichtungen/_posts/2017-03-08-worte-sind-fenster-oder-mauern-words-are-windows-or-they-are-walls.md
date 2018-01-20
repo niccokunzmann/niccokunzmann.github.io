@@ -11,7 +11,8 @@ von Ruth Bebermeyer ins Deutsche.
  Bin ich verurteilt durch dein Wort?
 [Werd']
 [Verurteils du mich durch dein Wort? ]
- Fühl mich entwertet und versetzt,
+ Fühl mich entwertet und verletzt,
+                       [ versetzt ]
 [ Fühl' mich entwertet dass es schmerzt, ]
 [ Fühl' mich bewertet und voll Schmerz, ]
                        [ verletzt ]
@@ -24,14 +25,15 @@ von Ruth Bebermeyer ins Deutsche.
 [ Bevor ich mich zum Schutz empöre ]
                           [ erhebe ]
                             entzweie
- Bevor ich Schmerz und Angst vertraue
+ Bevor ich Angst und Schmerz vertrau'
  Bevor ich mit den Worten mauere
               [meinen]
  Sag' mir, versteh ich dich genau?
 
 [Refrain]
  Worte sind Fenster oder Mauern,
- Sie schränken ein oder befrei'n,
+ Sie sperren ein oder befrei'n,
+   [ schränken ]
  Wenn ich was sag' und wenn ich höre,
 [ Wenn ich sprech und wenn ich höre,]
 [ Wo ]
@@ -47,8 +49,8 @@ von Ruth Bebermeyer ins Deutsche.
  Als würdest du mir unwichtig sein.
 [ Denkst du, dass du mir egal bist, ]
            [ du bist mir egal ]
- Hilf meine Worte zu durchschauen
-                   [ durchsehen  ]
+ Such meine Worte zu durchschauen
+[Hilf ]                  [ durchsehen  ]
  Zu den Gefühlen, die uns einen.
                     [ in uns bestehen ]
 ```
