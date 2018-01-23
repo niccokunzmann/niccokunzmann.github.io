@@ -147,6 +147,15 @@ We think about adding a task to review pull requests, giving feedback about what
 With these learnings, we got 2.5 as many pull requests this GCI than we got the two years before.
 GCI is a great experience for me to learn how to scale up software development for contribution and build architectures that scale in value.
 
+## Statistics
+
+```
+Tasks | Merged (per Task)  | Closed   | Name       | GCI
+6     | 45     (7,5)       | 15 (25%) | Flappy-SVG | 2015 (until 25.06.2016)
+6     | 87     (14,5)      | 14 (13%) | Flappy-SVG | 2016 (from 25.06.2016 until 25.10.2017)
+20    | 350    (17,5)      | 58 (14%) | Labyrinth  | 2017 (until 23.01.2017)
+```
+
 
 [flappy-svg]: https://github.com/fossasia/flappy-svg/
 [labyrinth]: https://github.com/fossasia/labyrinth
