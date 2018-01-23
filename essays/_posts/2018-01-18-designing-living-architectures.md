@@ -152,7 +152,7 @@ GCI is a great experience for me to learn how to scale up software development f
 ```
 Tasks | Merged (per Task)  | Closed   | Name       | GCI
 6     | 45     (7,5)       | 15 (25%) | Flappy-SVG | 2015 (until 25.06.2016)
-6     | 87     (14,5)      | 14 (13%) | Flappy-SVG | 2016 (from 25.06.2016 until 25.10.2017)
+6     | 87     (14,5)      | 14 (14%) | Flappy-SVG | 2016 (from 25.06.2016 until 25.10.2017)
 20    | 350    (17,5)      | 58 (14%) | Labyrinth  | 2017 (until 23.01.2017)
 ```
 
