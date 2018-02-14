@@ -29,7 +29,7 @@ Für eine Umsetzung
 - Temperaturen
 - Luftdruck
 
-
+English: global transport via balloons and athmospheric circulation
 
 
 
