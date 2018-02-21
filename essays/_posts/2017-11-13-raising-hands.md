@@ -5,7 +5,7 @@ language: en
 ---
 
 When I read this article [“Your Hand’s Not Raised? Too Bad: I’m Calling on You
-Anyway” by Alfie Kohn][kohn1], I also watched the [video about school children
+Anyway” by Alfie Kohn][kohn-hands], I also watched the [video about school children
 talking about the practice of raising hands][hands].
 
 <!-- more -->
