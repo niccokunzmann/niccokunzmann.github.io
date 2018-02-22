@@ -140,11 +140,11 @@ Wenn jeder Satz oder jedes Wort einzeln überzeugen soll haben sie keine Chance.
 
 Dieses Werk scheint zumindest auf den Seiten, die ich gelesen habe,
 einen Konkurrenzkampf zu beschreiben.
-Den dann ein einen neuen Humanismus zu binden, widerspricht meiner Sicht nach nicht
+Den dann an einen neuen Humanismus zu binden, widerspricht meiner Sicht nach nicht
 einer neo-liberalen, patriarchischen Sicht.
 
 Wie vorher beschrieben liebe ich den Frieden und die gegenseite Achtung.
-Das kann ich in dem Buch nicht erkennen und werde gedanklich damit nicht kooperieren.
+Das kann ich in dem Buch gegenüber den Memen nicht erkennen und werde gedanklich damit nicht kooperieren.
 Der Unfähigkeit, die Gedanken der Meme zu kennen kann ich zustimmen.
 Der Begründnug nicht.
 
