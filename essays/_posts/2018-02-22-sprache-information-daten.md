@@ -148,5 +148,32 @@ Das kann ich in dem Buch gegenüber den Memen nicht erkennen und werde gedanklic
 Der Unfähigkeit, die Gedanken der Meme zu kennen kann ich zustimmen.
 Der Begründnug nicht.
 
+Wo bleibt die Freiheit?
+-----------------------
+
+Es ist nicht nur so, dass jede Ebene ihre eigene Freiheit besitzt,
+es ist auch so, dass die Ebenen die Freiheit haben, zu kooperieren und 
+mehr auseinander zu machen.
+Notiz: Freiheit ist nicht die Freiheit von etwas, so wie der Cowboy im Westen.
+Freiheit ist die Möglichkeit, seine Beziehungen zu gestalten.
+
+Willst du einem Stein seine Freiheit nehmen? Versuche es!
+Um die Freiheiten zu schützen, gibt es Regeln.
+Diese sind auf der Meme-Ebene z.B. ein respektvoller Diskurs, der Zuhören erlaubt.
+
+Da ich alles auch als kooperativ betrachten kann,
+kann ich vermuten, dass kooperativ oder kompetetiv bei der Betrachtung der Meme
+fehl am Platze sind.
+Ich schätze, weil sie zumindest Teils aus dem Patriarchen-Meme stammen und ich als Zelle vorerst
+nicht über das Hirn urteilen mag.
+Der größere Geist nimmt nur die Form der Meme in meinen Kontext an.
+
+More and Better to Read
+
+- [Noam Chomsky on Memes](https://www.youtube.com/watch?v=C-CLTdtk8LA)
+- [Noam Chomsky, Intellectual self-defense](http://openpolitics.ca/Intellectual+Self-Defense+by+Noam+Chomsky?page=Intellectual+Self-Defense+by+Noam+Chomsky)
+
+
+
 
 
