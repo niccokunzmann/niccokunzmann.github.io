@@ -21,17 +21,17 @@ Nichtkooperation erhöht wird.
 Diese machen es auch schwer, an Lösungen der Zivilgesellschaft heranzutreten.
 
 Gleichzeitig gibt es Schwierigkeiten der Politik an bestehende Gemeinschaften heranzutreten und
-selten Willen der ehrenamtlicher Freifunker, etwas zu garantieren.
+selten Willen ehrenamtlicher Freifunker, etwas zu garantieren.
 Der Ansatz ist ein anderer: Man kann den Zugang zur Gemeinschaft nicht kaufen sondern muss selbst 
 Teil der Gemeinschaft werden.
-Wartung ist kein Vertrag sondern eine wechselseitige Bezeihung.
+Wartung ist kein Vertrag sondern eine wechselseitige Beziehung.
 Mit Geld und Beschlüssen kann Kooperation auf Augenhöhe schwerlich erwirkt werden.
 
 
 Freifunk
 --------
 
-Freifunknetzwerke existieren in vielen Städten.
+[Freifunknetzwerke](https://freifunk.net/) existieren in vielen Städten.
 Diese sind dezentral. Jede Person kann mitmachen, wenn sie die Hardware hat.
 Ziel ist es ein örtliches, freies, unkontrollierbares Netz neben dem Internet zu schaffen und
 auch lokale Dienste anzubieten.
@@ -47,7 +47,7 @@ Wenn ein Uplink wegbricht, dann wählen die Router auch wieder neue Routen ins I
 Die Stärke der Netze liegt auch im dezentralen Aufbau und der Gemeinschaft:
 Ich muss nicht fragen, um mit meinem Nachbarn zusammen das Netz aufzubauen.
 Wenn die Router sich anfunken können, dann bilden sie ein gemeinsames Netz.
-Ich kann mit anderen Reden und so zusammen ein großen Netz aufbauen.
+Ich kann mit anderen Reden und so zusammen ein großes Netz aufbauen.
 
 Die Freifunkgemeinschaften benutzen auch unterschiedliche Software auf ihren Routern.
 Oftmals benutzen angrenzende Gemeinschaften die selbe Software, um interoperabel zu sein.
@@ -68,10 +68,10 @@ Wenn das Schul-Internet ausfällt, wird das Internet der Nachbarn das auffangen.
 Gleichzeitig ist es, so, dass die Eltern die Schule unterstützen können und vielleicht auch wollen,
 um zeitgemäße Bildung zu ermöglichen.
 
-Was ist möglich mit so einem freien Netz
+Was ist mit so einem freien Netz möglich:
 - Hohe Datenraten. Je mehr Leute mitmachen
 - Ausfallsicherheit
-- Infratruktur für die Umgebung
+- Infrastruktur für die Umgebung
 
 Wenn man Glasfaser-Geschwindigkeit mit 200Mbit/s erreichen möchte, dann braucht man 13 Anschlüsse
 mit 16Mbit/s in einem Dorf, wo es nur DSL gibt.
