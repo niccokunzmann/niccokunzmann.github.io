@@ -89,6 +89,9 @@ Zur Erklärung: Jedes IP-Paket hat nur Ziel und Quelle aber nicht das Gateway al
 Ein Ethernet-Mesh ermöglicht, dass die Gateways gezielt über ihre Mac-Adresse angesprochen werden.
 Dabei kann der DHCP-Server unter Einbeziehung der Geschwindigkeit und Verbindungsqualität die Gateway-IP vergeben.
 
+[Der Vortrag über Babel][babel1] mit [Source-Specific-Routing][source-specific-routing] addressiert die Möglichkeit, 
+verschiedene Gateways zu nutzen.
+
 Zusammenfassung
 ---------------
 
@@ -98,4 +101,6 @@ zentrale Anbindug zu verzichten.
 Bestehende Technologien, die in der Gesellschaft entwickelt werden ermöglichen das Schließen ewiger Lücken.
 
 
+[babel1]: https://www.youtube.com/watch?v=1zMDLVln3XM
+[source-specific-routing]: https://www.youtube.com/watch?v=1zMDLVln3XM
 
