@@ -156,8 +156,12 @@ Tasks | Merged (per Task)  | Closed   | Name       | GCI
 20    | 350    (17,5)      | 58 (14%) | Labyrinth  | 2017 (until 23.01.2017)
 ```
 
+Further Reading
+---------------
+
+- [Kenneth Reitz on Competition and Open-Source][kr1]
 
 [flappy-svg]: https://github.com/fossasia/flappy-svg/
 [labyrinth]: https://github.com/fossasia/labyrinth
 [c4]: https://rfc.zeromq.org/spec:42/C4/
-
+[kr1]: http://journal.kennethreitz.org/entry/competition
