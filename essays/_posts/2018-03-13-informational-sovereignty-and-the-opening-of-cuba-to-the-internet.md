@@ -24,7 +24,7 @@ I think, this is a manifold question with several aspects:
 2. hardware and import deficit
 3. informational sovereignty
 
-For the first two I would argue that they are not the driving factor as there exist ways to
+For the first two I would argue that they are not the driving factor as there exist ways
 which already pass around this.
 
 Digital sovereignty plays a huge role in the opening of Cuba to the internet.
@@ -63,11 +63,11 @@ An example community network could look like this:
 In the center of the town, there are community owned servers.
 They run the online version of libre office, a mail server and a wiki.
 This way, people in the community can still communicate digitally and exchange information even if not connected.
-Tools like syncthing allow decentral synchronization of files.
+Tools like syncthing allow decentral synchronization of files instead of using dropbox.
 The town is connected via cable or wireless mesh. The [SNET][snet] shows there is expertise on how to establish this.
 
-The communities are connected via a link which is not as good as the link in the city.
-The internetconnection might be even worse but usable.
+The communities are connected via links which are not as good as the link in the city.
+The internet connection might be even worse but usable.
 This way, we ensure the decentral practice of communities.
 Open-source software can support the digital sovereignty of the communities.
 
@@ -82,18 +82,18 @@ There are essentially three categories for software from the perspective of powe
 - Open-source software - you know what happens and you can influence where it is going
 - Self-made software - you control it 100% - if you have enough power to keep it secure.
 
-Why using open-source software is a path to sovereignty?
+Why is using open-source software a path to sovereignty?
 --------------------------------------------------------
 
 If you do not know what runs on the device, you do not own it. You can not change it.
 If you do not know what runs the Cuban internet and services (i.e. you can not look into Google), you surrender your data and freedom to them.
-This is by kapitalistic design, even if you trust the people.
+This is by capitalistic design, even if you trust the people.
 
 Open-source software however is maintained by open communities.
 They will not surrender to an external pressure and takeover.
 There is a way to take over a community: by taking over the lead developers - [Hintjens].
 If this happens, you can still fork the software and not being taken over.
-The case of home-made software applies here as always as an option.
+The case of home-made software as a fork applies here as always as an option in case of take-over.
 
 If you are part of an open-source community, you know that ligitimate development power
 drives the project.
