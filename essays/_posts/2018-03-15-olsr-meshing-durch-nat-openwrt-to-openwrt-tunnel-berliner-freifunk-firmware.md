@@ -181,7 +181,7 @@ Dank an Hannes, der mich mit [einer Mail][hannes] in andere Richtungen gestoßen
 Der [Blog Post über Performance][perf] hat eine gute Übersicht gegeben.
 Ich hatte ein [VPN-Konzept] geschrieben, das aber noch einen zusätzlichen Rechner
 erfordern würde.
-Man kann auch Passwöeter und [Schlüssel verwenden][key], um das VPN zu sichern.
+Man kann auch Passwörter und [Schlüssel verwenden][key], um das VPN zu sichern.
 
 [firmware]: https://github.com/freifunk-berlin/firmware/
 [perf]: https://justus.berlin/2016/02/performance-of-tunneling-methods-in-openwrt/
