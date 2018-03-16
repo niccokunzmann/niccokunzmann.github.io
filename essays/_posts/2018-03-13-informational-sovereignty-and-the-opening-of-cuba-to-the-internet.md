@@ -125,10 +125,17 @@ However, as Cuba has managed with agriculture, it is possible to go another way,
 strengthening the communities and building new ones to find decentral solutions to the
 problems they face.
 
+Related Work
+------------
+
+- There is research on how to use build up [community networks with local services][netcommons-3]
+
+
 
 
 [snet]: https://www.polygon.com/features/2017/5/15/15625950/cuba-secret-gaming-network
 [cuba-internet-wikipedia]: https://en.wikipedia.org/w/index.php?title=Internet_in_Cuba&oldid=818915472
 [the-weekly-package]: https://www.youtube.com/watch?annotation_id=annotation_2868311713&feature=iv&src_vid=FFPjJM6yYS8&v=fTTno8D-b2E
 [Hintjens]: http://hintjens.com/blog:68
+[netcommons-3]: https://youtu.be/uuSxoWcOEwA?t=18m17s
 
