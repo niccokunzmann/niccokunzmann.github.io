@@ -128,7 +128,7 @@ problems they face.
 Related Work
 ------------
 
-- There is research on how to use build up [community networks with local services][netcommons-3]
+- There is research on how to build up [community networks with local services][netcommons-3]
 
 
 
