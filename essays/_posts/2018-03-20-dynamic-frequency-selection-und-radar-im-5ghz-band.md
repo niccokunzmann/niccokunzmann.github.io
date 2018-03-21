@@ -40,14 +40,16 @@ Implementierungen
 
 OpenWRT/LEDE beinhalten Module, um auf dem Atheros Chipsatz DFS umzusetzen [[openwrt-dfs]].
 Gesetzeslagen scheinen sind bis 2011 dokumentiert [[linux-wireless]].
-Laut [wireless-db] sind die CAC-Zeiten nicht aufgeführt.
+Laut [wireless-dbgt] sind die CAC-Zeiten nicht aufgeführt.
 In [nl80211.h] werden die Events für den Radar beschrieben und die Kanaleigenschaften.
 `NL80211_ATTR_DFS_CAC_TIME` beschreibt die Zeit, die für den CAC genutzt werden soll.
 In [reglib.h] wird die `ieee80211_reg_rule` beschrieben.
 Diese enthält auch eine Zeit für die DFS `dfs_cac_ms`.
 In [reglib.c] wird die `dfs_cac_ms` gesetzt, in Klammern `()`.
 Diese sind in der [wireless-db] aber nicht auf die Werte aus [EN301893] gesetzt.
-Das [erfrage ich mal][mail-wireless-db].
+Das [erfragte ich][mail-wireless-db] und die Antwort ist, dass die die CAC-Zeiten im Kernel
+hardcoded sind.
+Scheinbar gibt es einen Übergang zu variablen CAC-Zeiten.
 
 
 Meshing
