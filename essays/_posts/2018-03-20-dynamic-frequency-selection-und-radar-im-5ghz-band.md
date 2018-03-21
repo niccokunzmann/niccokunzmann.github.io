@@ -31,7 +31,7 @@ In [[EN301893], Seite 104, Tabelle D.1] sind die Channel-Availability-Check-Zeit
 Beschränkungen
 --------------
 
-Die Nutzung von 5GHz WLAN außerhalb von Räumen ist auf 1 Watt bzw. durchschnittlich ca. 0.5 Watt beschränkt [[WAS_WLAN_DE]].
+Die Nutzung von 5GHz WLAN außerhalb von Räumen ist auf 1 Watt bzw. durchschnittlich ca. 0.5 Watt beschränkt [[WAS-WLAN-DE]].
 Außerdem müssen WLAN-Geräte bei der Erkennung eines Radars das Senden auf dem Kanal für
 einen gewissen Zeitraum unterlassen.
 
@@ -40,7 +40,7 @@ Implementierungen
 
 OpenWRT/LEDE beinhalten Module, um auf dem Atheros Chipsatz DFS umzusetzen [[openwrt-dfs]].
 Gesetzeslagen scheinen sind bis 2011 dokumentiert [[linux-wireless]].
-Laut [[wireless-db]] sind die CAC-Zeiten nicht aufgeführt.
+Laut [wireless-db] sind die CAC-Zeiten nicht aufgeführt.
 In [nl80211.h] werden die Events für den Radar beschrieben und die Kanaleigenschaften.
 `NL80211_ATTR_DFS_CAC_TIME` beschreibt die Zeit, die für den CAC genutzt werden soll.
 In [reglib.h] wird die `ieee80211_reg_rule` beschrieben.
