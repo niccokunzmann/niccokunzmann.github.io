@@ -94,11 +94,13 @@ Ab Seite 409, auf den Frequenzen von 5470MHz bis 5725MHz sind folgende Akteure v
   - **D446A: WLAN** - MOBILFUNKDIENST außer mobiler Flugfunkdienst D446A D450A
   - Militärische Funkanwendungen - NICHTNAVIGATORISCHER ORTUNGSFUNKDIENST 
 
+### Schlussfolgerungen aus dem Frequenzplan
+
 Wenn wir also die Kanäle 136, 138, 140, 142, 144 für einen öffentlichen Mesh nutzen,
 werden wir durch Amateurfunk und Militär gestört aber keine anderen registrierten Radare.
 Auf den Kanälen 110 - 134 sind der Wetterdienst mit erhöhten CAC-Sperrzeiten.
 Auf den Kanälen 100 - 116 haben wir auch Forschung, die die Frequenzen nutzt.
-Auf meinem Router TL-WDR4300 kann man von den genannten Kanälen nur 136 und 140 auswählen.
+Auf meinem Router TL-WDR4300 kann man von den zuerst genannten Kanälen nur 136 und 140 auswählen.
 
 Weitere Forschungen
 -------------------
