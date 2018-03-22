@@ -108,6 +108,9 @@ Weitere Forschungen
 Wir können die Amateurfunkergemeinschaft fragen, was sie in den Frequenzbereichen macht
 und ob WLAN sie stört.
 
+Stahlungsleistungen und Sendezeiten von Radaren können wir bei der Bundesnetzagentur erfragen. Eventuell stehen sie in der [VVRadNav].
+
+
 Dank
 ----
 
