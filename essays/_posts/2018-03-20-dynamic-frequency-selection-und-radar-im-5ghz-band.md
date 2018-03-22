@@ -110,6 +110,8 @@ und ob WLAN sie stört.
 
 Stahlungsleistungen und Sendezeiten von Radaren können wir bei der Bundesnetzagentur erfragen. Eventuell stehen sie in der [VVRadNav].
 
+Es gibt andere Freifunkergemeinschaften, die vielleicht auch mit 5GHz meshen.
+Wie machen die das?
 
 Dank
 ----
