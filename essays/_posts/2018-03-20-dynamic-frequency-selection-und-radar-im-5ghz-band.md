@@ -49,14 +49,14 @@ In [reglib.c] wird die `dfs_cac_ms` gesetzt, in Klammern `()`.
 Diese sind in der [wireless-db] aber nicht auf die Werte aus [EN301893] gesetzt.
 Das [erfragte ich][mail-wireless-db] und die Antwort ist, dass die die CAC-Zeiten im Kernel
 hardcoded sind.
-Scheinbar gibt es einen Übergang zu variablen CAC-Zeiten.
+Scheinbar gibt es einen Übergang zu variablen CAC-Zeiten, der zum Implementieren aussteht.
 
 
 Meshing
 -------
 
 Das Meshing über 802.11s ist im 5GHz Band möglich.
-Allerdings kann es auf allen Kanälen, die außerhalb von Räumen verwendet werden dürfen,
+Allerdings kann es auf allen Kanälen (5470MHz bis 5725MHz), die außerhalb von Räumen verwendet werden dürfen,
 zu Radarstörungen kommen.
 Laut Gesetz sind diese Radare zu schützen und das Senden einzustellen.
 Es gibt Möglichkeiten, einen Kanalwechsel zu initiieren.
@@ -66,7 +66,54 @@ Es ist interessant, einen Algorithmus zu entwerfen, der es erlaubt,
 dass die ein 5GHz Mesh wieder zu einem Kanal konvergiert.
 
 
+Frequenzplan
+------------
 
+Der **[Frequenzplan]** beschreibt auf Seiten 12-19, wie man Nutzer der Frequenzen einteilen kann.
+Ab Seite 409, auf den Frequenzen von 5470MHz bis 5725MHz sind folgende Akteure verzeichnet. Die Kanaleinschätzung erfolgt durch [Wikipedia][wiki-5ghz] und die Kanalbreite, nicht die Hauptfrequenz. Deswegen sind Kanäle doppelt drin.
+- 5470 - 5570 MHz | Kanäle 100 - 116
+  - Erderkundung - ERDERKUNDUNGSFUNKDIENST ÜBER SATELLITEN (aktiv) D448B.  
+    Aktive Sensoren (Radar) an Bord von Weltraumfahrzeugen für die wissenschaftliche und technische Forschung, zur Erkundung der Eigenschaften der Erde, von Naturerscheinungen und zur Gewinnung von Daten über den Zustand der Umwelt
+  - **D446A: WLAN** - MOBILFUNKDIENST außer mobiler Flugfunkdienst D446A D450A  
+    Das ist unser WLAN mit DFS
+  - Militärische Funkanwendungen - NICHTNAVIGATORISCHER ORTUNGSFUNKDIENST D450B
+  - SEENAVIGATIONSFUNKDIENST 
+  - Weltraumforschungsfunk - WELTRAUMFORSCHUNGSFUNKDIENST (aktiv) D448B
+- 5570 - 5650 MHz | Kanäle 110 - 134
+  - **D446A: WLAN** - MOBILFUNKDIENST außer mobiler Flugfunkdienst D446A D450A  
+    Das ist wieder unser WLAN.
+  - Militärische Funkanwendungen - NICHTNAVIGATORISCHER ORTUNGSFUNKDIENST D450B
+  - SEENAVIGATIONSFUNKDIENST
+  - Wetterradar - NICHTNAVIGATORISCHER ORTUNGSFUNKDIENST D450B  
+    Radar zur Ortung von kondensiertem Wasserdampf oder zur Verfolgung von Wetterballon.
+    Das ist in der [Verwaltungsvorschrift für Frequenzzuteilungen für Radare und Navigationssysteme][VVRadNav] die einzige Radarnutzung in dem Bereich.
+- 5650 - MHz 5725 | Kanäle 126 - 144
+  - 13: Amateurfunk - D282: Amateurfunkdienst über Satelliten (Richtung Erde - Weltraum)  
+    Technische und betriebliche Rahmenbedingungen werden durch die nach § 6 Satz 1 des Gesetzes über den Amateurfunk vom 23. Juni 1997 (BGBl. I 1997 S. 1494) erlassene Rechtsverordnung festgelegt.
+  - 13: Amateurfunk - Amateurfunkdienst
+  - **D446A: WLAN** - MOBILFUNKDIENST außer mobiler Flugfunkdienst D446A D450A
+  - Militärische Funkanwendungen - NICHTNAVIGATORISCHER ORTUNGSFUNKDIENST 
+
+Wenn wir also die Kanäle 136, 138, 140, 142, 144 für einen öffentlichen Mesh nutzen,
+werden wir durch Amateurfunk und Militär gestört aber keine anderen registrierten Radare.
+Auf den Kanälen 110 - 134 sind der Wetterdienst mit erhöhten CAC-Sperrzeiten.
+Auf den Kanälen 100 - 116 haben wir auch Forschung, die die Frequenzen nutzt.
+Auf meinem Router TL-WDR4300 kann man von den genannten Kanälen nur 136 und 140 auswählen.
+
+Weitere Forschungen
+-------------------
+
+Wir können die Amateurfunkergemeinschaft fragen, was sie in den Frequenzbereichen macht
+und ob WLAN sie stört.
+
+Dank
+----
+
+Dank an Manfred Woditschka, Bundesnetzagentur 225-8 für die ausführliche E-Mailkommunikation und die viele Quellen.
+
+
+[VVRadNav]: https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/Verwaltungsvorschriften/VV_RadNav.pdf?__blob=publicationFile&v=3
+[Frequenzplan]: https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/Frequenzplan.pdf?__blob=publicationFile&v=9
 [apmap-potsdam]: https://monitor.freifunk-potsdam.de/ff/apmap
 [openwrt-dfs]: https://openwrt.org/docs/guide-user/network/wifi/basic#dfsradar_detection
 [tristant]: https://www.itu.int/md/dologin_md.asp?id=R09-SEM.WMO-C-0019!!PDF-E
@@ -79,4 +126,5 @@ dass die ein 5GHz Mesh wieder zu einem Kanal konvergiert.
 [reglib.h]: https://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/crda.git/tree/reglib.h#n31
 [reglib.c]: https://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/crda.git/tree/reglib.c#n846
 [mail-wireless-db]: http://lists.infradead.org/pipermail/wireless-regdb/2018-March/001162.html
+[wiki-5ghz]: https://en.wikipedia.org/wiki/List_of_WLAN_channels#5_GHz_(802.11a/h/j/n/ac/ax)
 
