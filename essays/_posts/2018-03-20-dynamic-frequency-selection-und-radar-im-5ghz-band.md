@@ -113,6 +113,11 @@ Stahlungsleistungen und Sendezeiten von Radaren können wir bei der Bundesnetzag
 Es gibt andere Freifunkergemeinschaften, die vielleicht auch mit 5GHz meshen.
 Wie machen die das?
 
+Diskussionen
+------------
+
+- [Freifunk Potsdam Mailing List][potsdam-mailinglist]
+
 Dank
 ----
 
@@ -134,4 +139,5 @@ Dank an Manfred Woditschka, Bundesnetzagentur 225-8 für die ausführliche E-Mai
 [reglib.c]: https://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/crda.git/tree/reglib.c#n846
 [mail-wireless-db]: http://lists.infradead.org/pipermail/wireless-regdb/2018-March/001162.html
 [wiki-5ghz]: https://en.wikipedia.org/wiki/List_of_WLAN_channels#5_GHz_(802.11a/h/j/n/ac/ax)
+[potsdam-mailinglist]: https://lists.freifunk-potsdam.de/pipermail/users/2018-March/018511.html
 
