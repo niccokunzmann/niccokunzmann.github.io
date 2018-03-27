@@ -173,7 +173,7 @@ More and Better to Read
 - [Noam Chomsky on Memes](https://www.youtube.com/watch?v=C-CLTdtk8LA)
 - [Noam Chomsky, Intellectual self-defense](http://openpolitics.ca/Intellectual+Self-Defense+by+Noam+Chomsky?page=Intellectual+Self-Defense+by+Noam+Chomsky)
 
-
+Hier ist ein Vortrag zu [Materie, Energie und Bewusstsein](https://www.youtube.com/watch?v=SJnQrzZBQgw&list=PLrj7eQjjfPEZew8FCTeclOW7wyVTVYEJT&index=3).
 
 
 
