@@ -152,11 +152,14 @@ Der Algorithmus steht in der [C-Datei][arp-source].
   Wo finde ich den?
   
 Auf [die Anfrage in der Mailingliste gab es Antworten][mail].
-  
+[Mehr Diskussion März 2018](https://lists.berlin.freifunk.net/pipermail/berlin/2018-March/037451.html).
+In [Potsdam gibt es eine Anleitung][roaming-potsdam].
+
 [olsr-arproaming]: http://olsr-arproaming.sourceforge.net/
 [arp-source]: https://sourceforge.net/p/olsr-arproaming/code/HEAD/tree/src/olsrd_arproaming.c
 [openwrt-repo-suche]: https://github.com/search?q=org%3Aopenwrt+arproaming
 [mail]: https://lists.berlin.freifunk.net/pipermail/berlin/2017-March/035415.html
+[roaming-potsdam]: https://wiki.freifunk-potsdam.de/Roaming
   
 Fails
 =====
