@@ -66,6 +66,6 @@ Verwandte Arbeiten
 ------------------
 
 - [Meer sucht Felsen](https://www.christ-sucht-christ.de/weblog/MeersuchtFelsen/41740/)
-
+- [Anro Elfert](http://www.arno-elfert.name/songs/Seh_die_Schoenheit_in_mir.pdf) auf [arno-elfert.name](http://arno-elfert.name/)
 
 
