@@ -42,6 +42,14 @@ Lösungen, die auf Kontrolle bauen, haben oft den Anspruch, nicht sehen zu wolle
 Das ist die Angst, eine Schutzreaktion, die viele Menschen, so auch Pogrammierer, davor bewahren soll, verletzt zu werden.
 In der Programmierung äußert sie sich z.B. so wie beschrieben.
 
+Weitere Literatur
+-----------------
+
+[Dieses Interview mit Joanna Macy](https://tiefenoekologie.de/12-politk-des-herzens/9-joanna-macy-die-welt-als-geliebte) spricht auch den Perspektivenwechsel an. Zitat:
+
+> [Der Perspektivenwechsel] ermöglicht einen Wandel weg von strikt vorgegebenen Zielen hin zu einer Freiheit, in der wir unsere Ziele sich mit den immer neu entstehenden Möglichkeiten entfalten lassen können. Es ist ein Wechsel von einer kontrollierenden hin zu einer annehmenden Haltung, die die Vielfalt der Realität begrüßt und zu nutzen weiß. Und es ist ein geistiger Wandel, der uns von einem orthodoxen Glaubenssystem und der Abhängigkeit von fremden Autoritäten zu einer radikalen Offenheit gegenüber der Authentizität der eigenen Erfahrung zurückbringt. 
+
+
 ---
 
 Dank an Jonas, dass er mit mir gesprochen hat, dazu zu kommen, das zu schreiben.
