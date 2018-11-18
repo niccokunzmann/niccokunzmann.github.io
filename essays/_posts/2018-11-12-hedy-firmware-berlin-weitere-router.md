@@ -5,9 +5,9 @@ language: de
 ---
 
 Ich habe die Firmware der Berliner auf meinem Debian für diese Router gebaut:
-- D-Link DIR-615
-- Netgear N300 WNR2000v5
-- Netgear N600 WNDR3400v3
+- D-Link [DIR-615](https://openwrt.org/toh/d-link/dir-615)
+- Netgear [N300 WNR2000v5](https://openwrt.org/toh/netgear/wnr2000)
+- Netgear [N600 WNDR3400v3][N600]
 
 Wie in der [README] beschrieben, muss man dazu Pakete installieren.
 
