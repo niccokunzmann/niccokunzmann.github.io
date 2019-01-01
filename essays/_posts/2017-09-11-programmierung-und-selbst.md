@@ -49,6 +49,7 @@ Weitere Literatur
 
 > [Der Perspektivenwechsel] ermöglicht einen Wandel weg von strikt vorgegebenen Zielen hin zu einer Freiheit, in der wir unsere Ziele sich mit den immer neu entstehenden Möglichkeiten entfalten lassen können. Es ist ein Wechsel von einer kontrollierenden hin zu einer annehmenden Haltung, die die Vielfalt der Realität begrüßt und zu nutzen weiß. Und es ist ein geistiger Wandel, der uns von einem orthodoxen Glaubenssystem und der Abhängigkeit von fremden Autoritäten zu einer radikalen Offenheit gegenüber der Authentizität der eigenen Erfahrung zurückbringt. 
 
+Der Talk [Information Biology - Investigating the information flow in living systems ](https://media.ccc.de/v/35c3-9734-information_biology_-_investigating_the_information_flow_in_living_systems#t=1492) beschreibt den Algorithmus, den die E.Coli-Bakterien benutzen, um sich zu bewegen. Das ist der selbe Algorithmus, den ich benutze, um den Roboter zu programmieren.
 
 ---
 
