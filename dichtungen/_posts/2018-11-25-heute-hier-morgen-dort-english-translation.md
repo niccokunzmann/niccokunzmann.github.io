@@ -42,7 +42,7 @@ can remember the look on my face
 [R]
 
 [3]
- But if you do ask me why,
+ But if you do ask me why, {Cotney dialect for this and the next line.}
  do I do things this way? {way like why}
  Oh, the answer is too hard to say
  what's new whithers at last
