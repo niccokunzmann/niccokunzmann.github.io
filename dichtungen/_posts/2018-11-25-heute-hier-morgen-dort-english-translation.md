@@ -42,9 +42,9 @@ can remember the look on my face
 [R]
 
 [3]
- But if you do ask me why, {Cotney dialect for this and the next line.}
+ But if you do ask me why, {possibly Cockney dialect for this and the next lines}
  do I do things this way? {way like why}
- Oh, the answer is too hard to say
+ Oh, the answer is too hard to say  {s a y - a like in shy}
  what's new whithers at last
  what was right in the past
  May be wrong, you watch out, any day
