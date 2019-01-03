@@ -19,7 +19,7 @@ Dort will ich es in Englisch singen.
  Barely arrived, I leave somewhere
  But I never had any complaint.
  I myself chose this way
- Never conting a day
+ Never counting a day
  Never asked for the time anyway
 
 [R]
