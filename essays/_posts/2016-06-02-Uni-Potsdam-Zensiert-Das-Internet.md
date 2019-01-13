@@ -272,3 +272,13 @@ Mit dem Thema Deep Packet inspection hat sich [Mark Bedner befasst](http://kobra
 
 2016/06/21 Es wurden mehrere Anfragen an die Techniker der Uni Potsdam gestellt.
 Diese werde noch beantwortet.
+
+## Weitere Aktionen
+
+Technisch:
+- Die Anfragen in IP-Adressen senden, um zu sehen, welches die IP vom der Box ist.
+- HTTP-Header ansehen von dem, was zurück kommt.
+- DSGVO - keine metadaten werden hier weitergegeben - was ist die Rechtsgrundlage §6
+- Informations Freiheits Anfrage
+    - zur Beschaffung 
+    - zu den Sperrlisten und wie man da drauf kommt und wie nicht
