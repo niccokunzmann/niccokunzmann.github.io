@@ -63,6 +63,16 @@ it appears to be clear that
 nothing stays,
 nothing stays that is dear {erm... wrong translation: as it was - but this is more sad!}
 
+that I am hardly missed
+soon I am off your list
+
+that you will not miss me
+
+That you don't miss me much,
+forget me once out of touch
+
+
+
 [I can't speak if I try,]
 ['cause]
 [all the young things get old]
