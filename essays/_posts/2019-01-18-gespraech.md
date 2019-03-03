@@ -5,7 +5,8 @@ language: de
 ---
 
 In dieser Stellungnahme möchte ich darlegen, dass das [Attac-Urteil vom
-26. Februar 2019] ein Aus für die angewandte Bildung als Gemeinnützig bedeutet.
+26. Februar 2019](https://www.bundesfinanzhof.de/content/9-2019)
+ ein Aus für die angewandte Bildung als Gemeinnützig bedeutet.
 
 Die Argumentation ist wie folgt:
 Attac hat die Gemeinnützigkeit aberkennt bekommen, weil 
