@@ -2,6 +2,8 @@
 layout: post
 title: Worte sind Fenster oder Mauern
 language: de
+tracks:
+- "worte sind fenster oder mauern.ogg"
 ---
 
 Dies ist eine Übersetzung von "[Words are windows or they are walls][original]"

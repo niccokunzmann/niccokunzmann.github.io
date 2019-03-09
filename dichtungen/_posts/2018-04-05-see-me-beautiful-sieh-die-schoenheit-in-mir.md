@@ -2,6 +2,8 @@
 layout: post
 title: See me beautiful - deutsche Übersetzung - sieh die Schönheit in mir
 language: de
+tracks:
+- "Sieh die Schönheit in mir.ogg"
 ---
 
 Dies ist eine Übersetzung von "See me beautiful". Auf Deutsch.

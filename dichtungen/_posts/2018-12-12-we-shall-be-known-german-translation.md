@@ -2,6 +2,8 @@
 layout: post
 title: We Shall Be Known - German Translation - Deutsche Übersetzung
 language: de
+tracks:
+- "wir sind bekannt.ogg"
 ---
 
 Dies ist ein Versuch, das Lied

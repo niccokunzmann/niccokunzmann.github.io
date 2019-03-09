@@ -2,6 +2,8 @@
 layout: post
 title: Soldier, how do I get back to life?
 language: en
+tracks:
+- "soldier.ogg"
 ---
 
 ```

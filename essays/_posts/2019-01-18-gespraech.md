@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stellungnahme Attac-Urteil: Aus für angewandte Bildung
+title: "Stellungnahme Attac-Urteil: Aus für angewandte Bildung"
 language: de
 ---
 
