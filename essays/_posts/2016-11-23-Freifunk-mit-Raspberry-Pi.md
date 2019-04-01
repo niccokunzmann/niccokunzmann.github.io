@@ -4,6 +4,14 @@ title: Freifunk mit Raspberry Pi
 language: de
 ---
 
+## Update 1.4.2018
+
+Bei diesem Image handelt es sich um das Image für den Raspberry Pi 1 Modell B.
+In den [Release Notes für Version Hedy 1.0.2](https://github.com/freifunk-berlin/firmware/tree/v1.0.2#release-note-102-hedy---2019-01-21) steht, dass man das Image für Raspberry Pi und Raspberry Pi 3 selber kompilieren kann.
+Der Code hier verwendet den Code von Kathleen, was die Version der Freifunk Firmware ist, die vor Hedy released wurde.
+
+---
+
 [Gebautes Kathleen-Image für Freifunk runterladen.][image]
 
 Warum mache ich Freifunk mit dem Raspberry Pi?
