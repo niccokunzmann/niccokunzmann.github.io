@@ -8,6 +8,7 @@ Ich habe die Firmware der Berliner auf meinem Debian für diese Router gebaut:
 - D-Link [DIR-615](https://openwrt.org/toh/d-link/dir-615)
 - Netgear [N300 WNR2000v5](https://openwrt.org/toh/netgear/wnr2000)
 - Netgear [N600 WNDR3400v3][N600]
+- TP-Link [TL-WA901nd][tl-wa901nd]
 
 Wie in der [README] beschrieben, muss man dazu Pakete installieren.
 
@@ -116,10 +117,10 @@ CONFIG_DEFAULT_kmod-usb2=y
 CONFIG_PACKAGE_kmod-usb2=y
 ```
 in der Konfiguration hinzugebe.
-Weil das dann nicht klappt, habe ich mich entschlossen, in die Pakete `-kmod-usb2` gechrieben,
+Weil das dann nicht klappt, habe ich mich entschlossen, in die Pakete `-kmod-usb2` geschrieben,
 weshalb kein USB2-Support da ist.
 
-Es stellt sich heraus, dass [keine WLAN-Unterstützung für den 3400v3](https://openwrt.org/toh/netgear/wndr3400) da ist.
+Es stellt sich heraus, dass **[keine WLAN-Unterstützung für den 3400v3](https://openwrt.org/toh/netgear/wndr3400)** da ist.
 Hier also die Firmware-Images:
 
 - [hedy-1.0.1-brcm47xx-mips74k-netgear-wndr3400-v1-squashfs.chk]({% include images %}/hedy-1.0.1-brcm47xx-mips74k-netgear-wndr3400-v1-squashfs.chk)
@@ -127,7 +128,21 @@ Hier also die Firmware-Images:
 - [hedy-1.0.1-brcm47xx-mips74k-netgear-wndr3400-v3-squashfs.chk]({% include images %}/hedy-1.0.1-brcm47xx-mips74k-netgear-wndr3400-v3-squashfs.chk)
 - [hedy-1.0.1-brcm47xx-mips74k-netgear-wndr3700-v3-squashfs.chk]({% include images %}/hedy-1.0.1-brcm47xx-mips74k-netgear-wndr3700-v3-squashfs.chk)
 
-## Related Work
+## TP-Link TL-WA901ND
+
+Dieser Router wird nicht so empfohlen, weil er nur 4mb Flash hat.
+
+Kompiliert mit
+
+```
+git checkout Hedy-1.0.2-rc1
+make PACKAGES_LIST_DEFAULT=default_4MB PROFILES=tl-wa901nd-v2
+```
+
+- [hedy-1.0.2-rc1-52c60b6-tl-wa901nd-v2-factory.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wa901nd-v2-factory.bin)
+- [hedy-1.0.2-rc1-52c60b6-tl-wa901nd-v2-sysupgrade.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wa901nd-v2-sysupgrade.bin)
+
+## Weitere Firmwares
 
 - "[Freifunk auf dem Raspi](https://niccokunzmann.github.io/blog/2016-11-23/Freifunk-mit-Raspberry-Pi)"
     erklärt auch mehr, was die einzelnen Sachen bedeuten.
@@ -141,3 +156,5 @@ Hier also die Firmware-Images:
 [wnr-lede]: https://github.com/niccokunzmann/source/tree/wnr2000v5-ff-berlin
 [N600]: https://openwrt.org/toh/netgear/wndr3400
 [wndr3400v3]: https://github.com/niccokunzmann/firmware/tree/wndr3400v3
+[tl-wa901nd]: https://oldwiki.archive.openwrt.org/toh/tp-link/tl-wa901nd#version_2x
+
