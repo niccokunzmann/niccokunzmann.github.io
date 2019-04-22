@@ -6,13 +6,15 @@ language: de
 
 Ich habe die Firmware der Berliner auf meinem Debian für diese Router gebaut:
 - D-Link [DIR-615](https://openwrt.org/toh/d-link/dir-615)
+- D-Link [DIR-600 B](https://openwrt.org/toh/d-link/dir-600)
 - Netgear [N300 WNR2000v5](https://openwrt.org/toh/netgear/wnr2000)
 - Netgear [N600 WNDR3400v3][N600]
 - TP-Link [TL-WA901nd][tl-wa901nd]
+- TP-Link [Archer C50](https://openwrt.org/toh/tp-link/archer-c50)
 
 Wie in der [README] beschrieben, muss man dazu Pakete installieren.
 
-## DIR-615
+## DIR-615 D
 
 [Branch][DIR-615]
 
@@ -30,6 +32,22 @@ Images:
 - [hedy-1.0.1-dir-615-d-factory.bin]({% include images %}/hedy-1.0.1-dir-615-d-factory.bin)
 - [hedy-1.0.1-dir-615-d-sysupgrade.bin]({% include images %}/hedy-1.0.1-dir-615-d-sysupgrade.bin)
 
+## DIR-600 B
+
+[Branch][DIR-615]
+
+Verwendet die selbe Datei [configs/ramips-rt305x.config](https://github.com/niccokunzmann/firmware/blob/0015f119dc6aca4663dd8f038e72eee82aa96490/configs/ramips-rt305x.config)
+wie der DIR-615 D.
+Kompiliert mit folgendem Befehl. `-j7` steht für die Nutzung von
+7 CPU-Kernen.
+
+```
+make PACKAGES_LIST_DEFAULT=default_4MB PROFILES=dir-600-b1 \
+     -j7 TARGET=ramips-rt305x
+```
+
+- [hedy-1.0.2-rc1-52c60b6-dir-600-b1-factory.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-dir-600-b1-factory.bin)
+- [hedy-1.0.2-rc1-52c60b6-dir-600-b1-sysupgrade.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-dir-600-b1-sysupgrade.bin)
 
 ## WNR2000v5
 
@@ -141,6 +159,39 @@ make PACKAGES_LIST_DEFAULT=default_4MB PROFILES=tl-wa901nd-v2
 
 - [hedy-1.0.2-rc1-52c60b6-tl-wa901nd-v2-factory.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wa901nd-v2-factory.bin)
 - [hedy-1.0.2-rc1-52c60b6-tl-wa901nd-v2-sysupgrade.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wa901nd-v2-sysupgrade.bin)
+
+## TP-Link TL-941ND
+
+Dieser Router wird nicht so empfohlen, weil er nur 4mb Flash hat.
+
+Kompiliert mit
+
+```
+git checkout Hedy-1.0.2-rc1
+make PACKAGES_LIST_DEFAULT=default_4MB PROFILES=tl-wr941nd-v6 TARGET=ar71xx-generic
+```
+
+- [hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v2-factory.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v2-factory.bin)
+- [hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v2-sysupgrade.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v2-sysupgrade.bin)
+- [hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v3-factory.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v3-factory.bin)
+- [hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v3-sysupgrade.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v3-sysupgrade.bin)
+- [hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v4-factory.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v4-factory.bin)
+- [hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v4-sysupgrade.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v4-sysupgrade.bin)
+- [hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v5-factory.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v5-factory.bin)
+- [hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v5-sysupgrade.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v5-sysupgrade.bin)
+- [hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v6-factory.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v6-factory.bin)
+- [hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v6-sysupgrade.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-tl-wr941nd-v6-sysupgrade.bin)
+
+## TP-Link Archer C50 v1
+
+Kompiliert mit
+
+```
+make PACKAGES_LIST_DEFAULT=default PROFILES='ArcherC50' TARGET=ramips-mt7620
+```
+
+- [hedy-1.0.2-rc1-52c60b6-ArcherC50-factory.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-ArcherC50-factory.bin)
+- [hedy-1.0.2-rc1-52c60b6-ArcherC50-sysupgrade.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-ArcherC50-sysupgrade.bin)
 
 ## Weitere Firmwares
 
