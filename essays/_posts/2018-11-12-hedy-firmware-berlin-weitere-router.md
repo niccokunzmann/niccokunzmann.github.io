@@ -195,9 +195,10 @@ make PACKAGES_LIST_DEFAULT=default PROFILES='ArcherC50' TARGET=ramips-mt7620
 
 ## Weitere Firmwares
 
-- "[Freifunk auf dem Raspi](https://niccokunzmann.github.io/blog/2016-11-23/Freifunk-mit-Raspberry-Pi)"
+- [Freifunk auf dem Raspi](https://niccokunzmann.github.io/blog/2016-11-23/Freifunk-mit-Raspberry-Pi)
     erklärt auch mehr, was die einzelnen Sachen bedeuten.
-- "[ZSUN](https://niccokunzmann.github.io/blog/2016-11-29/Freifunk-mit-zsun-wifi-sdcard-reader)"
+- [ZSUN](https://niccokunzmann.github.io/blog/2016-11-29/Freifunk-mit-zsun-wifi-sdcard-reader)
+- [3G-Router](http://niccokunzmann.github.io/blog/2017-03-04/Freifunk-auf-3G-Router)
   
 
 [README]: https://github.com/freifunk-berlin/firmware/#readme

@@ -101,7 +101,7 @@ Bewertung
 
 Das Ding ist klein und billig.
 Hier sieht man, wie gut der Router mit einem anderen gleich im Nebenraum mesht:
-{% include images %}/mesh.png
+![]({% include images %}/mesh.png)
 Die Signal-Noise-Ratio ist sehr schlecht.
 Vermutung: Es ist im [Blogpost][blog] zu lesen, dass die Antenne manchmal
 enttäuscht aber repariert werden kann.
