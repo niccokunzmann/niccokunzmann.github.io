@@ -11,6 +11,8 @@ Ich habe die Firmware der Berliner auf meinem Debian für diese Router gebaut:
 - Netgear [N600 WNDR3400v3][N600]
 - TP-Link [TL-WA901nd][tl-wa901nd]
 - TP-Link [Archer C50](https://openwrt.org/toh/tp-link/archer-c50)
+- TP-Link [Archer D50][Issue 695]
+
 
 Wie in der [README] beschrieben, muss man dazu Pakete installieren.
 
@@ -193,6 +195,21 @@ make PACKAGES_LIST_DEFAULT=default PROFILES='ArcherC50' TARGET=ramips-mt7620
 - [hedy-1.0.2-rc1-52c60b6-ArcherC50-factory.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-ArcherC50-factory.bin)
 - [hedy-1.0.2-rc1-52c60b6-ArcherC50-sysupgrade.bin]({% include images %}/hedy-1.0.2-rc1-52c60b6-ArcherC50-sysupgrade.bin)
 
+## TP-Link Archer D50
+
+Für diesen Router gibt es seit April 2019 eine Firmware.
+Stand Juni 2019 gibt es noch kein Factory-Image.
+Der Router kann also nicht über die Weboberfläche geflasht werden.
+
+```
+git checkout daily/upstream-master
+echo "tplink_archer-d50-v1" > "profiles/ath79-generic.profiles"
+make PACKAGES_LIST_DEFAULT=notunnel TARGET=ath79-generic
+```
+
+- [freifunk-berlin-dev-daily-82ab7eb-tplink_archer-d50-v1-sysupgrade.bin]({% include images %}/freifunk-berlin-dev-daily-82ab7eb-tplink_archer-d50-v1-sysupgrade.bin)
+- [Issue 695]
+
 ## Weitere Firmwares
 
 - [Freifunk auf dem Raspi](https://niccokunzmann.github.io/blog/2016-11-23/Freifunk-mit-Raspberry-Pi)
@@ -209,4 +226,5 @@ make PACKAGES_LIST_DEFAULT=default PROFILES='ArcherC50' TARGET=ramips-mt7620
 [N600]: https://openwrt.org/toh/netgear/wndr3400
 [wndr3400v3]: https://github.com/niccokunzmann/firmware/tree/wndr3400v3
 [tl-wa901nd]: https://oldwiki.archive.openwrt.org/toh/tp-link/tl-wa901nd#version_2x
+[Issue 695]: https://github.com/freifunk-berlin/firmware/issues/695
 
