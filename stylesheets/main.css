@@ -35,6 +35,10 @@ a {
 .radio .title, .radio .album {
   display: inline;
 }
+.radio .title a {
+  text-decoration: none;
+  color: black;
+}
 
 #radio-description {
   margin-bottom: 1em;

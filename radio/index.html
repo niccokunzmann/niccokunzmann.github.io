@@ -12,9 +12,9 @@ sitemap:
 </div>
 <div class="radio center">
 {% for broadcast in site.data.radio reversed %}
-  <div class="broadcast">
+  <div class="broadcast" id="{{ broadcast.id | escape }}">
     <h1 class="title">
-      {{ broadcast.title | escape }}
+      <a href="#{{ broadcast.id | escape }}">{{ broadcast.title | escape }}</a>
     </h1>
     <h2 class="album">{{ broadcast.album | escape | replace: " ", "&nbsp;" }}</h2>
     <div class="track">
