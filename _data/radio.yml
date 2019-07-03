@@ -15,6 +15,17 @@
   audio:
   - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2018_06_24-nerdtalk_coderdojo.mp3
   - https://radio.ccc-p.org/files/2018_06_24-nerdtalk_coderdojo.mp3
+- title: Internationales Intensivtraining in Birmingham - Gewaltfreie Kommunikation in schwierigen Zeiten
+  id: iit-2018
+  date: 10.12.2019
+  album: Extinction Rebellion
+  description: Drei Interviews bieten einen Endruck davon, was euch bei dem internationalen Intensivtraining (IIT) im Dezember 2018 in Birmingham erwartet.
+  links:
+  - name: IIT Woodbrooke
+    url: https://www.iit-woodbrooke.co.uk/
+  audio:
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=Nerdtalk-IIT-2018-GfK-in-schwierigen-Zeiten.mp3
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=Nerdtalk-IIT-2018-GfK-in-schwierigen-Zeiten.ogg
 - title: Was ist Extinction Rebellion?
   id: xr-2019-01
   date: 14.01.2019
@@ -142,6 +153,7 @@
   - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-06-10_0600-0700_nicco-kunzmann-marcel_extinction-rebellion_makers-for-humanity.mp3
 #- title: 
 #  id: 
+#  date: 
 #  album: Extinction Rebellion
 #  description: 
 #  links:
