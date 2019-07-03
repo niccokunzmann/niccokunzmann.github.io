@@ -22,6 +22,11 @@
   image: CoderDojo.svg
   url: https://CoderDojoPotsdam.github.io
 
+- name: Radio
+  image: Radio.svg
+  url: radio
+
 - name: Impressum
   image: Impressum.svg
   url: impressum
+
