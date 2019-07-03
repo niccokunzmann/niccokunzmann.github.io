@@ -57,7 +57,7 @@ wie er das Internet erreichen kann.
 Das geschieht durch das [dynamic host configuration protocol](https://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol), kurz DHCP.
 Nun kann aber der Speedport nicht Bescheid sagen, dass ich den TP-Link auch benutzen möchte.
 
-Unter "Heimnetzwerk" → "Heimnetzwerk (LAN)" → "DHCP" erwarte ich Einstellungen, die ich nciht finde:
+Unter "Heimnetzwerk" → "Heimnetzwerk (LAN)" → "DHCP" erwarte ich Einstellungen, die ich nicht finde:
 
 ![speedport-dhcp.png]({% include images %}/speedport-dhcp.png)
 
