@@ -1,0 +1,43 @@
+---
+title: Radiobeiträge
+layout: page
+sitemap:
+  changefreq: monthly
+  priority: 1.0s
+---
+<div id="radio-description" class="center">
+  Von Zeit zu Zeit rede ich bei Radiobeiträgen mit.
+  Hier sind welche gelistet.
+  Vorträge, Artikel, Webseiten und Musik sind unter den Beiträgen verlinkt.
+</div>
+<div class="radio center">
+{% for broadcast in site.data.radio reversed %}
+  <div class="broadcast">
+    <h1 class="title">
+      {{ broadcast.title | escape }}
+    </h1>
+    <h2 class="album">{{ broadcast.album | escape | replace: " ", "&nbsp;" }}</h2>
+    <div class="track">
+      <audio controls>
+        {% for track in broadcast.audio %}
+          <source src="{{ track | escape }}" type="audio/{{ track | split: '.' | last }}" />
+          <!-- link for old browsers -->
+          <a href="{{ track | escape }}" class="track">▶ {{ track | escape }}</a>
+        {% endfor %}
+      </audio>
+    </div>
+    <div class="description">
+      <span class="date">{{ broadcast.date }}</span>
+      {{ broadcast.description | escape }}
+    </div>
+    <ul>
+      {% for link in broadcast.links %}
+        <li>
+          <a href="{{ link.url | escape}}">{{ link.name | escape }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+</div>
+

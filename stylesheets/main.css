@@ -12,3 +12,30 @@ a {
 .center img {
   max-width: 40em;
 }
+
+.radio {
+}
+.radio .track audio {
+  width: 100%;
+  margin-top: 0.3em;
+}
+.radio .description {
+  padding: 0.3em;
+  padding-bottom: 0em;
+}
+.radio .description .date {
+  color: gray;
+  margin-right: 0.3em;
+}
+.radio .album {
+  padding-left: 0.6em;
+  color: gray;
+  font-size: 1em;
+}
+.radio .title, .radio .album {
+  display: inline;
+}
+
+#radio-description {
+  margin-bottom: 1em;
+}
