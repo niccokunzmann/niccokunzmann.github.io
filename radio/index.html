@@ -26,8 +26,6 @@ sitemap:
       <audio controls>
         {% for track in broadcast.audio %}
           <source src="{{ track | escape }}" type="audio/{{ track | split: '.' | last | escape }}" />
-          <!-- link for old browsers -->
-          <a href="{{ track | escape }}" class="track">▶ {{ track | split: '/' | last | split: '=' | last | escape }}</a>
         {% endfor %}
       </audio>
     </div>
