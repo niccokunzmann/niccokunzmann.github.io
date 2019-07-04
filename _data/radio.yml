@@ -131,7 +131,7 @@
     url: http://www.living-compassion.org/
   audio:
   - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-05-12_Nicco_Extinction-Rebellion-Nonviolent-Global-Liberation.mp3
-- title: 3. Makers for Humaniy Lab auf Ferropolis
+- title: 3. Makers for Humanity Lab auf Ferropolis
   id: xr-2019-06
   date: 10.06.2019
   album: Extinction Rebellion
@@ -151,6 +151,22 @@
     url: https://wechange.de/
   audio:
   - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-06-10_0600-0700_nicco-kunzmann-marcel_extinction-rebellion_makers-for-humanity.mp3
+- title: Bits und Bäume - Konferenz und Bucherscheinung
+  id: bits-und-baeume-buch
+  date: 03.06.2019
+  album: Nerdtalk
+  description: Die Konferenz Bits und Bäume verbindet die Ökoszene mit der Techszene. Zwischen echten Bits und Bäumen geht es darum, wie wir unsere digitale Welt nachhaltiger gestalten und die Chancen und Risiken der Technologie im sozial-ökologischen Wandel erkennen und gestalten. 2018 war die Konferenz, nun ist das Buch erschienen. In den Interviews besprechen wir das Buch, die Konferenz und unsere Zukunft.
+  links:
+  - name: "Buch: Was Bits und Bäume verbindet"
+    url: https://www.ioew.de/veranstaltung/was_bits_und_baeume_verbindet/
+  - name: Die Bewegung Bits und Bäume
+    url: http://bits-und-baeume.org/
+  - name: Bits und Bäume Stammtisch Berlin
+    url: https://asta.tu-berlin.de/aktuelles/bitsundb-ume-erster-stammtisch-berlin
+  - name: Bits und Bäume Vorträge auf media.ccc.de
+    url: https://media.ccc.de/c/bub2018
+  audio:
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-07-08_06-07_Nicco-Kunzmann_Was-Bits-und-Baueme-verbindet.ogg
 #- title: 
 #  id: 
 #  date: 
