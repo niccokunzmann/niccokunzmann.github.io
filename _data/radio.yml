@@ -19,6 +19,7 @@
   broadcasts:
   - name: 24.06.2018, 21-22 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
+
 - title: Internationales Intensivtraining in Birmingham - Gewaltfreie Kommunikation in schwierigen Zeiten
   id: iit-2018
   date: 10.12.2019
@@ -33,6 +34,7 @@
   broadcasts:
   - name: 10.12.2018, 21-22 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
+
 - title: Was ist Extinction Rebellion?
   id: xr-2019-01
   date: 14.01.2019
@@ -63,6 +65,7 @@
   broadcasts:
   - name: 14.01.2019, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
+
 - title: Die erste Aktion von Extinction Rebellion Berlin
   id: xr-2019-02
   date: 11.02.2019
@@ -89,6 +92,7 @@
   broadcasts:
   - name: 11.02.2019, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
+
 - title: Meet Extinction Rebellion
   id: xr-2019-03
   date: 11.03.2019
@@ -107,6 +111,7 @@
   broadcasts:
   - name: 11.03.2019, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
+
 - title: Gewaltfreie Aktionen im April, Buchempfehlungen, Wandelkonferenz
   id: xr-2019-04
   date: 08.04.2019
@@ -137,9 +142,10 @@
   broadcasts:
   - name: 08.04.2019, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
+
 - title: Rückzug in die Gemeinschaft der Gewaltfeien Globalen Befreiung
   id: xr-2019-05
-  date: 21.05.2019
+  date: 12.05.2019
   album: Extinction Rebellion
   description: Auf dem Retreat für Nonviolent Global Liberation treffen sich Interessierte aus aller Welt, um daran zu arbeiten, wie wie gewaltfreie Systeme bauen. Hier sind ein paar Eindrücke aus Gesprächen mit ein paar Deutschen davon.
   links:
@@ -157,6 +163,7 @@
   broadcasts:
   - name: 12.05.2019, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
+
 - title: 3. Makers for Humanity Lab auf Ferropolis
   id: xr-2019-06
   date: 10.06.2019
@@ -181,6 +188,7 @@
   broadcasts:
   - name: 10.06.2019, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
+
 - title: Bits und Bäume - Konferenz und Bucherscheinung
   id: bits-und-baeume-buch
   date: 03.07.2019
@@ -201,6 +209,7 @@
   broadcasts:
   - name: 10.07.2019, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
+
 #- title: 
 #  id: 
 #  date: 
@@ -211,4 +220,7 @@
 #    url: 
 #  audio:
 #  - 
+#  broadcasts:
+#  - name: 10.07.2019, 6-7 Uhr im Freien Radio Potsdam
+#    url: http://frrapo.de/
 
