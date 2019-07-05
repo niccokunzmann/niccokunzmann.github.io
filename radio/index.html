@@ -46,6 +46,12 @@ sitemap:
         <li><a href="{{ track | escape }}" class="track">▶ {{ track | split: '/' | last | split: '=' | last | escape }}</a></li>
       {% endfor %}
     </ul>
+    Ausstrahlung:
+    <ul>
+      {% for broadcast in broadcast.broadcasts %}
+        <li><a href="{{ broadcast.url | escape }}" class="track">{{ broadcast.name }}</a></li>
+      {% endfor %}
+    </ul>
   </div>
 {% endfor %}
 </div>
