@@ -43,7 +43,12 @@ sitemap:
     Download:
     <ul>
       {% for track in broadcast.audio %}
-        <li><a href="{{ track | escape }}" class="track">▶ {{ track | split: '/' | last | split: '=' | last | escape }}</a></li>
+        <li>
+          <a href="{{ track | escape }}" class="track">▶ {{ track | split: '/' | last | split: '=' | last | escape }}</a>
+          {% if broadcast.license %}
+          <span class="license">(Lizenz: <a href="{{ broadcast.license.url | escape }}">{{ broadcast.license.name | escape }}</a>)</span>
+          {% endif %}
+        </li>
       {% endfor %}
     </ul>
     Ausstrahlung:
