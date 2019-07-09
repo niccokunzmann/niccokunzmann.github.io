@@ -20,6 +20,23 @@
   - name: 24.06.2018, 21-22 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
 
+- title: Das Forum Informatiker*innen für Frieden und Gesellschaftliche Verantwortung
+  id: FIfF-Con-2018
+  date: 08.10.2018
+  album: Nerdtalk
+  description: Das Forum der Informatiker*innen für Frieden und gesellschaftliche Verantwortung hat eine Konferenz ausgerichtet. Kirstin und Nicco waren dabei, interviewen und berichten.
+  links:
+  - name: FIfF-Konferenz
+    url: https://fiffkon.de/
+  - name:  LandstraßenJoe aka. Souljoe (Johannes-Georg Kaffner)
+    url: https://soundcloud.com/rubberdubjoe-1
+  audio:
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2018-10-08_21-22_Nicco-Kirstin_FIfFKon.mp3
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2018-10-08_21-22_Nicco-Kirstin_FIfFKon.ogg
+  broadcasts:
+  - name: 08.10.2018, 21-22 Uhr im Freien Radio Potsdam
+    url: http://frrapo.de/
+
 - title: Internationales Intensivtraining in Birmingham - Gewaltfreie Kommunikation in schwierigen Zeiten
   id: iit-2018
   date: 10.12.2019
@@ -212,6 +229,40 @@
   - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-07-08_06-07_Nicco-Kunzmann_Was-Bits-und-Baueme-verbindet.mp3
   broadcasts:
   - name: 08.07.2019, 6-7 Uhr im Freien Radio Potsdam
+    url: http://frrapo.de/
+
+- title: Extinction Rebellion, Fridays for Future und WoodsUp in Potsdam und Berlin
+  id: xr-fff-wu-2019
+  date: 08.07.2019
+  album: Extinction Rebellion
+  description: Was ist Fridays for Future, Extinction Rebellion und WoodsUp? Was zeichnet diese neuen Bewegungen aus und wie kann man mitmachen? Aktive aus diesen Gruppen trafen sich im freienRadio Potsdam um voneinander zu hören und grundlegende Fragen zu klären, die Außenstehende an diese Bewegungen haben.
+  links:
+  - name: FRIDAYS FOR FUTURE Deutschland
+    url: http://fridaysforfuture.de/
+  - name: Extintion Rebellion Deutschland
+    url: http://extinctionrebellion.de/
+  - name: "DPA: Aktivisten pflanzen drei Mammutbäume neben dem Landtag"
+    url: https://www.focus.de/regional/potsdam/klima-aktivisten-pflanzen-drei-mammutbaeume-neben-dem-landtag_id_10850327.html
+  - name: Fridays For Future Potsdam Twitter
+    url: https://twitter.com/F4F_Potsdam
+  - name: "Lied: Die Ärzte - Deine Schuld"
+    url: https://www.youtube.com/watch?v=kRrP-bZvD2s
+  - name: "Lied: K.I.Z. - Hurra die Welt geht unter ft. Henning May (Official Video)"
+    url: https://www.youtube.com/watch?v=XTPGpBBwt1w
+  - name: "Lied: MaMuse - We Shall Be Known"
+    url: https://www.youtube.com/watch?v=dX11MEtbkXI
+  - name: "Lied: Von Wegen Lisbeth - Westkreuz"
+    url: https://www.youtube.com/watch?v=2scdB4li7dI
+  - name: "Lied: Marteria - Welt der Wunder"
+    url: https://www.youtube.com/watch?v=R0002v_zchI
+  audio:
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-07-08_22-24_Anna-Ilja-Jana-Jaro-Lea-Nicco-Extinction-Rebellion-Fridays-For-Future-Woods-Up-Potsdam-Berlin-CC-BY-SA.mp3
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-07-08_22-24_Anna-Ilja-Jana-Jaro-Lea-Nicco-Extinction-Rebellion-Fridays-For-Future-Woods-Up-Potsdam-Berlin-CC-BY-SA.ogg
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  broadcasts:
+  - name: 08.07.2019, 22-24 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
 
 #- title: 
