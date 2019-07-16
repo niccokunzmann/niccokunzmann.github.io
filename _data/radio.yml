@@ -199,6 +199,10 @@
     url: https://ethify.org/en/content/ethify-yourself
   - name: Die WECHANGE-Community - Hier passiert der Wandel.
     url: https://wechange.de/
+  - name: Podcast von Tobias Oberender aus dem Wandelbündnis
+    url: https://www.podcast.de/podcast/666600/
+  - name: ENVolution - Visions for a blog about inspiring environmental initiatives 
+    url: http://www.envolution.eu/
   audio:
   - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-06-10_0600-0700_nicco-kunzmann-marcel_extinction-rebellion_makers-for-humanity.mp3
   - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-06-10_0600-0700_nicco-kunzmann-marcel_extinction-rebellion_makers-for-humanity.ogg
@@ -241,10 +245,12 @@
     url: http://fridaysforfuture.de/
   - name: Extintion Rebellion Deutschland
     url: http://extinctionrebellion.de/
-  - name: "DPA: Aktivisten pflanzen drei Mammutbäume neben dem Landtag"
-    url: https://www.focus.de/regional/potsdam/klima-aktivisten-pflanzen-drei-mammutbaeume-neben-dem-landtag_id_10850327.html
   - name: Fridays For Future Potsdam Twitter
     url: https://twitter.com/F4F_Potsdam
+  - name: Woods Up Now! Webseite 
+    url: https://woodsupnow.wordpress.com/
+  - name: Podcast zu Woods Up Now!
+    url: https://www.mixcloud.com/woodsup/wo0dsupnow/
   - name: "Lied: Die Ärzte - Deine Schuld"
     url: https://www.youtube.com/watch?v=kRrP-bZvD2s
   - name: "Lied: K.I.Z. - Hurra die Welt geht unter ft. Henning May (Official Video)"
