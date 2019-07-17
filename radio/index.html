@@ -73,7 +73,7 @@ sitemap:
     Ausstrahlung:
     <ul>
       {% for broadcast in broadcast.broadcasts %}
-        <li><a href="{{ broadcast.url | escape }}" class="track">{{ broadcast.name }}</a></li>
+        <li><a href="{{ broadcast.url | escape }}" class="track">{{ broadcast.name | escape }}</a></li>
       {% endfor %}
     </ul>
   </div>
