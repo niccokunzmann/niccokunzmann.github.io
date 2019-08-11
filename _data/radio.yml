@@ -271,6 +271,26 @@
   - name: 08.07.2019, 22-24 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
 
+- title: Autrian NVC Summer Festival
+  id: nvc-summer-festival-2019
+  date: 12.08.2019
+  album: Extinction Rebellion
+  description: Beim Austrian NVC Summer Festival treffen sich Kinder und Erwachsene, um eine gewaltfreie Kultur zu leben. Weniger Workshops und Theorie bestimmen hier den Tag, vielmehr geht es um ein achtsames, spielerisches Miteinander. Wen man so trifft, was man hier lernt und was dahinter steckt, erfahrt ihr in dieser Sendung.
+  links:
+  - name: Austrial NVC Summer Festival
+    url: https://austriansummerfestival.wordpress.com/
+  - name: Gespraechskultur.org - Webseite von Kersten
+    url: http://www.gespraechskultur.org/
+  audio:
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-08-12_06-07_Nicco-Kunzmann-Fee-Karin-Sonja-Austrian-NVC-Summer-Festival.mp3
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-08-12_06-07_Nicco-Kunzmann-Fee-Karin-Sonja-Austrian-NVC-Summer-Festival.ogg
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  broadcasts:
+  - name: 12.08.2019, 06-07 Uhr im Freien Radio Potsdam
+    url: http://frrapo.de/
+
 #- title: 
 #  id: 
 #  date: 
