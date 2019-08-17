@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html {% if page.language %}lang="{{ page.language }}"{% endif %}>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include meta.html %}
     <title>{{ page.title | escape }}</title>
     {% include style.html %}
   </head>
