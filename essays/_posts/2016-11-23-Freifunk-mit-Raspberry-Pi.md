@@ -7,7 +7,7 @@ language: de
 ## Update 5.10.2019
 
 Die [Berliner Firmware-Website](https://wiki.freifunk.net/Berlin:Firmware)
-verlinkt auf [http://lernekultur.de/ffbf/hedy/.helptext.php](lernekultur.de).
+verlinkt auf [lernekultur.de](http://lernekultur.de/ffbf/hedy/.helptext.php).
 Von dort kann man die Images für verschiedene Raspberry-Pis und Versionen herunterladen.
 
 ## Update 1.4.2018
