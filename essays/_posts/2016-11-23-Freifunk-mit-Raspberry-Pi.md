@@ -4,6 +4,12 @@ title: Freifunk mit Raspberry Pi
 language: de
 ---
 
+## Update 5.10.2019
+
+Die [Berliner Firmware-Website](https://wiki.freifunk.net/Berlin:Firmware)
+verlinkt auf [http://lernekultur.de/ffbf/hedy/.helptext.php](lernekultur.de).
+Von dort kann man die Images für verschiedene Raspberry-Pis und Versionen herunterladen.
+
 ## Update 1.4.2018
 
 Bei diesem Image handelt es sich um das Image für den Raspberry Pi 1 Modell B.
