@@ -339,6 +339,29 @@
   - name: 09.09.2019, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
 
+- title: "Extinction Rebellion - Blockaden in Berlin"
+  id: berlinblockieren
+  date: 14.10.2019
+  album: Extinction Rebellion
+  description: "Am 7. Oktober startete die zweite Welle der gewaltfreien Rebellion für das Leben auf diesem Planeten. In der Bewegung Extinction Rebellion blockierten Menschen die Straßen Berlins, um auf die ökologische Krise aufmerksam zu machen und die Politik zum Handeln zu bewegen. Wofür nud warum machen sie das? Wer ist das eigendlich? Diese Fragen soll diese Sendung beantworten."
+  links:
+  - name: Deutsche Webseite von Extinction Rebellion
+    url: https://extinctionrebellion.de
+  - name: "Buch: Wann wenn nicht wir*"
+    url: https://www.fischerverlage.de/buch/extinction_rebellion_wann_wenn_nicht_wir/9783104912219
+  - name: "Lied: Solid as a Rock"
+    url: https://www.youtube.com/watch?v=S3t7pNUk-Es
+  audio:
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-10-14_0600-0700_Nicco-Kunzmann_Extinction-Rebellion-Blockaden-in-Berlin_CC-BY-SA.mp3
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-10-14_0600-0700_Nicco-Kunzmann_Extinction-Rebellion-Blockaden-in-Berlin_CC-BY-SA.ogg
+  - https://github.com/niccokunzmann/niccokunzmann.github.io/releases/download/upload/2019-10-14_0600-0700_Nicco-Kunzmann_Extinction-Rebellion-Blockaden-in-Berlin_CC-BY-SA.mp3
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  broadcasts:
+  - name: 14.10.2019, 6-7 Uhr im Freien Radio Potsdam
+    url: http://frrapo.de/
+
 #- title: 
 #  id: 
 #  date: 
