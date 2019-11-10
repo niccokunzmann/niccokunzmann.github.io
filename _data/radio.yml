@@ -364,6 +364,33 @@
   - name: 14.10.2019, 21-22 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
 
+- title: "Samen der Gewaltfreiheit - Dörferbau in schwierigen Zeiten"
+  id: denmark2019
+  date: 11.11.2019
+  album: Extinction Rebellion
+  description: "In Dänemark haben sich Leute aus Deutschland, Österreich, England und anderen Staaten getroffen, um zu erleben und zu erschaffen, was es braucht, in Zeiten des großen Wandels, dem Sterben der dominanten Kultur, eine robuste Gemeinschaft hervorzubringen, die den Anforderungen der Zukunft gewachsen ist."
+  links:
+  - name: "Lied: The Lost Words - Spell Songs - Heart Wood"
+    url: https://www.youtube.com/watch?v=Xjj_LfKtrpM
+  - name: "Lied: The Lost Words - Spell Songs - The Lost Words Blessing"
+    url: https://www.youtube.com/watch?v=GyL-ZLn3omY
+  - name: "Lied: Berge - Für die Liebe"
+    url: https://www.youtube.com/watch?v=JgfRLTElfC0
+  - name: "Lied: Jenni Roditi - Sing for the Trees"
+    url: https://songsforthegreatturning.net/honoring-our-pain-for-the-world/sing-for-the-trees/
+  - name: wechange - Samen der Gewaltfreiheit
+    url: https://wechange.de/project/erasmus-201920-die-samen-der-gewaltfr/
+  audio:
+  - https://github.com/niccokunzmann/niccokunzmann.github.io/releases/download/upload/2019-11-11_0600-0700_Nicco-Kunzmann-Kirstin-Heidler_Extinction-Rebellion_Samen-der-Gewaltfreiheit-CC-BY-SA.mp3
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-11-11_0600-0700_Nicco-Kunzmann-Kirstin-Heidler_Extinction-Rebellion_Samen-der-Gewaltfreiheit-CC-BY-SA.mp3
+  - https://owncloud.quelltext.eu/index.php/s/c4seWBIIQmbfBD1/download?path=%2F&files=2019-11-11_0600-0700_Nicco-Kunzmann-Kirstin-Heidler_Extinction-Rebellion_Samen-der-Gewaltfreiheit-CC-BY-SA.ogg
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  broadcasts:
+  - name: 14.10.2019, 21-22 Uhr im Freien Radio Potsdam
+    url: http://frrapo.de/
+
 #- title: 
 #  id: 
 #  date: 
