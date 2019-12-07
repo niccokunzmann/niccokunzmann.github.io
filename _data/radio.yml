@@ -391,6 +391,22 @@
   - name: 18.11.2019, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
 
+- title: "HerzAuf!stand"
+  id: herzaufstand2019
+  date: 16.13.2019
+  album: Extinction Rebellion
+  description: "Bei der Messe HerzAuf!stand in Berlin trafen sich Akteure des inneren und äußeren Wandels, um beide zusammen zu führen und voneinander zu lernen. HerzAuf!stand ist Messe und Forschungsraum für die Verbindung von innerem und äußerem Wandel, Selbst- und Weltfürsorge, Bewusstsein und Tatkraft."
+  links:
+  - name: "HerzAuf!stand"
+    url: https://herzaufstand.de/
+  audio:
+  - https://github.com/niccokunzmann/niccokunzmann.github.io/releases/download/upload/2019-12-16_0600-0700_Nicco-Kunzmann_Extinction-Rebellion_Herzaufstand-CC-BY-SA.mp3
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  broadcasts:
+  - name: 16.12.2019, 6-7 Uhr im Freien Radio Potsdam
+    url: http://frrapo.de/
 #- title: 
 #  id: 
 #  date: 
