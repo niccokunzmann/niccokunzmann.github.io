@@ -74,9 +74,9 @@ Netzteil schließt, das an ist.
         <li>(rot)Seilwinde mit Seil</li>
         <li>Motor</li>
         <li>Umschaltrelais</li>
-        <li>optional: Öffnungsrelais</li>
+        <li>optional: Öffnungsrelais, das den Motor stoppt, wenn beide Netzteile eingeschaltet sind</li>
         <li>Schalter für das Senken der Klappe - an der Klappe angebracht und geschlossen, bis die Klappe unten ist</li>
-        <li>Schalter für das Heben der Klappe - an der Führung angebracht und geschlossen, bis die Klappe oben</li>
+        <li>Schalter für das Heben der Klappe - an der Führung angebracht und geschlossen, bis die Klappe oben ist</li>
     </ol>
 </div>
 
