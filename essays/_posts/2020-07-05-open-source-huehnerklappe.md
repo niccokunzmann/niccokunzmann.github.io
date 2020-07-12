@@ -90,9 +90,9 @@ Netzteil schließt, das an ist.
 
 Die Zeitschaltung ist recht ungenau.
 Hochziehen geht schwerer als runterlassen.
-Diese Das erzeugt Ungenauigkeiten mehrer Zentimeter.
+Das erzeugt Ungenauigkeiten mehrer Zentimeter.
 Deswegen bringen wir Schalter (8, 9) an die Klappe (3) an.
-Diese Schalter
+Diese Schalter sind immer geschlossen und unterbrechen den Stromfluss dann, wenn die Klappe an der Zielposition angekommen ist.
 
 <img src="{% include images %}/foto/schalter-1.jpg" width="49%">
 <img src="{% include images %}/foto/schalter-2.jpg" width="49%">
