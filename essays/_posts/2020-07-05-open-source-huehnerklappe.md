@@ -6,10 +6,14 @@ language: de
 
 Wir wollen eine Hühnerklappe bauen, die automatisch öffnet und schließt.
 Sie soll einfach nachzubauen sein.
+Diese Bauteile kosten ca. 30€.
+Es dauert ca. einen Tag, um alles zusammenzubauen.
 
 ![]({% include images %}/foto/alles.jpg)
 
 ## Bauteile
+
+Diese Bauteile brauchen wir für unsere Klappe.
 
 - 2x [Zeitschaltuhr ZU-9A](https://www.pollin.de/p/zeitschaltuhr-zu-9a-870162)  
     Diese Zeitschaltuhr hat kleine Schalter für je 15 Minuten, in denen der Strom läuft.
