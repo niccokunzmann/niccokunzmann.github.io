@@ -421,6 +421,23 @@
   - name: 08.06.2020, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
 
+- title: "Was ist Männlichkeit - von Freund zu Freundin"
+  id: was-ist-mann
+  date: 13.07.2020
+  album: Nonviolence
+  description: "Was ist Mänlichkeit, was hat das für Auswirkungen in uns, im Miteinander und was hat das mit dem Klimawandel zu tun."
+  links:
+  audio:
+  - https://github.com/niccokunzmann/niccokunzmann.github.io/releases/download/upload/2020-07-13_0600-0700_Nicco-Kunzmann-Kirstin-Heidler_Gewaltfreiheit_Was-ist-Männlichkeit-und-Lieder.ogg
+  - https://quelltext.ocloud.de/index.php/s/xJiHfxaQG4xjSY9/download?path=%2F&files=2020-07-13_0600-0700_Nicco-Kunzmann-Kirstin-Heidler_Gewaltfreiheit_Was-ist-Männlichkeit-und-Lieder.ogg
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  broadcasts:
+  - name: 13.07.2020, 6-7 Uhr im Freien Radio Potsdam
+    url: http://frrapo.de/
+
+
 #- title: 
 #  id: 
 #  date: 
