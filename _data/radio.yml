@@ -437,6 +437,29 @@
   - name: 13.07.2020, 6-7 Uhr im Freien Radio Potsdam
     url: http://frrapo.de/
 
+- title: "Ecopsychology"
+  id: ecopsychology
+  date: 10.08.2020
+  album: Nonviolence
+  description: "Ecopsychology shines another light on the inner healing process. Whilst there is still a wound of the soul to heal, ecopsychology uses nature as a third participant to bring regulation and reach as deep as the rift between humans and the one life goes. This interview includes a history of ecopsychology in the UK, simple techniques for everyone to use and a broad overview on what ecopsychology has to offer."
+  links:
+  - name: "Song: Lost Words Blessing (Spell Songs)"
+    url: https://www.youtube.com/watch?v=Hg1xFYpXuWA
+  - name: Natural Academy
+    url: https://www.naturalacademy.org/
+  - name: "Song: We Shall Be Known - Mamuse"
+    url: https://www.youtube.com/watch?v=dX11MEtbkXI
+  - name: "Song: Unto this land"
+    url: https://www.youtube.com/watch?v=vq3tQozxxAk
+  audio:
+  - https://github.com/niccokunzmann/niccokunzmann.github.io/releases/download/upload/2020-08-10_0600-0700_Nicco-Kunzmann_Ecopsychology_CC-BY-SA.mp3
+  - https://quelltext.ocloud.de/index.php/s/xJiHfxaQG4xjSY9/download?path=%2F&files=2020-08-10_0600-0700_Nicco-Kunzmann_Ecopsychology_CC-BY-SA.mp3
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  broadcasts:
+  - name: 10.08.2020, 6-7 Uhr im Freien Radio Potsdam
+    url: http://frrapo.de/
 
 #- title: 
 #  id: 
