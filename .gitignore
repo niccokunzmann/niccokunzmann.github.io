@@ -5,3 +5,5 @@ essays/_posts/2016-12-13-Kriegsindikatoren.md
 essays/_posts/2017-01-30-feindbilder.md
 videos/2017-OpenStage-HPI-NiccoKunzmann.mp4
 dichtungen/_posts/2017-03-26-essensweg.md
+.jekyll-cache
+*.swp

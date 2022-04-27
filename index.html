@@ -10,7 +10,7 @@ sitemap:
   {% for link in site.data.home_links %}
     <a href="{{ link.url | escape }}">
       <div class="home_link">
-        <img class="image" src="images/home_links/{{ link.image | escape }}" />
+        <img class="image" src="{{- site.images -}}/home_links/{{ link.image | escape }}" />
         <div class="name">
           {{ link.name | escape }}
         </div>

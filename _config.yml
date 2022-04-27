@@ -3,3 +3,5 @@ permalink: /blog/:year-:month-:day/:title
 sourcecode:
   repository: "https://github.com/niccokunzmann/niccokunzmann.github.io"
   root: "https://github.com/niccokunzmann/niccokunzmann.github.io/edit/master"
+images: https://niccokunzmann.github.io/niccokunzmann.github.io-data/images
+tracks: https://niccokunzmann.github.io/niccokunzmann.github.io-data/tracks

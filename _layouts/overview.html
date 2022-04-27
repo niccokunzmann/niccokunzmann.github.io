@@ -22,7 +22,7 @@
             <li>
               <a href="{{ post.url | escape }}"  {% if post.language %}hreflang="{{ post.language | escape }}"{% endif %}>
                 {% if post.tracks %}
-                  <img class="song-icon" src="{{ site.baseurl | escape }}/images/home_links/Gitarre.svg"/>
+                  <img class="song-icon" src="{{- site.images -}}/home_links/Gitarre.svg"/>
                 {% endif %}
                 {{ post.title | escape }}
               </a>
