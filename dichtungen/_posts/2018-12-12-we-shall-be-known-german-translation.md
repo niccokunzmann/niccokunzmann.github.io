@@ -14,19 +14,17 @@ Mir ist dabei die Verflechtung des Liedes und der Sinn wichtig, weniger
 die Worttreue.
 
 ```
-Wir sind bekannt als die Gemeinschaft, die erhält,
-Als die die sich drehen, um das Feuer zu schür'n.
-Wir sind bekannt auszusään und wir ersteh'n
-Die Frucht des Lebens von tief aus uns'rer Welt.
+Es ist die Verbundenheit, die alles hält.
+All jene, die sich um uns scharen, um dieses Feuer zu hüten
+werden bekannt sein durch die, die säen und ernten
+Die Samen des Wandels, lebendig aus der Tiefe der Erde
 
-Es ist Zeit für uns,
-Es ist Zeit, dass wir erblühn,
-Es ist Zeit, dass wir uns an die Quelle führ'n.
+Es ist jetzt an der Zeit, es ist jetzt an der Zeit, dass wir erblühen
+Es ist Zeit, dass wir uns selbst in die Fülle führen
+Es ist an der Zeit, und was für eine Zeit der Lebendigkeit
 
-Es ist Zeit für uns
-Was für 'ne Zeit voll zu erspür'n!
-Den großen Wandel führen wir mit Liebe an.
-Den großen Wandel führen wir mit Liebe an.
+In diesem großen Wandel können wir lernen uns in Liebe führen zu lasssen
+In diesem großen Wandel können wir lernen uns in Liebe führen zu lasssen
 ```
 
 Meine persönlichen Wertschätzung an dieser Stelle an Mamuse.
