@@ -35,3 +35,25 @@ Es ist so verflochten und eins, dass es mir fast schon heilig ist.
 Ich konnte die Übersetzung nicht erträumen, deswegen ist es in
 Deutsch nicht ganz so stark, schätze ich.
 
+### Alternative Übersetzung von Johannes
+Im Folgenden noch eine alternative Übersetzung ins Deutsche von Johannes Schnirring. Der Takt und die Melodie werden hierbei nicht sinnvoll erhalten, es geht vielmehr darum, den Inhalt der Textzeilen zu vermitteln und zu interpretieren:
+
+```
+Es ist unsere Verbundenheit, die Alles hält.
+All jene, die sich um uns scharen, um dieses Feuer zu hüten
+werden getragen sein durch die, die säen und ernten.
+Die Samen des Wandels, lebendig aus der Tiefe der Erde
+
+Es ist Zeit für uns, es ist jetzt an der Zeit, dass wir erblühen.
+Es ist Zeit, dass wir uns selbst in die Fülle führen.
+Es ist an der Zeit, und was für eine Zeit der Lebendigkeit!
+
+In diesem großen Wandel können wir lernen uns in Liebe führen zu lassen.
+In diesem großen Wandel können wir lernen uns in Liebe führen zu lassen.
+```
+
+*Johannes Schnirring ([@superjojo140](https://github.com/superjojo140)) lebt selbst in Gemeinschaft und besucht verschiedene Gruppen die sich mit gesellschafltichem Wandel und konstruktiven Zukunfstvisionen auseinandersetzen. Eindrückliche Erfahrungen dieses Prozesses teilt er in seinem Podcast [Wunderbar Wandelbar](https://superjojo.de/podcast/)*
+
+
+
+
